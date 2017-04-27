@@ -21,6 +21,12 @@
 	<link rel="stylesheet" href="libs/bootstrap-grid/bootstrap-grid.css">
 	<link rel="stylesheet" href="libs/font-awesome.min.css">
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css">
+  
+  <!-- bootstrap-select -->
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/bootstrap-select/bootstrap-select.css">
+	<!-- bootstrap-select -->
+
 	<link rel="stylesheet" href="css/main.css">
 
 
@@ -38,6 +44,8 @@
 	<?php require_once "include/header.php"; ?>
 	<?php require_once "include/breadcrumbs.php"; ?>
 	<?php require_once "include/header-bottom.php"; ?>
+	<?php require_once "include/az-search.php"; ?>
+	
 	<?php require_once "include/footer.php"; ?>
 
 	<div class="hidden">
@@ -53,7 +61,12 @@
 	</div>
 
 	<script src="libs/jquery/dist/jquery.min.js"></script>
-	<!-- <script src="libs/bootstrap/bootstrap.min.js"></script> -->
+
+	<!-- bootstrap-select -->
+	<script src="libs/bootstrap/bootstrap.min.js"></script>
+	<script src="libs/bootstrap-select/bootstrap-select.js"></script>
+	<!-- bootstrap-select -->
+
 	<script src="libs/owl.carousel/owl.carousel.min.js"></script>
 	<script src="js/scripts.js"></script>
 
