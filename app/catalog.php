@@ -21,7 +21,7 @@
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="libs/bootstrap-select/bootstrap-select.css">
 	<!-- bootstrap-select -->
-	
+
 	<link rel="stylesheet" href="libs/bootstrap-grid/bootstrap-grid.css">
 	<link rel="stylesheet" href="libs/font-awesome.min.css">
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css">
@@ -40,6 +40,8 @@
 <body>
 
 	<?php require_once "include/header.php"; ?>
+	<?php require_once "include/breadcrumbs.php"; ?>
+	<?php require_once "include/header-bottom.php"; ?>
 	<section class="maincat">
 	    <div class="container">
 	    	<div class="row">
