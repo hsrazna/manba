@@ -1,10 +1,10 @@
 <header class="az-header">
 	<div class="container clearfix">
 		<div class="az-logo">
-			<img src="img/logo.png" alt="Manba">
+			<a href="/"><img src="img/logo.png" alt="Manba"></a>
 		</div>
 		<nav class="az-menu">
-			<a href="#mobile-menu" class="toggle-mnu"><span></span></a>
+			<a href="#mobile-menu" class="toggle-mnu"><span>меню</span></a>
 			<ul class="az-menu-list">
 				<li class="active"><a href="#">Торговля</a></li>
 				<li><a href="#">Блог</a></li>
