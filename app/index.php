@@ -45,6 +45,7 @@
 	<?php require_once "include/breadcrumbs.php"; ?>
 	<?php require_once "include/header-bottom.php"; ?>
 	<?php require_once "include/az-search.php"; ?>
+	<?php require_once "include/az-main-tab.php"; ?>
 	
 	<?php require_once "include/footer.php"; ?>
 
@@ -61,6 +62,7 @@
 	</div>
 
 	<script src="libs/jquery/dist/jquery.min.js"></script>
+	<script src="libs/jquery-ui/jquery-ui.js"></script>
 
 	<!-- bootstrap-select -->
 	<script src="libs/bootstrap/bootstrap.min.js"></script>
