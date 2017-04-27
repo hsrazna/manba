@@ -36,10 +36,6 @@
 <body>
 
 	<?php require_once "include/header.php"; ?>
-	<?php require_once "include/slider.php"; ?>
-	<?php require_once "include/main-catalog.php"; ?>
-	<?php require_once "include/news.php"; ?>
-	<?php require_once "include/testimonials.php"; ?>
 	<?php require_once "include/footer.php"; ?>
 
 	<div class="hidden">

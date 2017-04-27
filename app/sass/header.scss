@@ -1,0 +1,22 @@
+$logo-width: 120px;
+$header-right-width: 260px;
+
+.az-logo{
+	float: left;
+	width: $logo-width;
+	text-align: center;
+	padding-top: 7px;
+}
+.az-menu{
+	float: left;
+	width: calc(100% - #{$logo-width + $header-right-width});
+	ul{
+		li{
+			display: inline-block;
+		}
+	}
+}
+.az-header-right{
+	float: right;
+	width: $header-right-width;
+}
