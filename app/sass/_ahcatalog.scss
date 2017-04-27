@@ -18,7 +18,7 @@
 		border-color: transparent;
 		outline: none !important;
 		&:hover, .open>.dropdown-toggle.btn-default{
-			background-color: #f0f9ff !important;
+			background-color: #e2fee5 !important;
 			border-color: transparent !important;
 			outline: none !important;
 		}
@@ -27,6 +27,7 @@
 		}
 	}
 	&.open>.dropdown-toggle.btn-default {
+		color: #006eaf;
 	    background-color: #f0f9ff !important;
 		border-color: transparent !important;
 		outline: none !important;

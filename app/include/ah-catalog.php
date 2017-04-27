@@ -62,6 +62,15 @@
 				</div>
 			</div>
 			<span>123,23 TJS</span>
+			<div class="ah-catitem-hoverbox">
+				<div class="ah-div-catitem-select">
+					<select class="ah-catselect">
+					  <option>от дешевых к дорогим</option>
+					  <option>от дешевых к дорогим2</option>
+					  <option>от дешевых к дорогим3</option>
+					</select>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
