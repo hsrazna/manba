@@ -1,0 +1,90 @@
+@import "vars";
+
+.az-search1{
+	width: 18%;
+	float: left;
+	margin-right: 1%;
+	padding-top: 10px;
+	@include desktop(992){
+		width: 100%;
+		margin-right: 0;
+	}
+}
+.az-search2{
+	width: 37.3%;
+	float: left;
+	margin-right: 1%;
+	padding-top: 10px;
+	@include desktop(992){
+		width: 100%;
+		margin-right: 0;
+	}
+}
+.az-search3{
+	width: 24.5%;
+	float: left;
+	margin-right: 1%;
+	padding-top: 10px;
+	@include desktop(992){
+		width: 100%;
+		margin-right: 0;
+	}
+}
+.az-search4{
+	width: 17.09%;
+	float: right;
+	padding-top: 10px;
+	@include desktop(992){
+		width: 100%;
+		margin-right: 0;
+	}
+}
+
+.az-search1{
+	.btn{
+		border-radius: 4px 0 0 4px;
+		height: 45px;
+		@include desktop(992){
+			border-radius: 4px 4px 0 0;
+		}
+	}
+}
+
+.az-search3{
+	.btn{
+		border-radius: 0;
+		height: 45px;
+	}
+}
+
+.az-search{
+	padding-top: 25px;
+	input[type="text"]{
+		height: 45px;
+		width: 100%;
+		background: #f0f9ff;
+		font-family: "PT_SansWebRegular";
+		color: #006eaf;
+		font-size: 18px;
+		padding: 0 17px;
+		&:focus{
+			background: #e2fee5;
+		}
+	}
+	input[type="submit"]{
+		border-radius: 0 4px 4px 0;
+		height: 45px;
+		width: 100%;
+		background: #006fb0;
+		font-family: "PT_SansWebRegular";
+		color: #fff;
+		font-size: 18px;
+		padding: 0 17px;
+		&:hover{
+			background: #049f54;
+		}
+		@include desktop(992){
+			border-radius: 0 0 4px 4px;
+		}
+	}
+}
