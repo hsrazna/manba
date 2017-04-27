@@ -10,13 +10,104 @@ $header-right-width: 260px;
 .az-menu{
 	float: left;
 	width: calc(100% - #{$logo-width + $header-right-width});
-	ul{
-		li{
-			display: inline-block;
-		}
-	}
+	text-align: center;
 }
 .az-header-right{
 	float: right;
 	width: $header-right-width;
+	text-align: center;
+}
+
+.az-menu-list{
+	font-size: 0;
+	display: inline-block;
+	li{
+		display: inline-block;
+		padding: 5px 5px 0;
+		margin: 0 7px;
+		&.active{
+			background: #006fb0;
+			border-radius: 0 0 4px 4px;
+			a{
+				color: #fff;
+				&::after{
+					background: #fff;
+				}
+			}
+		}
+	}
+	a{
+		line-height: 68px;
+		font-family: "PT_SansWebRegular";
+		font-size: 18px;
+		font-weight: normal;
+		display: inline-block;
+		padding: 0 14px;
+		text-decoration: none;
+		position: relative;
+		&::after{
+			content: "";
+			width: 0;
+			height: 5px;
+			border-radius: 3px;
+			background: #006eaf;
+			position: absolute;
+			bottom: 14px;
+			left: 0;
+			transition: .5s;
+		}
+		&:hover{
+			text-decoration: none;
+			&::after{
+				width: 100%;
+			}
+		}
+	}
+}
+
+.az-header-feature{
+	font-size: 0;
+	li{
+		display: inline-block;
+		margin: 13px 30px 0;
+		&:first-child{
+			margin-left: 0;
+		}
+		&:last-child{
+			margin-right: 0;
+		}
+	}
+	a{
+		height: 60px;
+	}
+}
+
+.az-favorite{
+	display: inline-block;
+	width: 31px;
+	height: 24px;
+	background: url(../img/az-favorite.png) no-repeat center;
+	&:hover{
+		background: url(../img/az-favorite-hover.png) no-repeat center;
+	}
+}
+
+.az-basket{
+	display: inline-block;
+	width: 29px;
+	height: 23px;
+	background: url(../img/az-basket.png) no-repeat center;
+	&:hover{
+		background: url(../img/az-basket-hover.png) no-repeat center;
+	}
+}
+
+.az-enter{
+	display: inline-block;
+	width: 29px;
+	height: 24px;
+	background: url(../img/az-enter.png) no-repeat center;
+	&:hover{
+		background: url(../img/az-enter-hover.png) no-repeat center;
+	}
 }
