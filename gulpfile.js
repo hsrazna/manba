@@ -36,7 +36,7 @@ gulp.task('scripts', function() {
 
 gulp.task('browser-sync', function() {
 	browserSync({
-		proxy: "gulp-php.loc",
+		proxy: "manba.loc",
 		// server: {
 		// 	baseDir: 'app'
 		// },
