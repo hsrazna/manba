@@ -1,0 +1,100 @@
+// .az-div{
+//     width: 100px;
+//     height: 100px;
+//     background: red;
+//     @include mobile(992){
+//         background: green;
+//     }
+//     @include desktop(480){
+//         background: blue;
+//     }
+// }
+
+
+.ah-catselect{
+	width: 100% !important;
+	.btn-default{
+		background: #f0f9ff;
+		border-color: transparent;
+		outline: none !important;
+		&:hover, .open>.dropdown-toggle.btn-default{
+			background-color: #f0f9ff !important;
+			border-color: transparent !important;
+			outline: none !important;
+		}
+		&:focus{
+			outline: none !important;
+		}
+	}
+	&.open>.dropdown-toggle.btn-default {
+	    background-color: #f0f9ff !important;
+		border-color: transparent !important;
+		outline: none !important;
+
+	}
+	.btn{
+		font-family: "PT_SansWebRegular";
+		color: #006eaf;
+		font-size: 18px;
+	}
+	.dropdown-menu{
+		background-color: #f0f9ff;
+	}
+	.dropdown-menu>li>a{
+		color: #006eaf;
+		font-size: 18px;
+		line-height: 40px;
+		&:hover{
+			background-color: #e2fee5;
+		}
+	}
+}
+
+/* ******************************************* */
+.ah-div-catselect1{
+	display: inline-block;
+	width: 246px;
+}
+.ah-div-catselect2{
+	display: inline-block;
+	width: 270px;
+}
+
+.ah-rowlink1{
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	padding: 10px;
+	background: transparent;
+	background: url(../img/ah-caticon1.png) center center no-repeat transparent;
+	&:hover, &:active, &:focus{
+		background: url(../img/ah-caticon1.png) center center no-repeat #f0f9ff;
+	}
+}
+.ah-rowlink2{
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	padding: 10px;
+	background: transparent;
+	background: url(../img/ah-caticon2.png) center center no-repeat transparent;
+	&:hover, &:active, &:focus{
+		background: url(../img/ah-caticon2.png) center center no-repeat #f0f9ff;
+	}
+}
+.ah-rowlinks{
+	float: left;
+}
+.ah-selectbox{
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
