@@ -4,13 +4,23 @@
 	padding: 0;
 }
 
+body{
+	font-family: "PT_SansWebRegular";
+}
+
 ul{
 	li{
 		list-style-type: none;
 	}
 }
 
+a{
+	outline: none;
+}
+
 @import "header";
+@import "breadcrumbs";
+@import "header-bottom";
 
 
 // .az-div{
