@@ -20,6 +20,7 @@
 				<li><a href="#" class="az-basket">Корзина</a></li>
 				<li><a href="#" class="az-enter">Вход</a></li>
 			</ul>
+			<a href="#" class="az-plus">Добавить объявление</a>
 		</div>
 	</div>
 </header>
