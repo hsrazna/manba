@@ -70,6 +70,7 @@
 					  <option>от дешевых к дорогим3</option>
 					</select>
 				</div>
+				<a href="#" class="ah-div-catitem-link">Купить</a>
 			</div>
 		</div>
 	</div>
