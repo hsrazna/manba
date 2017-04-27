@@ -1,17 +1,15 @@
-// @import "bourbon";
-// @import "fonts";
-// @import "libs";
-// @import "vars";
+@import "header";
 
-.az-div{
-    width: 100px;
-    height: 100px;
-    background: red;
-    @include mobile(992){
-        background: green;
-    }
-    @include desktop(480){
-        background: blue;
-    }
-}
+
+// .az-div{
+//     width: 100px;
+//     height: 100px;
+//     background: red;
+//     @include mobile(992){
+//         background: green;
+//     }
+//     @include desktop(480){
+//         background: blue;
+//     }
+// }
 
