@@ -96,8 +96,6 @@
 		>ul{
 			display: none;
 			position: absolute;
-			column-gap: 20px;
-			column-count: 3;
 			top: 0;
 			left: 100%;
 			width: 200%;
@@ -105,6 +103,11 @@
 			padding: 20px 30px;
 			transition: all .3 ease-in-out;
 			z-index: 12;
+			column-gap: 20px;
+			column-count: 3;
+			@include desktop(992){
+				column-count: 2;
+			}
 			a{
 				display: inline-block;
 				padding: 7px 5px 7px 5px;
@@ -122,6 +125,19 @@
 			>ul{
 				display: block;
 				animation: opacity .4s ease-in-out;
+				@include desktop(1200){
+					display: none;
+				}
+			}
+		}
+		&.active{
+			>ul{
+				display: block;
+				animation: opacity .4s ease-in-out;
+			}
+			a{
+				text-decoration: none;
+				background: #f0f9ff;
 			}
 		}
 	}
