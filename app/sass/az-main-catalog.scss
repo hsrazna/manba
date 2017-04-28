@@ -1,0 +1,26 @@
+.az-akcia{
+	padding-top: 30px;
+	h2{
+		color: #006eaf;
+		font-size: 30px;
+		line-height: 36px;
+		margin-top: 30px;
+		margin-bottom: 0;//5px;
+		text-align: center;
+	}
+	.az-link-arrow{
+		font-size: 18px;
+		padding: 0 45px 0 0;
+		background: url(../img/az-arrow-right.png) no-repeat right 15px center;
+		text-decoration: none;
+		&:hover{
+			background: url(../img/az-arrow-right.png) no-repeat right 0px center;
+		}
+	}
+	.ah-catalog-item{
+		margin-top: 0;
+	}
+}
+.az-right{
+	text-align: right;
+}

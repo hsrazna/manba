@@ -11,7 +11,6 @@
 						<div class="az-tabs-content-wrap clearfix">
 							<div class="az-tab-left">
 								<ul class="az-cat">
-									
 									<li>
 										<a href="#">Строительство</a>
 										<ul>
@@ -286,6 +285,7 @@
 										<a href="#" class="az-btn">Смотерть все автомобили</a>
 									</div>
 								</div>
+								<a href="#" class="az-cat2">Все категории</a>
 							</div>
 						</div>
 					</div>
