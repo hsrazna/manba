@@ -1,15 +1,4 @@
-// .az-div{
-//     width: 100px;
-//     height: 100px;
-//     background: red;
-//     @include mobile(992){
-//         background: green;
-//     }
-//     @include desktop(480){
-//         background: blue;
-//     }
-// }
-
+@import "vars";
 
 .ah-catselect{
 	width: 100% !important;
@@ -37,6 +26,13 @@
 		font-family: "PT_SansWebRegular";
 		color: #006eaf;
 		font-size: 18px;
+	    padding: 8px 30px;
+    	@include mobile(768){
+			padding: 8px 7px;
+		}
+		@include mobile(992){
+			padding: 8px 30px;
+		}
 	}
 	.dropdown-menu{
 		background-color: #f0f9ff;
@@ -52,6 +48,9 @@
 }
 
 /* ******************************************* */
+.ah-catalog-selectbox{
+	margin-top: 70px;
+}
 .no-padd{
 	padding-left: 0px !important;
 	padding-right: 0px !important;
@@ -89,6 +88,7 @@
 	background: #fff;
 	height: 430px;
 	position: relative;
+	margin: 15px 0px;
 	&:hover{
 		position: absolute;
 		height: 585px;
@@ -153,6 +153,11 @@
 .ah-div-catitem-select{
 	margin-top: 30px;
 	margin-bottom: 20px;
+	.ah-catselect{
+		.btn{
+			font-size: 18px;
+		}
+	}
 }
 .ah-catalog-span1{
 	display: block;
@@ -225,6 +230,7 @@
 	height: 270px;
 	background: url(../img/ah-catimg.jpg) center center no-repeat;
 	background-size: cover;
+	margin: 0 auto;
 	&:hover{
 		.ah-catitem-mask{
 			position: relative;
@@ -260,13 +266,11 @@
 	line-height: 45px;
 	text-align: center;
 	text-decoration: none;
-	// border: 2px solid transparent;
 	margin: 0 auto;
 	margin-bottom: 20px;
 	&:hover, &:focus{
 		color: #fff;
 		text-decoration: none;
-		// border: 2px solid #006eaf;
 		background: #049f54;
 		transition: background 0.6s ease 0s;
 	}
@@ -274,10 +278,36 @@
 .ah-div-catselect1{
 	display: inline-block;
 	width: 246px;
+	margin-right: 30px;
+	margin: 5px 0px;
+	@include mobile(320){
+		width: 100%;
+		margin-right: 0px;
+	}
+	@include mobile(768){
+		width: 200px;
+		margin: 0px 0px;
+		margin-right: 10px;
+	}
+	@include mobile(992){
+		width: 246px;
+		margin-right: 30px;
+	}
 }
 .ah-div-catselect2{
 	display: inline-block;
 	width: 270px;
+	margin: 5px 0px;
+	@include mobile(320){
+		width: 100%;
+	}
+	@include mobile(768){
+		width: 220px;
+		margin: 0px 0px;
+	}
+	@include mobile(992){
+		width: 270px;
+	}
 }
 
 .ah-rowlink1{
