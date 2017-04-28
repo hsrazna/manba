@@ -28,26 +28,29 @@
 <div class="clearfix"></div>
 
 <div class="row">
-	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 no-padd">
+	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 no-padd">
 		<div class="ah-catalog-item">
 			<div class="ah-catitem-imgbox">
-				<div class="ah-catitem-boxicon"></div>
-				<div class="ah-catitem-imgtime">
-					<ul class="ah-catitem-timetop">
-						<li><span>00</span></li>
-						<li><span>:</span></li>
-						<li><span>02</span></li>
-						<li><span>:</span></li>
-						<li><span>45</span></li>
-						<li><span>:</span></li>
-						<li><span>34</span></li>
-					</ul>
-					<ul class="ah-catitem-timebott">
-						<li><span>дни</span></li>
-						<li><span>часы</span></li>
-						<li><span>минуты</span></li>
-						<li><span>секунды</span></li>
-					</ul>
+				<div class="ah-catitem-mask">
+					<div class="ah-catitem-boxicon"></div>
+					<div class="ah-like-icon"></div>
+					<div class="ah-catitem-imgtime">
+						<ul class="ah-catitem-timetop">
+							<li><span>00</span></li>
+							<li><span>:</span></li>
+							<li><span>02</span></li>
+							<li><span>:</span></li>
+							<li><span>45</span></li>
+							<li><span>:</span></li>
+							<li><span>34</span></li>
+						</ul>
+						<ul class="ah-catitem-timebott">
+							<li><span>дни</span></li>
+							<li><span>часы</span></li>
+							<li><span>минуты</span></li>
+							<li><span>секунды</span></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<span class="ah-catalog-span">Платье яркое летнее Artme, в начилии в трех расцветках</span>
@@ -77,26 +80,29 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 no-padd">
+	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 no-padd">
 		<div class="ah-catalog-item">
 			<div class="ah-catitem-imgbox">
-				<div class="ah-catitem-boxicon"></div>
-				<div class="ah-catitem-imgtime">
-					<ul class="ah-catitem-timetop">
-						<li><span>00</span></li>
-						<li><span>:</span></li>
-						<li><span>02</span></li>
-						<li><span>:</span></li>
-						<li><span>45</span></li>
-						<li><span>:</span></li>
-						<li><span>34</span></li>
-					</ul>
-					<ul class="ah-catitem-timebott">
-						<li><span>дни</span></li>
-						<li><span>часы</span></li>
-						<li><span>минуты</span></li>
-						<li><span>секунды</span></li>
-					</ul>
+				<div class="ah-catitem-mask">
+					<div class="ah-catitem-boxicon"></div>
+					<div class="ah-like-icon"></div>
+					<div class="ah-catitem-imgtime">
+						<ul class="ah-catitem-timetop">
+							<li><span>00</span></li>
+							<li><span>:</span></li>
+							<li><span>02</span></li>
+							<li><span>:</span></li>
+							<li><span>45</span></li>
+							<li><span>:</span></li>
+							<li><span>34</span></li>
+						</ul>
+						<ul class="ah-catitem-timebott">
+							<li><span>дни</span></li>
+							<li><span>часы</span></li>
+							<li><span>минуты</span></li>
+							<li><span>секунды</span></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<span class="ah-catalog-span">Платье яркое летнее Artme, в начилии в трех расцветках</span>
@@ -126,26 +132,29 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 no-padd">
+	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 no-padd">
 		<div class="ah-catalog-item">
 			<div class="ah-catitem-imgbox">
-				<div class="ah-catitem-boxicon"></div>
-				<div class="ah-catitem-imgtime">
-					<ul class="ah-catitem-timetop">
-						<li><span>00</span></li>
-						<li><span>:</span></li>
-						<li><span>02</span></li>
-						<li><span>:</span></li>
-						<li><span>45</span></li>
-						<li><span>:</span></li>
-						<li><span>34</span></li>
-					</ul>
-					<ul class="ah-catitem-timebott">
-						<li><span>дни</span></li>
-						<li><span>часы</span></li>
-						<li><span>минуты</span></li>
-						<li><span>секунды</span></li>
-					</ul>
+				<div class="ah-catitem-mask">
+					<div class="ah-catitem-boxicon"></div>
+					<div class="ah-like-icon"></div>
+					<div class="ah-catitem-imgtime">
+						<ul class="ah-catitem-timetop">
+							<li><span>00</span></li>
+							<li><span>:</span></li>
+							<li><span>02</span></li>
+							<li><span>:</span></li>
+							<li><span>45</span></li>
+							<li><span>:</span></li>
+							<li><span>34</span></li>
+						</ul>
+						<ul class="ah-catitem-timebott">
+							<li><span>дни</span></li>
+							<li><span>часы</span></li>
+							<li><span>минуты</span></li>
+							<li><span>секунды</span></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<span class="ah-catalog-span">Платье яркое летнее Artme, в начилии в трех расцветках</span>
@@ -175,27 +184,29 @@
 			</div>
 		</div>
 	</div>
-	<div class="clearfix"></div>
-	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 no-padd">
+	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 no-padd">
 		<div class="ah-catalog-item">
 			<div class="ah-catitem-imgbox">
-				<div class="ah-catitem-boxicon"></div>
-				<div class="ah-catitem-imgtime">
-					<ul class="ah-catitem-timetop">
-						<li><span>00</span></li>
-						<li><span>:</span></li>
-						<li><span>02</span></li>
-						<li><span>:</span></li>
-						<li><span>45</span></li>
-						<li><span>:</span></li>
-						<li><span>34</span></li>
-					</ul>
-					<ul class="ah-catitem-timebott">
-						<li><span>дни</span></li>
-						<li><span>часы</span></li>
-						<li><span>минуты</span></li>
-						<li><span>секунды</span></li>
-					</ul>
+				<div class="ah-catitem-mask">
+					<div class="ah-catitem-boxicon"></div>
+					<div class="ah-like-icon"></div>
+					<div class="ah-catitem-imgtime">
+						<ul class="ah-catitem-timetop">
+							<li><span>00</span></li>
+							<li><span>:</span></li>
+							<li><span>02</span></li>
+							<li><span>:</span></li>
+							<li><span>45</span></li>
+							<li><span>:</span></li>
+							<li><span>34</span></li>
+						</ul>
+						<ul class="ah-catitem-timebott">
+							<li><span>дни</span></li>
+							<li><span>часы</span></li>
+							<li><span>минуты</span></li>
+							<li><span>секунды</span></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<span class="ah-catalog-span">Платье яркое летнее Artme, в начилии в трех расцветках</span>
@@ -225,26 +236,29 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 no-padd">
+	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 no-padd">
 		<div class="ah-catalog-item">
 			<div class="ah-catitem-imgbox">
-				<div class="ah-catitem-boxicon"></div>
-				<div class="ah-catitem-imgtime">
-					<ul class="ah-catitem-timetop">
-						<li><span>00</span></li>
-						<li><span>:</span></li>
-						<li><span>02</span></li>
-						<li><span>:</span></li>
-						<li><span>45</span></li>
-						<li><span>:</span></li>
-						<li><span>34</span></li>
-					</ul>
-					<ul class="ah-catitem-timebott">
-						<li><span>дни</span></li>
-						<li><span>часы</span></li>
-						<li><span>минуты</span></li>
-						<li><span>секунды</span></li>
-					</ul>
+				<div class="ah-catitem-mask">
+					<div class="ah-catitem-boxicon"></div>
+					<div class="ah-like-icon"></div>
+					<div class="ah-catitem-imgtime">
+						<ul class="ah-catitem-timetop">
+							<li><span>00</span></li>
+							<li><span>:</span></li>
+							<li><span>02</span></li>
+							<li><span>:</span></li>
+							<li><span>45</span></li>
+							<li><span>:</span></li>
+							<li><span>34</span></li>
+						</ul>
+						<ul class="ah-catitem-timebott">
+							<li><span>дни</span></li>
+							<li><span>часы</span></li>
+							<li><span>минуты</span></li>
+							<li><span>секунды</span></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<span class="ah-catalog-span">Платье яркое летнее Artme, в начилии в трех расцветках</span>
@@ -274,26 +288,29 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 no-padd">
+	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 no-padd">
 		<div class="ah-catalog-item">
 			<div class="ah-catitem-imgbox">
-				<div class="ah-catitem-boxicon"></div>
-				<div class="ah-catitem-imgtime">
-					<ul class="ah-catitem-timetop">
-						<li><span>00</span></li>
-						<li><span>:</span></li>
-						<li><span>02</span></li>
-						<li><span>:</span></li>
-						<li><span>45</span></li>
-						<li><span>:</span></li>
-						<li><span>34</span></li>
-					</ul>
-					<ul class="ah-catitem-timebott">
-						<li><span>дни</span></li>
-						<li><span>часы</span></li>
-						<li><span>минуты</span></li>
-						<li><span>секунды</span></li>
-					</ul>
+				<div class="ah-catitem-mask">
+					<div class="ah-catitem-boxicon"></div>
+					<div class="ah-like-icon"></div>
+					<div class="ah-catitem-imgtime">
+						<ul class="ah-catitem-timetop">
+							<li><span>00</span></li>
+							<li><span>:</span></li>
+							<li><span>02</span></li>
+							<li><span>:</span></li>
+							<li><span>45</span></li>
+							<li><span>:</span></li>
+							<li><span>34</span></li>
+						</ul>
+						<ul class="ah-catitem-timebott">
+							<li><span>дни</span></li>
+							<li><span>часы</span></li>
+							<li><span>минуты</span></li>
+							<li><span>секунды</span></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<span class="ah-catalog-span">Платье яркое летнее Artme, в начилии в трех расцветках</span>
@@ -323,27 +340,29 @@
 			</div>
 		</div>
 	</div>
-		<div class="clearfix"></div>
-	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 no-padd">
+	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 no-padd">
 		<div class="ah-catalog-item">
 			<div class="ah-catitem-imgbox">
-				<div class="ah-catitem-boxicon"></div>
-				<div class="ah-catitem-imgtime">
-					<ul class="ah-catitem-timetop">
-						<li><span>00</span></li>
-						<li><span>:</span></li>
-						<li><span>02</span></li>
-						<li><span>:</span></li>
-						<li><span>45</span></li>
-						<li><span>:</span></li>
-						<li><span>34</span></li>
-					</ul>
-					<ul class="ah-catitem-timebott">
-						<li><span>дни</span></li>
-						<li><span>часы</span></li>
-						<li><span>минуты</span></li>
-						<li><span>секунды</span></li>
-					</ul>
+				<div class="ah-catitem-mask">
+					<div class="ah-catitem-boxicon"></div>
+					<div class="ah-like-icon"></div>
+					<div class="ah-catitem-imgtime">
+						<ul class="ah-catitem-timetop">
+							<li><span>00</span></li>
+							<li><span>:</span></li>
+							<li><span>02</span></li>
+							<li><span>:</span></li>
+							<li><span>45</span></li>
+							<li><span>:</span></li>
+							<li><span>34</span></li>
+						</ul>
+						<ul class="ah-catitem-timebott">
+							<li><span>дни</span></li>
+							<li><span>часы</span></li>
+							<li><span>минуты</span></li>
+							<li><span>секунды</span></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<span class="ah-catalog-span">Платье яркое летнее Artme, в начилии в трех расцветках</span>
@@ -373,26 +392,29 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 no-padd">
+	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 no-padd">
 		<div class="ah-catalog-item">
 			<div class="ah-catitem-imgbox">
-				<div class="ah-catitem-boxicon"></div>
-				<div class="ah-catitem-imgtime">
-					<ul class="ah-catitem-timetop">
-						<li><span>00</span></li>
-						<li><span>:</span></li>
-						<li><span>02</span></li>
-						<li><span>:</span></li>
-						<li><span>45</span></li>
-						<li><span>:</span></li>
-						<li><span>34</span></li>
-					</ul>
-					<ul class="ah-catitem-timebott">
-						<li><span>дни</span></li>
-						<li><span>часы</span></li>
-						<li><span>минуты</span></li>
-						<li><span>секунды</span></li>
-					</ul>
+				<div class="ah-catitem-mask">
+					<div class="ah-catitem-boxicon"></div>
+					<div class="ah-like-icon"></div>
+					<div class="ah-catitem-imgtime">
+						<ul class="ah-catitem-timetop">
+							<li><span>00</span></li>
+							<li><span>:</span></li>
+							<li><span>02</span></li>
+							<li><span>:</span></li>
+							<li><span>45</span></li>
+							<li><span>:</span></li>
+							<li><span>34</span></li>
+						</ul>
+						<ul class="ah-catitem-timebott">
+							<li><span>дни</span></li>
+							<li><span>часы</span></li>
+							<li><span>минуты</span></li>
+							<li><span>секунды</span></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<span class="ah-catalog-span">Платье яркое летнее Artme, в начилии в трех расцветках</span>
@@ -422,26 +444,29 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 no-padd">
+	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 no-padd">
 		<div class="ah-catalog-item">
 			<div class="ah-catitem-imgbox">
-				<div class="ah-catitem-boxicon"></div>
-				<div class="ah-catitem-imgtime">
-					<ul class="ah-catitem-timetop">
-						<li><span>00</span></li>
-						<li><span>:</span></li>
-						<li><span>02</span></li>
-						<li><span>:</span></li>
-						<li><span>45</span></li>
-						<li><span>:</span></li>
-						<li><span>34</span></li>
-					</ul>
-					<ul class="ah-catitem-timebott">
-						<li><span>дни</span></li>
-						<li><span>часы</span></li>
-						<li><span>минуты</span></li>
-						<li><span>секунды</span></li>
-					</ul>
+				<div class="ah-catitem-mask">
+					<div class="ah-catitem-boxicon"></div>
+					<div class="ah-like-icon"></div>
+					<div class="ah-catitem-imgtime">
+						<ul class="ah-catitem-timetop">
+							<li><span>00</span></li>
+							<li><span>:</span></li>
+							<li><span>02</span></li>
+							<li><span>:</span></li>
+							<li><span>45</span></li>
+							<li><span>:</span></li>
+							<li><span>34</span></li>
+						</ul>
+						<ul class="ah-catitem-timebott">
+							<li><span>дни</span></li>
+							<li><span>часы</span></li>
+							<li><span>минуты</span></li>
+							<li><span>секунды</span></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<span class="ah-catalog-span">Платье яркое летнее Artme, в начилии в трех расцветках</span>
@@ -471,27 +496,29 @@
 			</div>
 		</div>
 	</div>
-		<div class="clearfix"></div>
-	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 no-padd">
+	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 no-padd">
 		<div class="ah-catalog-item">
 			<div class="ah-catitem-imgbox">
-				<div class="ah-catitem-boxicon"></div>
-				<div class="ah-catitem-imgtime">
-					<ul class="ah-catitem-timetop">
-						<li><span>00</span></li>
-						<li><span>:</span></li>
-						<li><span>02</span></li>
-						<li><span>:</span></li>
-						<li><span>45</span></li>
-						<li><span>:</span></li>
-						<li><span>34</span></li>
-					</ul>
-					<ul class="ah-catitem-timebott">
-						<li><span>дни</span></li>
-						<li><span>часы</span></li>
-						<li><span>минуты</span></li>
-						<li><span>секунды</span></li>
-					</ul>
+				<div class="ah-catitem-mask">
+					<div class="ah-catitem-boxicon"></div>
+					<div class="ah-like-icon"></div>
+					<div class="ah-catitem-imgtime">
+						<ul class="ah-catitem-timetop">
+							<li><span>00</span></li>
+							<li><span>:</span></li>
+							<li><span>02</span></li>
+							<li><span>:</span></li>
+							<li><span>45</span></li>
+							<li><span>:</span></li>
+							<li><span>34</span></li>
+						</ul>
+						<ul class="ah-catitem-timebott">
+							<li><span>дни</span></li>
+							<li><span>часы</span></li>
+							<li><span>минуты</span></li>
+							<li><span>секунды</span></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<span class="ah-catalog-span">Платье яркое летнее Artme, в начилии в трех расцветках</span>
@@ -521,26 +548,29 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 no-padd">
+	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 no-padd">
 		<div class="ah-catalog-item">
 			<div class="ah-catitem-imgbox">
-				<div class="ah-catitem-boxicon"></div>
-				<div class="ah-catitem-imgtime">
-					<ul class="ah-catitem-timetop">
-						<li><span>00</span></li>
-						<li><span>:</span></li>
-						<li><span>02</span></li>
-						<li><span>:</span></li>
-						<li><span>45</span></li>
-						<li><span>:</span></li>
-						<li><span>34</span></li>
-					</ul>
-					<ul class="ah-catitem-timebott">
-						<li><span>дни</span></li>
-						<li><span>часы</span></li>
-						<li><span>минуты</span></li>
-						<li><span>секунды</span></li>
-					</ul>
+				<div class="ah-catitem-mask">
+					<div class="ah-catitem-boxicon"></div>
+					<div class="ah-like-icon"></div>
+					<div class="ah-catitem-imgtime">
+						<ul class="ah-catitem-timetop">
+							<li><span>00</span></li>
+							<li><span>:</span></li>
+							<li><span>02</span></li>
+							<li><span>:</span></li>
+							<li><span>45</span></li>
+							<li><span>:</span></li>
+							<li><span>34</span></li>
+						</ul>
+						<ul class="ah-catitem-timebott">
+							<li><span>дни</span></li>
+							<li><span>часы</span></li>
+							<li><span>минуты</span></li>
+							<li><span>секунды</span></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<span class="ah-catalog-span">Платье яркое летнее Artme, в начилии в трех расцветках</span>
@@ -570,26 +600,29 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 no-padd">
+	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 no-padd">
 		<div class="ah-catalog-item">
 			<div class="ah-catitem-imgbox">
-				<div class="ah-catitem-boxicon"></div>
-				<div class="ah-catitem-imgtime">
-					<ul class="ah-catitem-timetop">
-						<li><span>00</span></li>
-						<li><span>:</span></li>
-						<li><span>02</span></li>
-						<li><span>:</span></li>
-						<li><span>45</span></li>
-						<li><span>:</span></li>
-						<li><span>34</span></li>
-					</ul>
-					<ul class="ah-catitem-timebott">
-						<li><span>дни</span></li>
-						<li><span>часы</span></li>
-						<li><span>минуты</span></li>
-						<li><span>секунды</span></li>
-					</ul>
+				<div class="ah-catitem-mask">
+					<div class="ah-catitem-boxicon"></div>
+					<div class="ah-like-icon"></div>
+					<div class="ah-catitem-imgtime">
+						<ul class="ah-catitem-timetop">
+							<li><span>00</span></li>
+							<li><span>:</span></li>
+							<li><span>02</span></li>
+							<li><span>:</span></li>
+							<li><span>45</span></li>
+							<li><span>:</span></li>
+							<li><span>34</span></li>
+						</ul>
+						<ul class="ah-catitem-timebott">
+							<li><span>дни</span></li>
+							<li><span>часы</span></li>
+							<li><span>минуты</span></li>
+							<li><span>секунды</span></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<span class="ah-catalog-span">Платье яркое летнее Artme, в начилии в трех расцветках</span>

@@ -42,6 +42,7 @@
 	<?php require_once "include/header.php"; ?>
 	<?php require_once "include/breadcrumbs.php"; ?>
 	<?php require_once "include/header-bottom.php"; ?>
+	<?php require_once "include/az-search.php"; ?>
 	<section class="maincat">
 	    <div class="container">
 	    	<div class="row">
@@ -54,6 +55,7 @@
 			</div>
 		</div>
 	</section>
+	<?php require_once "include/ah-textbox.php"; ?>
 	<?php require_once "include/footer.php"; ?>
 
 	<div class="hidden">
