@@ -14,13 +14,49 @@
 	li{
 		font-size: 16px;
 		display: inline-block;
+		height: 44px;
+		vertical-align: bottom;
+		border-radius: 4px 4px 0 0;
+		line-height: 30px;
+		width: 25%;
+		background: #f7fcff;
+		position: relative;
+		z-index: 1;
+		a{
+			display: inline-block;
+			width: 100%;
+			vertical-align: top;
+			font-size: 16px;
+			color: #006eaf;
+			padding: 14px 28px 0;
+			text-decoration: none;
+			&:hover{
+				text-decoration: none;
+				color: #006eaf;
+			}
+		}
 	}
 	.ui-tabs-active{
+		height: 60px;
 		background: #fff;
-		box-shadow: 0 -3px 0 rgba(0,0,0,0.3);
-		width: 33%;
+		box-shadow: 0 -3px 5px rgba(0,0,0,0.3);
+		width: 33.33%;
 		display: inline-block;
 		font-size: 22px;
+		z-index: 2;
+		a{
+			display: inline-block;
+			width: 100%;
+			vertical-align: top;
+			font-size: 22px;
+			color: #006eaf;
+			padding: 30px 28px 0;
+			text-decoration: none;
+			&:hover{
+				text-decoration: none;
+				color: #006eaf;
+			}
+		}
 	}
 }
 
@@ -28,10 +64,116 @@
 	margin: 0 -12px;
 	padding: 0 12px;
 	box-shadow: 0 -3px 3px rgba(0,0,0,0.1);
+	position: relative;
+	z-index: 1;
 }
 
 .az-tabs-content-inner{
 	margin: 0 -15px;
 	padding: 0 15px;
 	background: #fff;
+}
+
+.az-tabs-content-wrap{
+	padding-top: 45px;
+	display: flex;
+}
+
+.az-tab-left{
+	float: left;
+	width: 33.33%;
+}
+
+.az-tab-right{
+	float: right;
+	width: 66.66%;
+}
+
+.az-cat{
+	line-height: 20px;
+	position: relative;
+	>li{
+		>ul{
+			display: none;
+			position: absolute;
+			column-gap: 20px;
+			column-count: 3;
+			top: 0;
+			left: 100%;
+			width: 200%;
+			background: #f0f9ff;
+			padding: 20px 30px;
+			transition: all .3 ease-in-out;
+			z-index: 12;
+			a{
+				display: inline-block;
+				padding: 7px 5px 7px 5px;
+			}
+		}
+		@keyframes opacity{
+			from{
+				opacity: 0;
+			}
+			to{
+				opacity: 1;
+			}
+		}
+		&:hover{
+			>ul{
+				display: block;
+				animation: opacity .4s ease-in-out;
+			}
+		}
+	}
+	a{
+		display: inline-block;
+		padding: 7px 40px;
+		font-size: 16px;
+		color: #006eaf;
+		text-decoration: none;
+		width: 100%;
+		&:hover{
+			text-decoration: none;
+			background: #f0f9ff;
+			
+		}
+	}
+}
+
+.az-carousel{
+	height: 100%;
+	.owl-stage-outer, .owl-stage, .owl-item, .az-carousel-item{
+		height: 100%;
+	}
+}
+
+.az-carousel-item{
+	border-radius: 4px;
+	padding: 30px;
+	h2{
+		color: #fff;
+		font-size: 40px;
+		font-family: "PT_SansWebBold";
+		text-transform: uppercase;
+		line-height: 50px;
+		margin-top: 60px;
+	}
+	.az-btn{
+		width: 280px;
+		height: 45px;
+		background: #fff;
+		display: inline-block;
+		line-height: 45px;
+		border-radius: 4px;
+		text-align: center;
+		color: #006eaf;
+		font-size: 16px;
+		text-decoration: none;
+		margin-top: 10px;
+		&:hover{
+			color: #006eaf;
+			text-decoration: none;
+			background: #f0f9ff;
+		}
+	}
 }

@@ -109,10 +109,11 @@ $header-right-width-480: 120px;
 		position: absolute;
 		left: 0;
 		top: 100%;
-		background: rgba(0, 110, 175, 0.8);
+		background: rgba(0, 110, 175, 0.9);
 		border-radius: 0 0 4px 4px;
 		padding: 10px 0;
 		animation: show-from-bottom .3s ease-in-out;
+		z-index: 99;
 		@keyframes show-from-bottom{
 			from{
 				transform: translateY(15px);
@@ -149,7 +150,7 @@ $header-right-width-480: 120px;
 			left: 10px;
 			border-right: 10px solid transparent;
 			border-left: 10px solid transparent;
-			border-bottom: 10px solid rgba(0, 110, 175, 0.8);
+			border-bottom: 10px solid rgba(0, 110, 175, 0.9);
 		}
 	}
 }
@@ -295,7 +296,7 @@ $header-right-width-480: 120px;
 	background: #ff7200 url(../img/az-plus.png) no-repeat 0px center;
 	font-size: 0;
 	right: 20px;
-	z-index: 3;
+	z-index: 9;
 	overflow: hidden;
 	line-height: 41px;
 	border-radius: 50%;

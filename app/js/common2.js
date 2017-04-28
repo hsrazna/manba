@@ -5,5 +5,13 @@ $(function() {
       return false;
   });
 
+	$('.az-carousel').owlCarousel({
+		items: 1,
+		dots: true,
+		margin: 10
+	});
+
 	$( "#tabs" ).tabs({ active: 0 });
+
+	
 });
