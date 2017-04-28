@@ -132,7 +132,7 @@
 									<li><a href="#">Грузовики, автобусы, спецтехника</a></li>
 									<li><a href="#">Контрольно-измерительные приборы</a></li>
 								</ul>
-								<div><a class="az-link-arrow" href="#">Все категории</a></div>
+								<div class="az-more"><a class="az-link-arrow" href="#">Все категории</a></div>
 							</div>
 							<div class="az-tab-right">
 								<div class="az-carousel">
@@ -145,6 +145,7 @@
 										<a href="#" class="az-btn">Смотерть все автомобили</a>
 									</div>
 								</div>
+								<a href="#" class="az-cat2">Все категории</a>
 							</div>
 						</div>
 					</div>
@@ -272,7 +273,7 @@
 									<li><a href="#">Грузовики, автобусы, спецтехника</a></li>
 									<li><a href="#">Контрольно-измерительные приборы</a></li>
 								</ul>
-								<div><a class="az-link-arrow" href="#">Все категории</a></div>
+								<div class="az-more"><a class="az-link-arrow" href="#">Все категории</a></div>
 							</div>
 							<div class="az-tab-right">
 								<div class="az-carousel">

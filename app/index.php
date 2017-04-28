@@ -46,7 +46,8 @@
 	<?php require_once "include/header-bottom.php"; ?>
 	<?php require_once "include/az-search.php"; ?>
 	<?php require_once "include/az-main-tab.php"; ?>
-	
+	<?php require_once "include/az-main-catalog.php"; ?>
+	<?php require_once "include/ah-textbox.php"; ?>
 	<?php require_once "include/footer.php"; ?>
 
 	<div class="hidden">
