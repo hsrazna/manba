@@ -127,7 +127,7 @@
 	}
 	a{
 		display: inline-block;
-		padding: 7px 40px;
+		padding: 7px 40px 7px 30px;
 		font-size: 16px;
 		color: #006eaf;
 		text-decoration: none;
@@ -145,6 +145,22 @@
 	.owl-stage-outer, .owl-stage, .owl-item, .az-carousel-item{
 		height: 100%;
 	}
+	.owl-dots{
+		position: absolute;
+		bottom: 16px;
+		right: 46px;
+		.owl-dot{
+			width: 10px;
+			height: 10px;
+			background: #716e79;
+			display: inline-block;
+			margin: 0 8px;
+			border-radius: 50%;
+			&.active{
+				background: #a8cfe7;
+			}
+		}
+	}
 }
 
 .az-carousel-item{
@@ -157,6 +173,7 @@
 		text-transform: uppercase;
 		line-height: 50px;
 		margin-top: 60px;
+
 	}
 	.az-btn{
 		width: 280px;
@@ -176,4 +193,37 @@
 			background: #f0f9ff;
 		}
 	}
+
+}
+
+.az-more{
+	padding: 15px 30px;
+}
+
+.az-link-arrow{
+	display: inline-block;
+	padding: 7px 0px;
+	font-size: 16px;
+	color: #006eaf;
+	text-decoration: none;
+	padding-right: 60px;
+	background: url(../img/az-arrow-right.png) no-repeat right 30px center;
+	transition: background 0.6s ease 0s;
+	&:hover{
+		text-decoration: none;
+		color: #006eaf;
+		background: url(../img/az-arrow-right.png) no-repeat right 13px center;
+	}
+}
+
+.az-cat2{
+	font-size: 0;
+	width: 23px;
+	height: 18px;
+	display: inline-block;
+	position: absolute;
+	bottom: 17px;
+	right: 28px;
+	z-index: 9;
+	background: url(../img/az-arrow-right2.png) no-repeat center center;
 }

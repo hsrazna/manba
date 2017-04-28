@@ -22,6 +22,7 @@
 	a{
 		font-size: 14px;
 		color: #006eaf;
+		transition: color 0.6s ease 0s;
 		&:active, &:focus{
 			color: #006eaf;
 			text-decoration: none;
