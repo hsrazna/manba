@@ -184,6 +184,7 @@
 			</div>
 		</div>
 	</div>
+	<div class="clearfix"></div>
 	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 no-padd">
 		<div class="ah-catalog-item">
 			<div class="ah-catitem-imgbox">
@@ -340,6 +341,7 @@
 			</div>
 		</div>
 	</div>
+	<div class="clearfix"></div>
 	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 no-padd">
 		<div class="ah-catalog-item">
 			<div class="ah-catitem-imgbox">
@@ -496,6 +498,7 @@
 			</div>
 		</div>
 	</div>
+	<div class="clearfix"></div>
 	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 no-padd">
 		<div class="ah-catalog-item">
 			<div class="ah-catitem-imgbox">
