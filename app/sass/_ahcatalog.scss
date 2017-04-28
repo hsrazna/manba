@@ -225,6 +225,28 @@
 	height: 270px;
 	background: url(../img/ah-catimg.jpg) center center no-repeat;
 	background-size: cover;
+	&:hover{
+		.ah-catitem-mask{
+			position: relative;
+			width: 100%;
+			height: 100%;
+			background: rgba(0, 0, 0, 0.2);
+			&:hover{
+				.ah-like-icon{
+					display: block;
+					position: absolute;
+					top: 40%;
+					left: 38%;
+					width: 69px;
+					height: 53px;
+					background: url(../img/ah-like.png) center center no-repeat;
+				}
+			}
+		}
+	}
+}
+.ah-like-icon{
+	display: none;
 }
 .ah-div-catitem-link{
 	display: block;
@@ -238,14 +260,14 @@
 	line-height: 45px;
 	text-align: center;
 	text-decoration: none;
-	border: 2px solid transparent;
+	// border: 2px solid transparent;
 	margin: 0 auto;
 	margin-bottom: 20px;
 	&:hover, &:focus{
-		color: #006eaf;
+		color: #fff;
 		text-decoration: none;
-		border: 2px solid #006eaf;
-		background: transparent;
+		// border: 2px solid #006eaf;
+		background: #049f54;
 		transition: background 0.6s ease 0s;
 	}
 }
