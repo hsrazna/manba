@@ -1,6 +1,256 @@
+.ui-widget-header{
+	background: #bffca7;
+	border-radius: 5px;
+}
+.ui-widget-content{
+	background: #f0f9ff;
+}
+.ui-widget.ui-widget-content{
+	border: none;
+	border-radius: 5px;
+}
+.ui-progressbar{
+	height: 20px;
+}
+/*********************/
 
+.ah-persitem-marg{
+	margin: 20px 30px !important;
+}
+.ah-lktitle{
+	display: block;
+	font-family: "PT_SansWebRegular";
+	color: #006eaf;
+	font-size: 30px;
+	line-height: 36px;
+	margin: 35px 0px 30px 0px;
+}
+.ah-person-item{
+	display: inline-block;
+	max-width: 300px;
+	padding: 0px 15px;
+	vertical-align: top;
+	margin: 20px 0px;
 
+	// outline: 1px solid red;
+}
+.ah-person-formspan3{
+	display: block;
+	font-family: "PT_SansWebRegular";
+	color: #006eaf;
+	font-size: 18px;
+	line-height: 36px;
+}
+.ah-person-formspan4{
+	display: block;
+	font-family: "PT_SansWebRegular";
+	color: #006eaf;
+	font-size: 18px;
+	line-height: 24px;
+}
+/**********************/
+.ah-tbc{
+	display: table-cell;
+	vertical-align: top;
+}
+.ah-tbc1{
+	display: table-cell;
+	vertical-align: top;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+.ah-enter-check {
+	display: table;
+    width: 100%;
+}
+.ah-enter-check{
+	input[type="checkbox"] {
+    	display: none;
+	}
+	label {
+		display: inline-block;
+	    cursor: pointer;
+		color: #006eaf;
+		font-family: "PT_SansWebRegular";
+		font-size: 18px;
+		line-height: 24px;
+	}
+}
+.ah-enter-check input[type="checkbox"]:checked + .ah-tbc .ah-chek {
+    background: #fff url(../img/ah-chek1.png) center center no-repeat;
+}
+.ah-chek {
+	display: inline-block;
+    width: 31px;
+    height: 31px;
+    background: url(../img/ah-chek0.png) center center no-repeat;
+}
 
+/**********************/
+.ah-person-formspan2{
+	display: block;
+	font-family: "PT_SansWebRegular";
+	color: #006fb0;
+	font-size: 18px;
+	line-height: 24px;
+	span{
+		float: right;
+	}
+}
+.ah-person-formlist1{
+	li{
+		display: block;
+	}
+}
+.ah-person-formspan1{
+	display: block;
+	font-family: "PT_SansWebRegular";
+	color: #006fb0;
+	font-size: 18px;
+	line-height: 36px;
+}
+.ah-person-itemlink{
+	display: block;
+	height: 45px;
+	background: #cce2ef;
+	border-radius: 5px;
+	font-family: "PT_SansWebRegular";
+	color: #006eaf;
+	font-size: 18px;
+	line-height: 45px;
+	text-align: center;
+	margin-bottom: 25px;
+	&:hover, &:focus{
+		text-decoration: none;
+	}
+}
+.ah-person-form{
+	input[type="text"]{
+		width: 100%;
+		height: 45px;
+		background: #f0f9ff;
+		border-radius: 5px;
+		font-family: "PT_SansWebRegular";
+		font-size: 18px;
+		line-height: 45px;
+		color: #006eaf;
+		outline: none;
+        border: none;
+        padding: 0px 10px 0px 22px;
+        margin: 10px 0px;
+	}
+	input[type="submit"]{
+		display: block;
+		width: 220px;
+		height: 45px;
+		font-family: "PT_SansWebRegular";
+		color: #006eaf;
+		font-size: 18px;
+		line-height: 45px;
+		text-align: center;
+		background: #cce2ef;
+		border-radius: 5px;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		margin: 10px 0px;
+	}
+
+}
+.ah-person-formsubtitle{
+	display: inline-block;
+	color: #006eaf;
+	font-family: "PT_SansWebRegular";
+	font-size: 18px;
+	line-height: 24px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	span{
+		display: inline-block;
+		position: relative;
+		cursor: pointer;
+		&::before{
+			position: absolute;
+			content: "";
+			bottom: -1px;
+			left: 2px;
+			width: 100%;
+			height: 1px;
+			background: url(../img/ah-formbord.png) center center no-repeat;
+		}
+	}
+}
+.ah-person-formtitle{
+	display: block;
+	color: #006eaf;
+	font-size: 22px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+.ah-person-formlist{
+	li{
+		display: inline-block;
+		margin-right: 5px;
+		&:last-child{
+			margin-right: 0px;
+		}
+		a{
+			display: inline-block;
+			width: 30px;
+			height: 30px;
+		}
+	}
+}
+.ah-person-formsoc{
+	background: url(../img/ah-person-icon4.png) center center no-repeat;
+	&:hover{
+		background: url(../img/ah-person-icon4_4.png) center center no-repeat;
+		transition: background 0.6s ease 0s;
+	}
+}
+.ah-person-formsoc1{
+	background: url(../img/ah-person-icon5.png) center center no-repeat;
+	&:hover{
+		background: url(../img/ah-person-icon5_5.png) center center no-repeat;
+		transition: background 0.6s ease 0s;
+	}
+}
+.ah-person-imgbox{
+	position: relative;
+	display: block;
+	width: 100px;
+	height: 100px;
+	border: 1px dashed #006fb0;
+	border-radius: 5px;
+	img{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+}
+.ah-person-imgbox1{
+	img{
+		left: 14% !important;
+	}
+}
+.ah-person-imgbox2{
+	margin-top: 20px;
+	img{
+		left: 21% !important;
+		bottom: 28% !important;
+	}
+}
+.ah-person-selectform{
+	margin: 10px 0px;
+}
+.ah-person-formspan{
+	display: block;
+	color: #006eaf;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: "PT_SansWebRegular";
+	margin: 10px 0px;
+}
 
 
 

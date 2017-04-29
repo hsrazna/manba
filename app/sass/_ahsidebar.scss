@@ -1,6 +1,30 @@
-
-
-
+.ah-sidebar-wrapp{
+	padding-top: 30px;
+}
+.ah-sidebar-list{
+	li{
+		display: block;
+		a{
+			display: block;
+			font-family: "PT_SansWebRegular";
+			color: #006eaf;
+			font-size: 18px;
+			line-height: 24px;
+			padding: 13px 0px;
+		}
+	}
+}
+.ah-sidebar-sublist{
+	display: none;
+	margin-left: 20px;
+	a{
+		line-height: 21px;
+		padding: 0px 0px !important;
+	}
+}
+.ah-sidebar-link{
+	background: url(../img/ah-selarr.png) right center no-repeat;
+}
 
 
 

@@ -25,6 +25,7 @@
 	<link rel="stylesheet" href="libs/bootstrap-grid/bootstrap-grid.css">
 	<link rel="stylesheet" href="libs/font-awesome.min.css">
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css">
+	<link rel="stylesheet" href="libs/jquery-ui-1.12.1/jquery-ui.min.css">
 	<link rel="stylesheet" href="css/main.css">
 
 
@@ -41,10 +42,13 @@
 
 	<?php require_once "include/header.php"; ?>
 	<?php require_once "include/breadcrumbs.php"; ?>
-	<?php require_once "include/header-bottom.php"; ?>
+	
 	<section class="maincat">
 	    <div class="container">
 	    	<div class="row">
+	    		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<span class="ah-lktitle">Личный кабинет</span>
+	    		</div>
 				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
 					<?php require_once "include/ah-sidebar.php"; ?>
 				</div>
@@ -70,7 +74,8 @@
 	</div>
 
 	<script src="libs/jquery/dist/jquery.min.js"></script>
-	
+
+	<script src="libs/jquery-ui-1.12.1/jquery-ui.min.js"></script>
 	<!-- bootstrap-select -->
 	<script src="libs/bootstrap/bootstrap.min.js"></script>
 	<script src="libs/bootstrap-select/bootstrap-select.js"></script>
