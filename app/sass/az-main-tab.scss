@@ -30,6 +30,9 @@
 			color: #006eaf;
 			padding: 14px 28px 0;
 			text-decoration: none;
+			@include desktop(768){
+				padding: 14px 10px 0;
+			}
 			&:hover{
 				text-decoration: none;
 				color: #006eaf;
@@ -52,6 +55,9 @@
 			color: #006eaf;
 			padding: 30px 28px 0;
 			text-decoration: none;
+			@include desktop(768){
+				padding: 30px 10px 0;
+			}
 			&:hover{
 				text-decoration: none;
 				color: #006eaf;
@@ -77,22 +83,36 @@
 .az-tabs-content-wrap{
 	padding-top: 45px;
 	display: flex;
+	@include desktop(768){
+		flex-direction: column;
+	}
 }
 
 .az-tab-left{
 	float: left;
 	width: 33.33%;
+	@include desktop(768){
+		width: 100%;
+	}
 }
 
 .az-tab-right{
 	float: right;
 	width: 66.66%;
+	@include desktop(768){
+		width: 100%;
+
+	}
 }
 
 .az-cat{
 	line-height: 20px;
 	position: relative;
 	>li{
+	@include desktop(768){
+		position: relative;
+		text-align: center;
+	}
 		>ul{
 			display: none;
 			position: absolute;
@@ -107,6 +127,15 @@
 			column-count: 3;
 			@include desktop(992){
 				column-count: 2;
+			}
+			@include desktop(768){
+				column-count: 3;
+				width: 100%;
+				top: 100%;
+				left: 0;
+			}
+			@include desktop(480){
+				column-count: 1;
 			}
 			a{
 				display: inline-block;
@@ -148,6 +177,9 @@
 		color: #006eaf;
 		text-decoration: none;
 		width: 100%;
+		@include desktop(992){
+			padding: 7px 5px 7px 5px;
+		}
 		&:hover{
 			text-decoration: none;
 			background: #f0f9ff;
@@ -182,6 +214,10 @@
 .az-carousel-item{
 	border-radius: 4px;
 	padding: 30px;
+	min-height: 400px;
+	@include desktop(768){
+		padding: 15px;
+	}
 	h2{
 		color: #fff;
 		font-size: 40px;
@@ -189,7 +225,12 @@
 		text-transform: uppercase;
 		line-height: 50px;
 		margin-top: 60px;
-
+		max-width: 500px;
+		@include desktop(768){
+			max-width: 365px;
+			font-size: 30px;
+			line-height: 40px;
+		}
 	}
 	.az-btn{
 		width: 280px;
@@ -203,6 +244,7 @@
 		font-size: 16px;
 		text-decoration: none;
 		margin-top: 10px;
+		max-width: 100%;
 		&:hover{
 			color: #006eaf;
 			text-decoration: none;
@@ -214,6 +256,9 @@
 
 .az-more{
 	padding: 15px 30px;
+	@include desktop(768){
+		text-align: right;
+	}
 }
 
 .az-link-arrow{

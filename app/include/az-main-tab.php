@@ -136,11 +136,11 @@
 							<div class="az-tab-right">
 								<div class="az-carousel">
 									<div class="az-carousel-item clearfix" style="background: url(img/slide1.jpg) no-repeat center center; background-size: cover">
-										<h2>Хочешь уехать в закат,<br> но не на чем?</h2>
+										<h2>Хочешь уехать в закат, но не на чем?</h2>
 										<a href="#" class="az-btn">Смотерть все автомобили</a>
 									</div>
 									<div class="az-carousel-item clearfix" style="background: url(img/slide1.jpg) no-repeat center center; background-size: cover">
-										<h2>Хочешь уехать в закат,<br> но не на чем?</h2>
+										<h2>Хочешь уехать в закат, но не на чем?</h2>
 										<a href="#" class="az-btn">Смотерть все автомобили</a>
 									</div>
 								</div>
@@ -277,11 +277,11 @@
 							<div class="az-tab-right">
 								<div class="az-carousel">
 									<div class="az-carousel-item clearfix" style="background: url(img/slide1.jpg) no-repeat center center; background-size: cover">
-										<h2>Хочешь уехать в закат,<br> но не на чем?(услуги)</h2>
+										<h2>Хочешь уехать в закат, но не на чем?(услуги)</h2>
 										<a href="#" class="az-btn">Смотерть все автомобили</a>
 									</div>
 									<div class="az-carousel-item clearfix" style="background: url(img/slide1.jpg) no-repeat center center; background-size: cover">
-										<h2>Хочешь уехать в закат,<br> но не на чем?</h2>
+										<h2>Хочешь уехать в закат, но не на чем?</h2>
 										<a href="#" class="az-btn">Смотерть все автомобили</a>
 									</div>
 								</div>
