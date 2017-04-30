@@ -1,0 +1,93 @@
+@import "vars";
+
+
+
+
+
+.ah-history-select{
+	display: inline-block;
+	width: 100%;
+	max-width: 270px;
+}
+.ah-history-select01{
+	margin-right: 16px;
+}
+.ah-history-rowselect{
+	display: inline-block;
+	width: 100%;
+	max-width: 150px;
+}
+.ah-history-span{
+	display: inline-block;
+	font-family: "PT_SansWebRegular";
+	color: #006fb0;
+	font-size: 18px;
+	line-height: 24px;
+	margin-left: 32px;
+}
+.ah-history-rowtop{
+	position: relative;
+	cursor: pointer;
+	margin: 30px 0px;
+
+outline: 1px solid red;
+
+	&::before{
+		position: absolute;
+		content: "";
+		background: url(../img/ah-selarr.png);
+		width: 14px;
+		height: 7px;
+		right: 3%;
+		top: 40%;
+	}
+}
+.ah-history-subrow{
+	width: 90%;
+	margin: 10px 0px;
+
+	// outline: 1px solid red;
+}
+.ah-history-botsubcell-wrap{
+	display: inline-block;
+	width: 62%;
+	vertical-align: top;
+}
+.ah-history-botsubcell{
+	display: inline-block;
+	width: 35%;
+	vertical-align: top;
+}
+.ah-history-botsubcell1{
+	display: inline-block;
+	width: 63%;
+	vertical-align: top;
+}
+.ah-history-botsubcell2{
+	display: inline-block;
+	width: 28%;
+	vertical-align: top;
+}
+.ah-history-subcell{
+	display: inline-block;
+	width: 12%;
+	vertical-align: top;
+}
+.ah-history-subcell1{
+	display: inline-block;
+	width: 57%;
+	vertical-align: top;
+}
+.ah-history-subcell2{
+	display: inline-block;
+	width: 21%;
+	vertical-align: top;
+	text-align: right;
+}
+.ah-history-cellspan{
+	display: inline-block;
+	font-family: "PT_SansWebRegular";
+	color: #006fb0;
+	font-size: 18px;
+	line-height: 24px;
+}

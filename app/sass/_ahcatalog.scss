@@ -47,6 +47,54 @@
 	}
 }
 
+/***********************************************/
+.ah-catselect1{
+	width: 100% !important;
+	.btn-default{
+		background: #d5fbe9;
+		border-color: transparent;
+		outline: none !important;
+		&:hover, .open>.dropdown-toggle.btn-default{
+			background-color: #e2fee5 !important;
+			border-color: transparent !important;
+			outline: none !important;
+		}
+		&:focus{
+			outline: none !important;
+		}
+	}
+	&.open>.dropdown-toggle.btn-default {
+		color: #006eaf;
+	    background-color: #f0f9ff !important;
+		border-color: transparent !important;
+		outline: none !important;
+
+	}
+	.btn{
+		font-family: "PT_SansWebRegular";
+		color: #006eaf;
+		font-size: 14px;
+	    padding: 4px 30px;
+    	@include mobile(768){
+			padding: 4px 7px;
+		}
+		@include mobile(992){
+			padding: 4px 30px;
+		}
+	}
+	.dropdown-menu{
+		background-color: #f0f9ff;
+	}
+	.dropdown-menu>li>a{
+		color: #006eaf;
+		font-size: 18px;
+		line-height: 40px;
+		&:hover{
+			background-color: #e2fee5;
+		}
+	}
+}
+
 /* ******************************************* */
 .ah-catalog-selectbox{
 	margin-top: 70px;
