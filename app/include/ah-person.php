@@ -40,9 +40,9 @@
 	<div class="ah-person-item">
 		<a href="#" class="ah-person-itemlink">Заключить договор Манба</a>
 		<span class="ah-person-formtitle">Мой рейтинг</span>
-
-		<div id="progressbar"></div>
-
+		<div class="ah-progressbar">
+			<div id="progressbar"></div>
+		</div>
 		<span class="ah-person-formspan1">Профиль заполнен на 85%</span>
 		<span class="ah-person-formspan">Заполни всю информацию о себе для повышения рейтинга</span>
 		<div class="ah-catitem-starsrow">

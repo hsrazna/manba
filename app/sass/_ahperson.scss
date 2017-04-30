@@ -1,16 +1,18 @@
-.ui-widget-header{
-	background: #bffca7;
-	border-radius: 5px;
-}
-.ui-widget-content{
-	background: #f0f9ff;
-}
-.ui-widget.ui-widget-content{
-	border: none;
-	border-radius: 5px;
-}
-.ui-progressbar{
-	height: 20px;
+.ah-progressbar{
+	.ui-widget-header{
+		background: #bffca7;
+		border-radius: 5px;
+	}
+	.ui-widget-content{
+		background: #f0f9ff;
+	}
+	.ui-widget.ui-widget-content{
+		border: none;
+		border-radius: 5px;
+	}
+	.ui-progressbar{
+		height: 20px;
+	}	
 }
 /*********************/
 
