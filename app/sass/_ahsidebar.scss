@@ -11,6 +11,15 @@
 			font-size: 18px;
 			line-height: 24px;
 			padding: 13px 0px;
+			@include mobile(768){
+		        font-size: 11px;
+		    }
+			@include mobile(992){
+		        font-size: 15px;
+		    }
+			@include mobile(1200){
+		        font-size: 18px;
+		    }
 		}
 	}
 }
@@ -23,7 +32,10 @@
 	}
 }
 .ah-sidebar-link{
-	background: url(../img/ah-selarr.png) right center no-repeat;
+	background: url(../img/ah-selarr.png) calc(100% - 40%) center no-repeat;
+	@include mobile(768){
+        background: url(../img/ah-selarr.png) right center no-repeat;
+    }
 }
 
 

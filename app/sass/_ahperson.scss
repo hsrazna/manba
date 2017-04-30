@@ -1,3 +1,6 @@
+@import "vars";
+
+
 .ah-progressbar{
 	.ui-widget-header{
 		background: #bffca7;
@@ -15,10 +18,16 @@
 	}	
 }
 /*********************/
-
-.ah-persitem-marg{
-	margin: 20px 30px !important;
+.ah-person-rowrapp{
+	font-size: 0;
+	width: 100%;
 }
+// .ah-persitem-marg{
+// 	margin: 0px 0px !important;
+// 	@include mobile(1250){
+//         margin: 20px 30px !important;
+//     }
+// }
 .ah-lktitle{
 	display: block;
 	font-family: "PT_SansWebRegular";
@@ -29,10 +38,17 @@
 }
 .ah-person-item{
 	display: inline-block;
-	max-width: 300px;
+	width: 100%;
+	// max-width: 300px;
 	padding: 0px 15px;
 	vertical-align: top;
 	margin: 20px 0px;
+	@include mobile(768){
+        width: 50%;
+    }
+	@include mobile(992){
+        width: 33%;
+    }
 
 	// outline: 1px solid red;
 }
@@ -93,8 +109,11 @@
 	display: block;
 	font-family: "PT_SansWebRegular";
 	color: #006fb0;
-	font-size: 18px;
+	font-size: 14px;
 	line-height: 24px;
+	@include mobile(1200){
+        font-size: 18px;
+    }
 	span{
 		float: right;
 	}
