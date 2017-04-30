@@ -26,16 +26,20 @@ $(function() {
 
 	}
 
+	if($('.ah-person-confid-title').length>0){
+
+		$('.ah-person-confid-title').click(function(){
+			$(this).siblings('.ah-person-confid-wrapp').slideToggle(600);
+			return false;
+		});
+
+	}
+
 	if($('.ah-history-span').length>0){
 
 		$('.ah-history-span').click(function(){
 
-			// $(this).siblings(".ah-history-rowbottom").slideToggle(600);
 			$(this).parent(".ah-history-rowtop").siblings(".ah-history-rowbottom").slideToggle(600);
-
-
-
-			// $(this).next('.ah-history-rowbottom').slideToggle(600);
 			return false;
 		});
 
