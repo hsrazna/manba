@@ -58,7 +58,7 @@
 			</div>
 		</div>
 	</section>
-	<?php require_once "include/ah-textbox.php"; ?>
+	
 	<?php require_once "include/footer.php"; ?>
 
 	<div class="hidden">

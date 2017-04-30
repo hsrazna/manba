@@ -74,12 +74,12 @@
 		font-family: "PT_SansWebRegular";
 		color: #006eaf;
 		font-size: 14px;
-	    padding: 4px 30px;
+	    padding: 4px 20px;
     	@include mobile(768){
 			padding: 4px 7px;
 		}
 		@include mobile(992){
-			padding: 4px 30px;
+			padding: 4px 20px;
 		}
 	}
 	.dropdown-menu{

@@ -26,6 +26,21 @@ $(function() {
 
 	}
 
+	if($('.ah-history-span').length>0){
+
+		$('.ah-history-span').click(function(){
+
+			// $(this).siblings(".ah-history-rowbottom").slideToggle(600);
+			$(this).parent(".ah-history-rowtop").siblings(".ah-history-rowbottom").slideToggle(600);
+
+
+
+			// $(this).next('.ah-history-rowbottom').slideToggle(600);
+			return false;
+		});
+
+	}
+
 	if($("#progressbar").length>0){
 		$( "#progressbar" ).progressbar({value: 85});
 	}
