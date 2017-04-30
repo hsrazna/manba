@@ -65,9 +65,6 @@
 			<li><span class="ah-person-formspan2">задач создано<span>43</span></span></li>
 		</ul>
 	</div>
-</div>
-<div class="clearfix"></div>
-<div class="ah-person-rowrapp">
 	<div class="ah-person-item">
 		<div class="ah-person-form">
 			<span class="ah-person-formtitle">Данные компании</span>
@@ -146,5 +143,4 @@
 			</div>
 		</div>
 	</div>
-
 </div>
