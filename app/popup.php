@@ -114,6 +114,15 @@
 					</div>
 				</div>
 			</div>
+			<div class="az-basket-itog">
+				<div class="az-basket-itog-left">
+					<div>Продавец</div>
+					<h3>магазин «Aurora International»</h3>
+					<div><a href="tel:+999999999999">+ 99 (999) 999 99 99</a></div>
+					<div><span>ул. М.Танбури 20, Худжанд</span></div>
+				</div>
+				<div class="az-basket-itog-right"></div>
+			</div>
 		</div>
 	</div>
 

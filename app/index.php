@@ -63,7 +63,7 @@
 	</div>
 
 	<script src="libs/jquery/dist/jquery.min.js"></script>
-	<script src="libs/jquery-ui/jquery-ui.js"></script>
+	<script src="libs/jquery-ui-1.12.1/jquery-ui.min.js"></script>
 
 	<!-- bootstrap-select -->
 	<script src="libs/bootstrap/bootstrap.min.js"></script>
