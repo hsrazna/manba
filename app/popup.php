@@ -46,7 +46,7 @@
 	<?php require_once "include/header-bottom.php"; ?>
 	
 
-	<div class="az-basket-popup">
+	<div class="az-basket-popup clearfix">
 		<h2>Корзина</h2>
 		<div class="az-basket-wrap">
 			<div class="az-basket-item clearfix">
@@ -114,14 +114,103 @@
 					</div>
 				</div>
 			</div>
-			<div class="az-basket-itog">
+			<div class="az-basket-itog clearfix">
 				<div class="az-basket-itog-left">
 					<div>Продавец</div>
 					<h3>магазин «Aurora International»</h3>
 					<div><a href="tel:+999999999999">+ 99 (999) 999 99 99</a></div>
 					<div><span>ул. М.Танбури 20, Худжанд</span></div>
 				</div>
-				<div class="az-basket-itog-right"></div>
+				<div class="az-basket-itog-right">
+					<div class="az-basket-summ">
+						<div class="az-basket-summ-top clearfix">
+							<div class="az-basket-itog-left2">
+								Итого
+							</div>
+							<div class="az-basket-itog-right2">
+								34 554,00 TJS 
+							</div>
+						</div>
+						<div class="az-basket-summ-bottom clearfix">
+							<div class="az-basket-itog-left2">
+								<a href="#" class="az-basket-continue">Продолжить покупки</a>
+							</div>
+							<div class="az-basket-itog-right2">
+								<a href="#" class="az-button">Оформить заказ</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="az-basket-wrap">
+			<div class="az-basket-item clearfix">
+				<div class="az-basket-img">
+					<img src="img/az-basket3.jpg" alt="Пончо весеннее черное с вставками красной и черной с рисунком, длинное, утепленное">
+				</div>
+				<div class="az-basket-content left">
+					<div class="az-bc-title">
+						<h3>Пончо весеннее черное с вставками красной и черной с рисунком, длинное, утепленное</h3>
+					</div>
+				</div>
+				<div class="az-basket-subcontent">
+					<div class="az-bc-title">
+						<h3>М, черное с красным, с длинным рукавом, без подкладки</h3>
+					</div>
+					<div class="az-bc-count">
+						<div class="az-count-top">
+							<a href="#" class="az-count-minus">-</a>
+							<span class="az-count-num">5</span>
+							<a href="#" class="az-count-plus">+</a>
+							<a href="#" class="az-bascet-del">del</a>
+						</div>
+					</div>
+					<div class="az-summ">
+						54,00 TJS + 3 бонуса
+					</div>
+				</div>
+				<div class="az-basket-subcontent">
+					<div class="az-bc-title">
+						<h3>М, черное с красным, с длинным рукавом, без подкладки</h3>
+					</div>
+					<div class="az-bc-count">
+						<div class="az-count-top">
+							<a href="#" class="az-count-minus">-</a>
+							<span class="az-count-num">15</span>
+							<a href="#" class="az-count-plus">+</a>
+							<a href="#" class="az-bascet-del">del</a>
+						</div>
+					</div>
+					<div class="az-summ">
+						554,00 TJS
+					</div>
+				</div>
+			</div>
+			<div class="az-basket-itog clearfix">
+				<div class="az-basket-itog-left">
+					<div>Продавец</div>
+					<h3>Саид С.</h3>
+				</div>
+				<div class="az-basket-itog-right">
+					<div class="az-basket-summ">
+						<div class="az-basket-summ-top clearfix">
+							<div class="az-basket-itog-left2">
+								Итого
+							</div>
+							<div class="az-basket-itog-right2">
+								34 554,00 TJS 
+							</div>
+						</div>
+						<div class="az-basket-summ-bottom clearfix">
+							<div class="az-basket-itog-left2">
+								<a href="#" class="az-basket-continue">Продолжить покупки</a>
+							</div>
+							<div class="az-basket-itog-right2">
+								<a href="#" class="az-button">Оформить заказ</a>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -140,7 +229,7 @@
 
 	<script src="libs/jquery/dist/jquery.min.js"></script>
 	<script src="libs/jquery-ui/jquery-ui.js"></script>
-
+	
 	<!-- bootstrap-select -->
 	<script src="libs/bootstrap/bootstrap.min.js"></script>
 	<script src="libs/bootstrap-select/bootstrap-select.js"></script>
