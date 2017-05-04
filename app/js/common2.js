@@ -45,4 +45,36 @@ $(function() {
 		mainClass: 'my-mfp-slide-bottom'
 	});
 
+	$("body").on("mousedown", ".az-order-input-wrap.password span", function(){
+		if($(this).siblings("input[type=password]").length>0){
+			$(this).siblings("input[type=password]").attr("type", "text");
+		}else{
+			// $(this).siblings("input").attr("type", "password");
+		}
+	});
+
+	$("body").on("mouseup", ".az-order-input-wrap.password span", function(){
+		if($(this).siblings("input[type=password]").length>0){
+			// $(this).siblings("input[type=password]").attr("type", "text");
+		}else{
+			$(this).siblings("input").attr("type", "password");
+		}
+	});
+
+	$("body").on("mouseout", ".az-order-input-wrap.password span", function(){
+		if($(this).siblings("input[type=password]").length>0){
+			// $(this).siblings("input[type=password]").attr("type", "text");
+		}else{
+			$(this).siblings("input").attr("type", "password");
+		}
+	});
+
+	$(".az-order-input-wrap.password input").keyup(function(){
+		if($(this).val().length>0){
+			$(this).after("<span></span>");
+		}else{
+			$(this).siblings("span").remove();
+		}
+	});
+
 });

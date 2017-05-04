@@ -16,8 +16,16 @@
 							<div class="az-tabs-content-inner">
 								<div id="tabs-1">
 									<div class="az-tabs-content-wrap">
-										
-
+										<div class="az-order-input-wrap">
+											<input type="text" placeholder="Имя">
+										</div>
+										<div class="az-order-input-wrap">
+											<input type="text" placeholder="E-mail">
+										</div>
+										<div class="az-order-input-wrap password">
+											<input type="password" placeholder="Пароль">
+											<!-- <span>password open</span> -->
+										</div>
 									</div>
 								</div>
 								<div id="tabs-2">
