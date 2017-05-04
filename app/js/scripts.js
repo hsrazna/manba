@@ -63,7 +63,7 @@ $(function() {
 		dots: true,
 		margin: 10
 	});
-
+	
 	$( "#tabs" ).tabs({ active: 0 });
 
 	$(window).click(function(){
