@@ -1,4 +1,17 @@
+h1.az-page{
+	font-size: 30px;
+	line-height: 36px;
+	color: #006eaf;
+	font-family: "PT_SansWebRegular";
+	text-align: center;
+	margin: 18px 0;
+}
+
 .az-order-summ{
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	margin: 0 -15px;
+	padding: 20px 30px;
 	.az-bc-title{
 		width: 50%;
 		margin-right: 50%;
@@ -15,5 +28,59 @@
 		width: calc(100% - 100px);
 		padding-left: 30px;
 		margin-top: 45px;
+	}
+	.az-basket-wrap{
+		margin-bottom: 20px;
+	}
+	.az-basket-itog-right2{
+		padding-left: 0;
+	}
+}
+
+.az-order-summ-head{
+	font-size: 0;
+	margin-bottom: 30px;
+	.az-order-sh-left{
+		display: inline-block;
+		vertical-align: top;
+		width: 67%;
+	}
+	.az-order-sh-right{
+		display: inline-block;
+		vertical-align: top;
+		width: 33%;
+	}
+	h2{
+		font-size: 22px;
+		line-height: 36px;
+		color: #006eaf;
+		font-family: "PT_SansWebRegular";
+		margin: 0;
+	}
+	.az-basket-continue{
+		line-height: 36px;
+		&:hover{
+			line-height: 36px;
+		}
+		&::after{
+			bottom: 2px;
+		}
+	}
+}
+
+.az-order-steps{
+	h2{
+		font-size: 22px;
+		line-height: 36px;
+		color: #006eaf;
+		font-family: "PT_SansWebRegular";
+		margin: 0 0 15px 0;
+	}
+	.az-tabs li{
+		width: 47%;
+		text-align: center;
+	}
+	.az-tabs .ui-tabs-active a{
+		padding: 30px 12px 0;
 	}
 }

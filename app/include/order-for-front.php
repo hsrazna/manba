@@ -4,7 +4,7 @@
 			<div class="col-md-12">
 				<h1 class="az-page">Оформление заказа</h1>
 			</div>
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-5">
 				<div class="az-order-steps">
 					<h2>1 шаг из 4.  Авторизация</h2>
 					<div id="tabs">
@@ -30,9 +30,16 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-lg-push-1">
 				<div class="az-order-summ">
-					<a href="#" class="az-basket-continue">Продолжить покупки</a>
+					<div class="az-order-summ-head">
+						<div class="az-order-sh-left">
+							<h2>Ваш заказ</h2>
+						</div>
+						<div class="az-order-sh-right">
+							<a href="#" class="az-basket-continue">Продолжить покупки</a>
+						</div>
+					</div>
 					<div class="az-basket-wrap">
 						<div class="az-basket-item clearfix">
 							<div class="az-basket-img">
