@@ -65,7 +65,51 @@
 										</div>
 										<div class="az-tabs-step-item">
 											<h2>3 шаг из 4.  Выбор способа доставки</h2>
-
+											<form action="/">
+												<div class="az-order-input-wrap radio">
+													<input type="radio" name="radio" id="radio1">
+													<label for="radio1">Самовывоз</label>
+													<div class="az-location">
+														<div class="az-location-title">ул. М.Танбури 20, Худжанд</div>
+														<div id="map1" class="map"></div>
+													</div>
+												</div>
+												<div class="az-order-input-wrap radio">
+													<input type="radio" name="radio" id="radio2">
+													<label for="radio2">Доставка курьером</label>
+												</div>
+												<div class="az-order-input-wrap radio">
+													<input type="radio" name="radio" id="radio3">
+													<label for="radio3">Доставка курьером-фрилансером</label>
+													<!-- <div class="az-choose-location">
+														<div class="az-location-title">ул. М.Танбури 20, Худжанд</div>
+														<div id="map1" class="map"></div>
+													</div> -->
+												</div>
+												<div class="az-order-input-wrap">
+													<input type="submit" value="Далее">
+												</div>
+											</form>
+										</div>
+										<div class="az-tabs-step-item">
+											<h2>4 шаг из 4.  Выбор способа оплаты</h2>
+											<form action="/">
+												<div class="az-order-input-wrap radio">
+													<input type="radio" name="radio2" id="radio4">
+													<label for="radio4">Наличный</label>
+												</div>
+												<div class="az-order-input-wrap radio">
+													<input type="radio" name="radio2" id="radio5">
+													<label for="radio5">Безналичный</label>
+												</div>
+												<div class="az-order-input-wrap radio">
+													<input type="radio" name="radio2" id="radio6">
+													<label for="radio6">Карты</label>
+												</div>
+												<div class="az-order-input-wrap">
+													<input type="submit" value="Далее">
+												</div>
+											</form>
 										</div>
 									</div>
 								</div>
@@ -189,3 +233,28 @@
 		</div>
 	</div>
 </div>
+
+<script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+<script type="text/javascript">
+	ymaps.ready(init);
+	var zMap,
+		zPlacemark;
+
+	function init(){     
+		zMap = new ymaps.Map("map1", {
+			center: [43.476338, 43.583993],
+			zoom: 16
+		});
+
+		zMap.behaviors.disable('scrollZoom'); 
+
+		zPlacemark = new ymaps.Placemark([43.476338, 43.583993], {}, {
+			iconLayout: 'default#image',
+			iconImageHref: '/img/balun.png',
+			iconImageSize: [32, 53],
+			iconImageOffset: [-20, -52]
+		});
+		zMap.geoObjects.add(zPlacemark);
+		zMap.controls.add('mapTools');
+	}
+</script>
