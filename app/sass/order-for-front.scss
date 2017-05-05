@@ -285,6 +285,39 @@ h1.az-page{
 	input[type="radio"]:checked ~ .az-location{
 		height: 365px;
 	}
+	input[type="radio"] ~ .az-choose-location{
+		height: 0px;
+		overflow: hidden;
+		transition: all .3s ease-in-out;
+		padding-left: 40px;
+		.az-order-select{
+			margin: 20px 0;
+			max-width: 270px;
+			input{
+				margin: 0;
+				padding-left: 20px;
+			}
+			.btn{
+				padding-left: 20px;
+			}
+
+		}
+		.az-location-title{
+			line-height: 20px;
+		}
+		.map{
+			width: 400px;
+			height: 300px;
+			border-radius: 4px;
+			overflow: hidden;
+			margin-top: 25px;
+			margin-left: -40px;
+		}
+	}
+	input[type="radio"]:checked ~ .az-choose-location{
+		height: 820px;
+	}
+	
 }
 
 .az-location-title{
@@ -292,5 +325,22 @@ h1.az-page{
 	font-size: 18px;
 	line-height: 35px;
 	color: #006eaf;
+}
 
+.az-order-input-wrap.textarea{
+	margin-left: -40px;
+	width: 100%;
+	textarea{
+		background: #f0f9ff;
+		width: 400px;
+		height: 160px;
+		font-family: "PT_SansWebRegular";
+		font-size: 18px;
+		line-height: 24px;
+		padding: 8px 20px;
+		color: #006eaf;
+		margin-top: 30px;
+		border-radius: 4px;
+		resize: none;
+	}
 }

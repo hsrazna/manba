@@ -81,11 +81,39 @@
 												<div class="az-order-input-wrap radio">
 													<input type="radio" name="radio" id="radio3">
 													<label for="radio3">Доставка курьером-фрилансером</label>
-													<!-- <div class="az-choose-location">
-														<div class="az-location-title">ул. М.Танбури 20, Худжанд</div>
-														<div id="map1" class="map"></div>
-													</div> -->
+													<div class="az-choose-location">
+														<div class="az-order-select">
+															<select class="ah-catselect">
+															  <option>Страна</option>
+															  <option>Страна1</option>
+															  <option>Страна2</option>
+															</select>
+														</div>
+														<div class="az-order-select">
+															<select class="ah-catselect">
+															  <option>Область</option>
+															  <option>Область1</option>
+															  <option>Область2</option>
+															</select>
+														</div>
+														<div class="az-order-select">
+															<select class="ah-catselect">
+															  <option>Город</option>
+															  <option>Город1</option>
+															  <option>Город2</option>
+															</select>
+														</div>
+														<div class="az-order-select">
+															<input type="text" placeholder="Полный адрес">
+														</div>
+														<div class="az-location-title">или отметьте адрес на карте</div>
+														<div id="map2" class="map"></div>
+														<div class="az-order-input-wrap textarea">
+															<textarea name="" id="" cols="30" rows="10" placeholder="Комментарии"></textarea>
+														</div>
+													</div>
 												</div>
+												
 												<div class="az-order-input-wrap">
 													<input type="submit" value="Далее">
 												</div>
@@ -107,7 +135,7 @@
 													<label for="radio6">Карты</label>
 												</div>
 												<div class="az-order-input-wrap">
-													<input type="submit" value="Далее">
+													<input type="submit" value="Оформить заказ">
 												</div>
 											</form>
 										</div>
@@ -240,21 +268,46 @@
 	var zMap,
 		zPlacemark;
 
-	function init(){     
+	function init(){
 		zMap = new ymaps.Map("map1", {
-			center: [43.476338, 43.583993],
+			center: [55.769432, 37.646961],
 			zoom: 16
 		});
 
 		zMap.behaviors.disable('scrollZoom'); 
 
-		zPlacemark = new ymaps.Placemark([43.476338, 43.583993], {}, {
+		zPlacemark = new ymaps.Placemark([55.769432, 37.646961], {}, {
 			iconLayout: 'default#image',
 			iconImageHref: '/img/balun.png',
 			iconImageSize: [32, 53],
 			iconImageOffset: [-20, -52]
 		});
 		zMap.geoObjects.add(zPlacemark);
-		zMap.controls.add('mapTools');
+	}
+
+</script>
+
+<script>
+	ymaps.ready(init);
+
+	var zMap2,
+		zPlacemark2;
+
+	function init(){
+		zMap2 = new ymaps.Map("map2", {
+			center: [55.769432, 37.646961],
+			zoom: 16
+		});
+
+		zMap2.behaviors.disable('scrollZoom'); 
+
+		zPlacemark2 = new ymaps.Placemark([55.769432, 37.646961], {}, {
+			iconLayout: 'default#image',
+			iconImageHref: '/img/balun.png',
+			iconImageSize: [32, 53],
+			iconImageOffset: [-20, -52]
+		});
+		zMap2.geoObjects.add(zPlacemark2);
+		// zMap2.controls.add('mapTools');
 	}
 </script>
