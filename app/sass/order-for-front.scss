@@ -119,4 +119,102 @@ h1.az-page{
 			cursor: pointer;
 		}
 	}
+	img{
+		width: 100%;
+		height: auto;
+	}
+}
+
+.az-password-hard{
+	width: 100%;
+	height: 10px;
+	border-radius: 5px;
+	background: #f0f9ff;
+	.az-password-hard-inner{
+		height: 100%;
+		width: 30%;
+		border-radius: 5px;
+		background: #ff9999;
+	}
+}
+
+.az-password-hard-span{
+	font-family: "PT_SansWebRegular";
+	font-size: 14px;
+	line-height: 20px;
+	color: #ff3300;
+}
+
+.az-captcha{
+	margin: 15px 0;
+}
+
+.az-order-input-wrap{
+	input[type="checkbox"]{
+		display: none;
+	}
+	label{
+		font-family: "PT_SansWebRegular";
+		font-size: 14px;
+		line-height: 24px;
+		color: #006eaf;
+		position: relative;
+		padding-left: 40px;
+		font-weight: normal;
+		padding-top: 3px;
+		cursor: pointer;
+		strong{
+			font-size: 18px;
+			font-weight: normal;
+		}
+		&::before{
+			content: "";
+			position: absolute;
+			border-radius: 4px;
+			top: 0;
+			left: 0;
+			width: 32px;
+			height: 32px;
+			background: #f0f9ff url(../img/ah-chek0.png) no-repeat center;
+		}
+	}
+	input[type="checkbox"]:checked + label{
+		&::before{
+			background: #f0f9ff url(../img/ah-chek1.png) no-repeat center;
+		}
+	}
+}
+
+.az-order-input-wrap{
+	input[type="submit"]{
+		display: inline-block;
+		height: 45px;
+		background: #006eaf;
+		border-radius: 5px;
+		color: #fff;
+		font-family: "PT_SansWebBold";
+		font-size: 18px;
+		line-height: 45px;
+		text-align: center;
+		text-decoration: none;
+		margin-top: 12px;
+		width: 100%;
+		transition: background 0.6s ease;
+		&:active, &:focus{
+			color: #fff;
+			text-decoration: none;
+		}
+		&:hover{
+			color: #fff;
+			text-decoration: none;
+			background: #049f54;
+		}
+	}
+	&.submit{
+		margin: 12px 0 50px;
+	}
+}
+
+.az-tabs-step-item{
+	margin-bottom: 45px;
 }

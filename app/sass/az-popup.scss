@@ -315,6 +315,7 @@ a.az-basket-continue{
 	text-decoration: none;
 	margin-bottom: 20px;
 	width: 100%;
+	transition: background 0.6s ease;
 	&:active, &:focus{
 		color: #fff;
 		text-decoration: none;

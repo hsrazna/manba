@@ -16,15 +16,56 @@
 							<div class="az-tabs-content-inner">
 								<div id="tabs-1">
 									<div class="az-tabs-content-wrap">
-										<div class="az-order-input-wrap">
-											<input type="text" placeholder="Имя">
+										<div class="az-tabs-step-item">
+											<form action="/">
+												<div class="az-order-input-wrap">
+													<input type="text" placeholder="Имя">
+												</div>
+												<div class="az-order-input-wrap">
+													<input type="text" placeholder="E-mail">
+												</div>
+												<div class="az-order-input-wrap password">
+													<input type="password" placeholder="Пароль">
+												</div>
+												<div class="az-order-input-wrap">
+													<div class="az-password-hard">
+														<div class="az-password-hard-inner"></div>
+													</div>
+													<span class="az-password-hard-span">Слабый пароль</span>
+												</div>
+												<div class="az-order-input-wrap az-captcha">
+													<img src="img/az-captcha.jpg" alt="">
+												</div>
+												<div class="az-order-input-wrap">
+													<input type="checkbox" name="" id="check1">
+													<label for="check1">Согласие с Политикой конфиденциальности и Условиями использования сервиса</label>
+												</div>
+												<div class="az-order-input-wrap submit">
+													<input type="submit" value="Зарегистрироваться">
+												</div>
+												<div class="az-order-input-wrap">
+													<input type="checkbox" name="" id="check2">
+													<label for="check2"><strong>Оформить без регистрации</strong><br> Создание учётной записи поможет делать покупки быстрее и удобнее, а так же получать бонусы</label>
+												</div>
+											</form>
 										</div>
-										<div class="az-order-input-wrap">
-											<input type="text" placeholder="E-mail">
+										<div class="az-tabs-step-item">
+											<h2>2 шаг из 4.  Личные данные</h2>
+											<form action="/">
+												<div class="az-order-input-wrap">
+													<input type="text" placeholder="Имя">
+												</div>
+												<div class="az-order-input-wrap">
+													<input type="text" placeholder="Телефон">
+												</div>
+												<div class="az-order-input-wrap">
+													<input type="submit" value="Далее">
+												</div>
+											</form>
 										</div>
-										<div class="az-order-input-wrap password">
-											<input type="password" placeholder="Пароль">
-											<!-- <span>password open</span> -->
+										<div class="az-tabs-step-item">
+											<h2>3 шаг из 4.  Выбор способа доставки</h2>
+
 										</div>
 									</div>
 								</div>
