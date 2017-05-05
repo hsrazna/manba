@@ -53,9 +53,6 @@
 											<h2>2 шаг из 4.  Личные данные</h2>
 											<form action="/">
 												<div class="az-order-input-wrap">
-													<input type="text" placeholder="Имя">
-												</div>
-												<div class="az-order-input-wrap">
 													<input type="text" placeholder="Телефон">
 												</div>
 												<div class="az-order-input-wrap">

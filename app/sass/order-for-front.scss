@@ -1,3 +1,5 @@
+@import "vars";
+
 h1.az-page{
 	font-size: 30px;
 	line-height: 36px;
@@ -10,19 +12,32 @@ h1.az-page{
 .az-order-summ{
 	box-shadow: 0 0 5px rgba(0,0,0,0.3);
 	border-radius: 5px;
-	margin: 0 -15px;
+	margin: 0 -15px 30px;
 	padding: 20px 30px;
+	@include desktop(768){
+		padding: 20px 15px;
+	}
 	.az-bc-title{
 		width: 50%;
 		margin-right: 50%;
+		@include desktop(768){
+			width: 100%;
+			margin-right: 0;
+		}
 	}
 	.az-bc-count{
 		width: 50%;
 		margin-top: 10px;
+		@include desktop(768){
+			width: 100%;
+		}
 	}
 	.az-summ{
 		width: 50%;
 		margin-top: 10px;
+		@include desktop(768){
+			width: 100%;
+		}
 	}
 	.az-basket-itog-right{
 		width: calc(100% - 100px);
@@ -44,11 +59,16 @@ h1.az-page{
 		display: inline-block;
 		vertical-align: top;
 		width: 67%;
+		@include desktop(768){
+			width: 50%;
+		}
 	}
 	.az-order-sh-right{
 		display: inline-block;
 		vertical-align: top;
-		width: 33%;
+		@include desktop(768){
+			width: 50%;
+		}
 	}
 	h2{
 		font-size: 22px;
@@ -79,9 +99,19 @@ h1.az-page{
 	.az-tabs li{
 		width: 47%;
 		text-align: center;
+		@include desktop(768){
+			width: 50%;
+		}
 	}
 	.az-tabs .ui-tabs-active a{
 		padding: 30px 12px 0;
+		@include desktop(768){
+			font-size: 18px;
+			padding: 30px 3px 0;
+		}
+		@include desktop(480){
+			font-size: 16px;
+		}
 	}
 	input[type="text"], input[type="password"]{
 		width: 100%;
@@ -275,7 +305,8 @@ h1.az-page{
 		transition: all .3s ease-in-out;
 		padding-left: 40px;
 		.map{
-			width: 400px;
+			max-width: 400px;
+			width: auto;
 			height: 275px;
 			border-radius: 4px;
 			overflow: hidden;
@@ -306,7 +337,8 @@ h1.az-page{
 			line-height: 20px;
 		}
 		.map{
-			width: 400px;
+			max-width: 400px;
+			width: auto;
 			height: 300px;
 			border-radius: 4px;
 			overflow: hidden;
@@ -317,7 +349,9 @@ h1.az-page{
 	input[type="radio"]:checked ~ .az-choose-location{
 		height: 820px;
 	}
-	
+	input[type="radio"]:checked ~ .az-choose-location2{
+		height: auto;
+	}
 }
 
 .az-location-title{
@@ -329,10 +363,13 @@ h1.az-page{
 
 .az-order-input-wrap.textarea{
 	margin-left: -40px;
-	width: 100%;
+	width: auto;//100%;
+	max-width: 100000px;
 	textarea{
 		background: #f0f9ff;
-		width: 400px;
+		max-width: 400px;
+		width: 100%;
+		display: block;
 		height: 160px;
 		font-family: "PT_SansWebRegular";
 		font-size: 18px;
@@ -342,5 +379,22 @@ h1.az-page{
 		margin-top: 30px;
 		border-radius: 4px;
 		resize: none;
+	}
+}
+
+.az-forgot-pass{
+	font-family: "PT_SansWebRegular";
+	font-size: 14px;
+	line-height: 14px;
+	margin-left: 3px;
+	color: #006eaf;
+	text-decoration: none;
+	&:active, &:focus{
+		text-decoration: none;
+		color: #006eaf;
+	}
+	&:hover{
+		text-decoration: underline;
+		color: #006eaf;
 	}
 }
