@@ -220,6 +220,76 @@
 				</div>
 			</div>
 		</div>
+
+		<div id="log-reg" class="zoom-anim-dialog mfp-hide az-basket-popup az-log-reg-wrap clearfix">
+			<h2>Присоеденится к команде Manba очень легко!</h2>
+			<div class="az-log-reg az-order-steps">
+				<div id="tabs2">
+					<ul class="az-tabs">
+						<li><a href="#tabs-1" class="az-link az-list">Новый клиент</a></li>
+						<li><a href="#tabs-2" class="az-link az-map">Постоянный клиент</a></li>
+					</ul>
+					<div class="az-tabs-content">
+						<div class="az-tabs-content-inner">
+							<div id="tabs-1">
+								<div class="az-tabs-content-wrap">
+									<div class="az-tabs-step-item">
+										<form action="/">
+											<div class="az-order-input-wrap">
+												<input type="text" placeholder="Имя">
+											</div>
+											<div class="az-order-input-wrap">
+												<input type="text" placeholder="E-mail">
+											</div>
+											<div class="az-order-input-wrap password">
+												<input type="password" placeholder="Пароль">
+											</div>
+											<div class="az-order-input-wrap">
+												<div class="az-password-hard">
+													<div class="az-password-hard-inner"></div>
+												</div>
+												<span class="az-password-hard-span">Слабый пароль</span>
+											</div>
+											<div class="az-order-input-wrap az-captcha">
+												<img src="img/az-captcha.jpg" alt="">
+											</div>
+											<div class="az-order-input-wrap">
+												<input type="checkbox" name="" id="check101">
+												<label for="check101">Согласие с Политикой конфиденциальности и Условиями использования сервиса</label>
+											</div>
+											<div class="az-order-input-wrap submit">
+												<input type="submit" value="Зарегистрироваться">
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+							<div id="tabs-2">
+								<div class="az-tabs-content-wrap">
+									<div class="az-tabs-step-item">
+										<form action="/">
+											<div class="az-order-input-wrap">
+												<input type="text" placeholder="E-mail">
+											</div>
+											<div class="az-order-input-wrap password">
+												<input type="password" placeholder="Пароль">
+											</div>
+											<div class="az-order-input-wrap az-log-reg-check">
+												<input type="checkbox" name="" id="check102">
+												<label for="check102"><strong>Запомнить меня</strong></label>
+											</div>
+											<div class="az-order-input-wrap submit">
+												<input type="submit" value="Войти">
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	<!-- </div> -->
 
 	<script src="libs/jquery/dist/jquery.min.js"></script>

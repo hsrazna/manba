@@ -18,7 +18,7 @@
 			<ul class="az-header-feature">
 				<li><a href="#" class="az-favorite">Избранное</a></li>
 				<li><a href="#small-dialog" class="az-basket popup-with-move-anim">Корзина</a></li>
-				<li><a href="#" class="az-enter">Вход</a></li>
+				<li><a href="#log-reg" class="az-enter popup-with-move-anim">Вход</a></li>
 			</ul>
 			<a href="#" class="az-plus">Добавить объявление</a>
 		</div>

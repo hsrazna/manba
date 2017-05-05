@@ -1,0 +1,32 @@
+@import "vars";
+
+.az-log-reg-wrap{
+	min-height: 780px;
+	@include desktop(768){
+		padding: 50px 20px;
+	}
+}
+
+.az-log-reg{
+	max-width: 480px;
+	margin: 60px auto 0;
+}
+
+.az-log-reg-check{
+	margin-top: 12px;
+}
+
+.az-log-reg-wrap .az-order-steps .az-tabs .ui-tabs-active a{
+	@include desktop(480px){
+		font-size: 15px;
+		padding: 30px 0 0;
+	}
+}
+
+// .az-order-steps .az-tabs .ui-tabs-active a
+.az-log-reg-wrap .az-order-steps .az-tabs a{
+	@include desktop(480px){
+		font-size: 15px;
+		padding: 14px 0px 0;
+	}
+}

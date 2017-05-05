@@ -13,6 +13,7 @@ $(function() {
 	});
 	
 	$( "#tabs" ).tabs({ active: 0 });
+	$( "#tabs2" ).tabs({ active: 0 });
 
 	$(window).click(function(){
 		$(".az-cat>li").removeClass("active");
