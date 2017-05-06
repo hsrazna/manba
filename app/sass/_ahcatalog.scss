@@ -98,6 +98,9 @@
 /* ******************************************* */
 .ah-catalog-selectbox{
 	margin-top: 70px;
+	@include desktop(992){
+		margin-top: 10px;
+	}
 }
 .no-padd{
 	padding-left: 0px !important;

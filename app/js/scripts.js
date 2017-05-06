@@ -148,4 +148,20 @@ $(function() {
 	jQuery(".ui-slider span:first").attr("data-price", jQuery("#az-slider").slider("values",0));
 	jQuery(".ui-slider span:last").attr("data-price", jQuery("#az-slider").slider("values",1));
 
+	$(".az-click").click(function(){
+		$(this).toggleClass("on");
+		var az_temp = $(this).siblings(".az-slide-block");
+		if(az_temp.css("display") == "none"){
+			az_temp.find(".az-filter-cat-more").removeClass("on").siblings(".az-slide-block").slideUp(0);
+		}
+		az_temp.slideToggle(300);
+
+	});
+
+	$(".az-filter-cat-more").click(function(){
+		$(this).addClass("on");
+		$(this).siblings(".az-slide-block").slideDown(0);
+		return false;
+	});
+
 });
