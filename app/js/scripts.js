@@ -130,4 +130,22 @@ $(function() {
 		}
 	});
 
+	jQuery("#az-slider").slider({
+		min: parseInt($("input#minCost").val()),
+		max: parseInt($("input#maxCost").val()),
+		values: [parseInt($("input#startCost").val()),parseInt($("input#endCost").val())],
+		range: true,
+	    stop: function(event, ui) {
+	    	jQuery(".ui-slider span:first").attr("data-price", jQuery("#az-slider").slider("values",0));
+	    	jQuery(".ui-slider span:last").attr("data-price", jQuery("#az-slider").slider("values",1));
+		},
+		slide: function(event, ui){
+	    	jQuery(".ui-slider span:first").attr("data-price", jQuery("#az-slider").slider("values",0));
+	    	jQuery(".ui-slider span:last").attr("data-price", jQuery("#az-slider").slider("values",1));
+		}
+	}).draggable();
+
+	jQuery(".ui-slider span:first").attr("data-price", jQuery("#az-slider").slider("values",0));
+	jQuery(".ui-slider span:last").attr("data-price", jQuery("#az-slider").slider("values",1));
+
 });

@@ -13,13 +13,143 @@
 /* *************************************************** */
 .ah-filter{
 	height: 1096px;
-	background: #e2fee5;
+	// background: #e2fee5;
 	margin-top: 70px;
+	max-width: 202px;
 }
 
+.ah-filter{
+	h2{
+		font-size: 20px;
+		color: #006eaf;
+		line-height: 36px;
+		margin: 0;
+	}
+}
 
+.az-filter-item{
+	font-size: 0;
+	padding: 2px 0;
+	.az-bascet-del{
+		margin-left: 0;
+	}
+	a, span{
+		display: inline-block;
+		vertical-align: top;
+	}
+	span{
+		font-size: 18px;
+		color: #006eaf;
+		line-height: 30px;
+	}
+}
 
+.az-choose-filters{
+	margin-bottom: 30px;
+	.ah-person-itemlink{
+		margin-top: 10px;
+	}
+}
 
+.az-filters{
+	margin-bottom: 20px;
+	.az-order-input-wrap{
+		label{
+			display: block;
+		}
+	}
+}
+
+.az-tooltip {
+	// cursor: help;
+}
+
+.az-tooltip::after {
+	background: #cce2ef;
+	border-radius: 4px;
+	text-align: center;
+	// box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+	content: attr(data-tooltip); /* Главная часть кода, определяющая содержимое всплывающей подсказки */
+	opacity: 0; /* Наш элемент прозрачен... */
+	padding: 3px 7px;
+	position: absolute;
+	visibility: hidden; /* ...и скрыт. */
+	transition: all 0.4s ease-in-out; /* Добавить плавности по вкусу */
+	left: 100%;
+	width: 170px;
+	z-index: 3;
+	top: 50%;
+	transform: translate(0, -50%);
+	line-height: 45px;
+	display: inline-block;
+	vertical-align: top;
+	color: #006fb0;
+}
+		
+.az-tooltip:hover::after {
+	opacity: 1; /* Показываем его */
+	visibility: visible;
+}
+
+.az-tooltip:before{
+	opacity: 0; /* Наш элемент прозрачен... */
+	content: "";
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 0;
+	height: 0;
+	border-right: 10px solid #cce2ef;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	right: 0;
+	z-index: 10;
+	transition: all 0.4s ease-in-out; /* Добавить плавности по вкусу */
+	visibility: hidden; /* ...и скрыт. */
+}
+
+.az-tooltip:hover::before {
+	opacity: 1; /* Показываем его */
+	visibility: visible;
+}
+
+.az-range{
+	display: none;
+}
+
+.ui-slider{
+	margin: 30px 0;
+	height: 15px;
+	border-right: 4px;
+	border: 0 !important;
+	background: #cce2ef;
+	span:first-of-type, span:last-of-type{
+		&::before{
+			content: attr(data-price);
+			position: absolute;
+			bottom: 100%;
+			left: 50%;
+			transform: translate(-50%, 0);
+			font-size: 18px;
+			color: #006eaf;
+			line-height: 30px;
+		}
+	}
+
+	.ui-slider-range{
+		background: #7fb6d7;
+	}
+	.ui-slider-handle{
+		height: 31px;
+		width: 31px;
+		border: 0;
+		border-radius: 50%;
+		top: -8px;
+		background: #f0f9ff;
+		cursor: pointer;
+		margin-left: -15px;
+	}
+}
 
 
 

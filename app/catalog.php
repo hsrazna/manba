@@ -22,7 +22,9 @@
 	<link rel="stylesheet" href="libs/bootstrap-select/bootstrap-select.css">
 	<!-- bootstrap-select -->
 
+	<link rel="stylesheet" href="libs/jquery-ui-1.12.1/jquery-ui.min.css">
 	<link rel="stylesheet" href="libs/bootstrap-grid/bootstrap-grid.css">
+	<link rel="stylesheet" href="libs/magnific-popup/dist/magnific-popup.css">
 	<link rel="stylesheet" href="libs/font-awesome.min.css">
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css">
 	<link rel="stylesheet" href="css/main.css">
@@ -61,6 +63,9 @@
 	
 
 	<script src="libs/jquery/dist/jquery.min.js"></script>
+	<script src="libs/jquery-ui-1.12.1/jquery-ui.js"></script>
+	<script src="libs/jquery/dist/jquery.ui.touch-punch.min.js"></script>
+	<script src="libs/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
 	
 	<!-- bootstrap-select -->
 	<script src="libs/bootstrap/bootstrap.min.js"></script>
