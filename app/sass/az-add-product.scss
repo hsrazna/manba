@@ -1,0 +1,137 @@
+@import "vars";
+
+$blue: #006eaf;
+
+.az-add-tab-wrap{
+	font-size: 0;
+}
+
+.az-add-tab-col{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 18px;
+}
+
+.az-add-tabs{
+	font-size: 0;
+	li{
+		display: inline-block;
+		vertical-align: top;
+		font-size: 18px;
+	}
+}
+
+.az-add-tab-pre{
+	font-size: 22px;
+	line-height: 36px;
+	margin: 0;
+}
+
+.az-add-tabs{
+	li{
+		font-size: 22px;
+		line-height: 36px;
+	}
+	a{
+		font-family: "PT_SansWebRegular";
+		color: #006eaf;
+		position: relative;
+		padding: 0 0 0 40px;
+		cursor: pointer;
+		margin: 0 15px 0 21px;
+		text-decoration: none;
+		&::before{
+			content: "";
+			position: absolute;
+			border-radius: 50%;
+			top: 0;
+			left: 0;
+			width: 31px;
+			height: 31px;
+			background: #f0f9ff;
+		}
+		&:hover, &:active, &:focus{
+			color: #006eaf;
+			text-decoration: none;
+		}
+	}
+	.ui-tabs-active{
+		a{
+			&::after{
+				content: "";
+				position: absolute;
+				border-radius: 50%;
+				top: 8px;
+				left: 8px;
+				width: 15px;
+				height: 15px;
+				background: #78b4d7;
+			}
+		}
+	}
+}
+
+.az-add-tab-info{
+	margin-top: 30px;
+	.ah-person-itemlink{
+		min-width: 200px;
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 28px;
+		margin-bottom: 20px;
+	}
+	p{
+		font-size: 18px;
+		line-height: 24px;
+		margin-bottom: 20px;
+		a{
+			position: relative;
+			display: inline-block;
+			font-size: 18px;
+			text-decoration: none;
+			line-height: 24px;
+			color: $blue;
+			white-space: nowrap;
+			&::after{
+				content: "";
+				position: absolute;
+				bottom: 0px;
+				left: 0;
+				width: 100%;
+				height: 1px;
+				background: repeating-linear-gradient(to right, $blue 0px, $blue 2px, transparent 2px, transparent 4px);
+			}
+			&:focus, &.active{
+				text-decoration: none;
+				color: $blue;
+				font-size: 18px;
+				line-height: 24px;
+			}
+			&:hover{
+				font-size: 18px;
+				line-height: 24px;
+				&::after{
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+.az-row{
+	font-size: 0;
+}
+
+.az-add-tab1, .az-add-tab2{
+	vertical-align: bottom;
+	display: inline-block;
+	font-size: 18px;
+}
+
+.az-add-tab1{
+	width: 58.33%;
+}
+
+.az-add-tab2{
+	width: 41.66%;
+}

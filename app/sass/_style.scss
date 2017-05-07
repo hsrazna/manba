@@ -6,6 +6,9 @@
 
 body{
 	font-family: "PT_SansWebRegular";
+	color: #006eaf;
+	font-size: 18px;
+	line-height: 24px;
 }
 
 ul{
@@ -27,6 +30,7 @@ a{
 @import "az-popup";
 @import "order-for-front";
 @import "az-log-reg";
+@import "az-add-product";
 
 // .az-div{
 //     width: 100px;
