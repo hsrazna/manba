@@ -139,22 +139,39 @@
 	background: #fff;
 	height: 430px;
 	position: relative;
-	margin: 15px 0px;
+	margin: 15px auto;//0px;
+	max-width: 300px;
+
 	&:hover{
-		position: absolute;
-		height: 585px;
-		z-index: 999;
-		border-radius: 5px;
-		box-shadow: 0 0 7px rgba(0, 110, 175, 0.1);
-		transition: box-shadow 0.6s ease 0s;
+		.ah-catitem-imgbox, .ah-catalog-span, .ah-catitem-starsrow, .ah-catalog-span1{
+			position: relative;
+			z-index: 999;
+		}
+		// position: absolute;
+		// height: 585px;
+		// z-index: 999;
+		// transition: box-shadow 0.6s ease 0s;
 		.ah-catitem-hoverbox{
 			opacity: 1;
+			z-index: 990;
 		}
+	}
+	.ah-catitem-hoverbox{
+		border-radius: 5px;
+		top: 0;
+		// padding-top: 430px;
+		position: absolute;
+		box-shadow: 0 0 7px rgba(0, 110, 175, 0.1);
+		width: 100%;
+		margin-left: -15px;
+		// z-index: 990;
+		background: #fff;
+		padding: 430px 15px 0;
 	}
 }
 .ah-catitem-hoverbox{
 	opacity: 0;
-	transition: 0.8s;
+	transition: opacity 0.8s;
 }
 .ah-catalog-span{
 	display: block;
