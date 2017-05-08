@@ -1,4 +1,6 @@
+// @import "../libs/bootstrap-datetimepicker/src/sass/bootstrap-datetimepicker-build";
 @import "vars";
+
 
 $blue: #006eaf;
 
@@ -248,6 +250,48 @@ $blue: #006eaf;
 			background: #049f54;
 		}
 	}
+	input[type="radio"]{
+		display: none;
+	}
+	input[type="radio"] + label{
+		font-family: "PT_SansWebRegular";
+		font-size: 18px;
+		line-height: 31px;
+		color: #006eaf;
+		position: relative;
+		font-weight: normal;
+		padding: 0 0 0 40px;
+		display: inline-block;
+		vertical-align: top;
+		margin: 3px 0;
+		cursor: pointer;
+		&::before{
+			content: "";
+			position: absolute;
+			border-radius: 50%;
+			top: 0;
+			left: 0;
+			width: 31px;
+			height: 31px;
+			background: #f0f9ff;
+		}
+	}
+	input[type="radio"]:checked + label{
+		&::after{
+			content: "";
+			position: absolute;
+			border-radius: 50%;
+			top: 8px;
+			left: 8px;
+			width: 15px;
+			height: 15px;
+			background: #78b4d7;
+		}
+	}
+	&.radio{
+		max-width: 100%;
+		margin: 0;
+	}
 }
 
 .az-add-prod-photo{
@@ -299,4 +343,136 @@ $blue: #006eaf;
 	background: rgba(120, 179, 215, .3) url('../img/az-del-gal.png') center no-repeat;
 }
 
-// border: repeating-linear-gradient(to right, $blue 0px, $blue 2px, transparent 2px, transparent 4px);
+.az-product-item-inner{
+	padding-left: 38px;
+	.az-pin-item{
+		max-width: 614px;
+		margin: 10px 0;
+		label{
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 30px;
+			display: block;
+			margin: 0;
+		}
+		input[type="text"], input[type="password"], input[type="email"], input[type="tel"]{
+			max-width: 197px;
+		}
+		span{
+			font-size: 18px;
+			padding-left: 15px;
+		}
+	}
+}
+
+.datepicker.datepicker-dropdown{
+	background: #f0f9ff;
+	font-family: "PT_SansWebRegular";
+	font-size: 12px;
+	padding: 10px 20px 20px;
+	border: 0;
+	border-radius: 5px;
+	margin-top: 10px;
+	box-shadow: 0 0 12px rgba(0,0,0,.175);
+	&::before, &::after{
+		display: none;
+	}
+	.datepicker-switch{
+		text-transform: capitalize;
+		font-size: 14px;
+		&:hover{
+			background: transparent;
+		}
+	}
+	.prev{
+		font-size: 0;
+		&::before{
+			content: "";
+			width: 0;
+			height: 0;
+			border-right: 7px solid #b7d7eb;
+			border-top: 7px solid transparent;
+			border-bottom: 7px solid transparent;
+		}
+		&:hover{
+			background: transparent;
+			&::before{
+				border-right: 7px solid #7fb6d7;
+
+			}
+		}
+	}
+	.next{
+		font-size: 0;
+		&::before{
+			content: "";
+			width: 0;
+			height: 0;
+			border-left: 7px solid #b7d7eb;
+			border-top: 7px solid transparent;
+			border-bottom: 7px solid transparent;
+		}
+		&:hover{
+			background: transparent;
+			&::before{
+				border-left: 7px solid #7fb6d7;
+				
+			}
+		}
+	}
+	.datepicker-days{
+		table{
+			tr{
+				th.day, td.day{
+					padding: 0;
+					width: 28px;
+					height: 20px;
+				}
+				td{
+					color: #006fb0;
+					border-radius: 0;
+					&.active{
+						background: transparent !important;
+						border: 1px solid #006fb0;
+						&:hover{
+							color: #006fb0;
+							background: #e2fee5;
+						}
+					}
+					&:hover{
+						background: #e2fee5;
+					}
+					
+				}
+				td.old, td.new{
+					// font-size: 0;
+					color: lighten(#006fb0, 40%);
+					// opacity: 
+				}
+			}
+		}
+	}
+	.datepicker-months, .datepicker-years, .datepicker-decades, .datepicker-centuries{
+		span{
+			border-radius: 0;
+			padding: 0;
+			width: 40px;
+			height: 30px;
+			line-height: 30px;
+			&.active{
+				background: transparent !important;
+				border: 1px solid #006fb0;
+				color: #006fb0;
+				font-weight: normal;
+				&:hover{
+					color: #006fb0;
+					background: #e2fee5;
+				}
+			}
+			&:hover{
+				color: #006fb0;
+				background: #e2fee5;
+			}
+		}
+	}
+}

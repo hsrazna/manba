@@ -121,6 +121,39 @@
 										<input type="submit" value="Далее">
 									</div>
 								</form>
+								<form action="/">
+									<h3>2 шаг из 4.  Формат продажи</h3>
+									<div class="az-product-item">
+										<input type="radio" name="radio" id="radio801">
+										<label for="radio801">Аукцион</label>
+										<div class="az-product-item-inner">
+											<div class="az-pin-item">
+												<label>Начальная стоимость</label>
+												<input type="text" value="50">
+												<span>TJS</span>
+											</div>
+											<div class="az-pin-item">
+												<label>Продать сразу за</label>
+												<input type="text" value="510">
+												<span>TJS</span>
+											</div>
+											<div class="az-pin-item">
+												<label>Сроки аукциона</label>
+												<input type="text" value="20 март 2017" class="datepicker" data-date-format="dd MM yyyy">
+											</div>
+										</div>
+									</div>
+									<div class="az-product-item">
+										<input type="radio" name="radio" id="radio802">
+										<label for="radio802">Фиксированная цена</label>
+										<div class="az-product-item-inner">
+											<div class="az-pin-item">
+												<input type="text" value="50">
+												<span>TJS</span>
+											</div>
+										</div>
+									</div>
+								</form>
 							</div>
 						</div>
 						<div id="tabs-2">

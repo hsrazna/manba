@@ -26,6 +26,7 @@
   <!-- bootstrap-select -->
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="libs/bootstrap-select/bootstrap-select.css">
+	<link rel="stylesheet" href="libs/bootstrap-datepicker/dist/css/bootstrap-datepicker.css">
 	<!-- bootstrap-select -->
 
 	<link rel="stylesheet" href="css/main.css">
@@ -225,6 +226,8 @@
 	<!-- bootstrap-select -->
 	<script src="libs/bootstrap/bootstrap.min.js"></script>
 	<script src="libs/bootstrap-select/bootstrap-select.js"></script>
+	<script src="libs/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+	<!-- <script src="libs/bootstrap-datepicker/js/locales/bootstrap-datepicker.ru.js" charset="UTF-8"></script> -->
 	<!-- bootstrap-select -->
 
 	<script src="libs/owl.carousel/owl.carousel.min.js"></script>
