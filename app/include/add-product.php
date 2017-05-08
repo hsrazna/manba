@@ -32,7 +32,96 @@
 					</div>
 					<div class="az-add-tabs-content">
 						<div id="tabs-1">
-						1
+							<div class="az-product-tab">
+								<span class="az-product-tab-head">Для добавления одного товара заполни поля:</span>
+								<form action="/">
+									<h3>1 шаг из 4.  Описание товара</h3>
+									<span class="az-product-notice">* — обязательные поля для заполнения</span>
+									<div class="az-product-item">
+										<input type="text" placeholder="Название товара*" maxlength="80" class="az-prod-item-count">
+										<span class="az-prod-item-notice">Ввели <span class="az-prod-item-counted">0</span> из 80 символов</span>
+									</div>
+									<div class="az-product-item style2">
+										<input type="text" placeholder="Артикул">
+									</div>
+									<div class="az-product-item">
+										<div class="az-product-item style3">
+											<div class="az-order-select">
+												<select class="ah-catselect">
+												  <option>Товары</option>
+												  <option>Товары1</option>
+												  <option>Товары2</option>
+												</select>
+											</div>
+										</div>
+										<div class="az-product-item style3">
+											<div class="az-order-select">
+												<select class="ah-catselect">
+												  <option>Подкатегория*</option>
+												  <option>Подкатегория*1</option>
+												  <option>Подкатегория*2</option>
+												</select>
+											</div>
+										</div>
+									</div>
+									<div class="az-product-item style2">
+										<div class="az-order-select">
+											<select class="ah-catselect">
+											  <option>Производитель*</option>
+											  <option>Производитель*1</option>
+											  <option>Производитель*2</option>
+											</select>
+										</div>
+									</div>
+									<div class="az-product-item style2">
+										<div class="az-order-select">
+											<select class="ah-catselect">
+											  <option>Состояние*</option>
+											  <option>Состояние*1</option>
+											  <option>Состояние*2</option>
+											</select>
+										</div>
+									</div>
+									<div class="az-product-item">
+										<textarea name="" id="" cols="30" rows="10" placeholder="Описание товара"></textarea>
+									</div>
+									<h4>Фото товара</h4>
+									<div class="az-product-item" id="az-galary">
+										<a href="#" class="az-add-prod-photo" id="chooseGalleryImage">Добавить фотографию товара</a>
+									</div>
+									<h4>Товар находится</h4>
+									<div class="az-product-item style2">
+										<div class="az-order-select">
+											<select class="ah-catselect">
+											  <option>Страна</option>
+											  <option>Страна1</option>
+											  <option>Страна2</option>
+											</select>
+										</div>
+									</div>
+									<div class="az-product-item style2">
+										<div class="az-order-select">
+											<select class="ah-catselect">
+											  <option>Область</option>
+											  <option>Область1</option>
+											  <option>Область2</option>
+											</select>
+										</div>
+									</div>
+									<div class="az-product-item style2">
+										<div class="az-order-select">
+											<select class="ah-catselect">
+											  <option>Город</option>
+											  <option>Город1</option>
+											  <option>Город2</option>
+											</select>
+										</div>
+									</div>
+									<div class="az-product-item style4">
+										<input type="submit" value="Далее">
+									</div>
+								</form>
+							</div>
 						</div>
 						<div id="tabs-2">
 						2

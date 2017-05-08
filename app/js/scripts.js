@@ -165,4 +165,38 @@ $(function() {
 		return false;
 	});
 
+	$(".az-prod-item-count").keyup(function(){
+		$(this).siblings(".az-prod-item-notice").find(".az-prod-item-counted").text($(this).val().length);
+	});
+
+	$("#chooseGalleryImage").on('click', function(e) {
+        e.preventDefault();
+        $("#az-galary").find('.isNew').remove();
+        var timestamp = new Date().valueOf();
+        $("#az-galary").append('<input type="file" accept="image/*" name="village_photos[]" class="isNew" data-stamp="'+timestamp+'">');
+        $("#az-galary").find('.isNew:last').on('change', function(e) {
+            var fileList = e.target.files;
+            if (fileList.length) {
+                $("#az-galary").prepend(
+                    '<div class="az-prod-photo">'+
+                        '<img src="'+URL.createObjectURL(e.target.files[0])+'" alt="Фотогалерея">'+
+                        '<a href="#" class="az-del-prod-photo delFileByStamp" data-stamp="'+timestamp+'">Удалить</a>'+
+                    '</div>'
+                );
+                $(this).removeClass('isNew');
+            }
+        });
+        $("#az-galary").find('.isNew:last').click();
+    });
+
+	$('#az-galary').on('click', '.delFileByStamp', function() {
+        var timestamp = $(this).attr('data-stamp');
+        if (timestamp) {
+            $('input[data-stamp="'+timestamp+'"]').remove();
+            $(this).parents(".az-prod-photo").remove();
+        }
+        return false;
+    });
+
+
 });

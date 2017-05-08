@@ -2,6 +2,20 @@
 
 $blue: #006eaf;
 
+.az-add-product{
+	font-size: 0;
+	h3{
+		font-size: 22px;
+		line-height: 36px;
+		margin: 20px 0 5px;
+	}
+	h4{
+		font-size: 18px;
+		line-height: 36px;
+		margin: 10px 0;
+	}
+}
+
 .az-add-tab-wrap{
 	font-size: 0;
 }
@@ -135,3 +149,154 @@ $blue: #006eaf;
 .az-add-tab2{
 	width: 41.66%;
 }
+
+.az-product-tab-head{
+	display: block;
+	font-size: 22px;
+	line-height: 36px;
+	margin: 60px 0 15px;
+}
+
+.az-product-notice{
+	display: block;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 5px 0 25px;
+}
+
+.az-prod-item-notice{
+	font-size: 14px;
+	line-height: 20px;
+	display: block;
+	margin: 2px 0 0 2px;
+}
+
+.az-product-item{
+	margin: 20px 0px;
+	max-width: 570px;
+	font-size: 0;
+	&.style2{
+		max-width: 270px;
+	}
+	&.style3{
+		min-width: 270px;
+		display: inline-block;
+		vertical-align: top;
+		font-size: 18px;
+		margin: 0 30px 0 0;
+		&:nth-child(2n){
+			margin: 0;
+		}
+	}
+	&.style4{
+		max-width: 200px;
+		margin: 40px 0px 60px;
+	}
+	input[type="text"], input[type="password"], input[type="email"], input[type="tel"]{
+		width: 100%;
+		height: 45px;
+		background: #f0f9ff;
+		border-radius: 5px;
+		font-family: "PT_SansWebRegular";
+		font-size: 18px;
+		line-height: 45px;
+		color: #006eaf;
+		outline: none;
+		border: none;
+		padding: 0px 10px 0px 22px;
+	}
+	textarea{
+		background: #f0f9ff;
+		width: 100%;
+		display: block;
+		height: 120px;
+		font-family: "PT_SansWebRegular";
+		font-size: 18px;
+		line-height: 24px;
+		padding: 8px 22px;
+		color: #006eaf;
+		border-radius: 4px;
+		resize: none;
+	}
+	.ah-catselect .btn{
+		padding-left: 22px;
+	}
+	input[type="file"]{
+		display: none;
+	}
+	input[type="submit"]{
+		display: inline-block;
+		height: 45px;
+		background: #006eaf;
+		border-radius: 5px;
+		color: #fff;
+		font-family: "PT_SansWebBold";
+		font-size: 18px;
+		line-height: 45px;
+		text-align: center;
+		text-decoration: none;
+		margin-top: 12px;
+		width: 100%;
+		transition: background 0.6s ease;
+		&:active, &:focus{
+			color: #fff;
+			text-decoration: none;
+		}
+		&:hover{
+			color: #fff;
+			text-decoration: none;
+			background: #049f54;
+		}
+	}
+}
+
+.az-add-prod-photo{
+	border-radius: 5px;
+	border: 1px dashed $blue;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	font-size: 0;
+	vertical-align: top;
+	background: url(../img/ah-person-down.png) no-repeat center;
+}
+
+.az-prod-photo{
+	border-radius: 5px;
+	border: 1px dashed $blue;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 0;
+	position: relative;
+	overflow: hidden;
+	margin-right: 20px;
+	img{
+		max-width: 100%;
+		width: auto;
+		max-height: 100%;
+		height: auto;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	&:hover{
+		.az-del-prod-photo{
+			display: block;
+		}
+	}
+}
+
+.az-del-prod-photo{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(120, 179, 215, .3) url('../img/az-del-gal.png') center no-repeat;
+}
+
+// border: repeating-linear-gradient(to right, $blue 0px, $blue 2px, transparent 2px, transparent 4px);
