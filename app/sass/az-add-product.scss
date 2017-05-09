@@ -228,7 +228,8 @@ $blue: #006eaf;
 		}
 		.az-order-select{
 			display: inline-block;
-			min-width: 270px;
+			max-width: 270px;
+			width: calc(100% - 30px);
 			margin-left: 15px;
 			vertical-align: top;
 		}
