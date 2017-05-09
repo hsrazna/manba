@@ -22,6 +22,7 @@
 	<link rel="stylesheet" href="libs/font-awesome.min.css">
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css">
 	<link rel="stylesheet" href="libs/magnific-popup/dist/magnific-popup.css">
+	<!-- <link rel="stylesheet" href="libs/jquery-ui-1.12.1/jquery-ui.min.css"> -->
   
   <!-- bootstrap-select -->
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">

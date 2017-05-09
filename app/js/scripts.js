@@ -66,7 +66,7 @@ $(function() {
 	
 	$( "#tabs" ).tabs({ active: 0 });
 	$( "#tabs2" ).tabs({ active: 0 });
-	$( "#az-add-tabs" ).tabs({ active: 0 });
+	$( "#az-add-tabs" ).tabs({ active: 1 });
 
 	$(window).click(function(){
 		$(".az-cat>li").removeClass("active");
@@ -165,7 +165,7 @@ $(function() {
 		return false;
 	});
 
-	$(".az-prod-item-count").keyup(function(){
+	$("body").on("keyup", ".az-prod-item-count", function(){
 		$(this).siblings(".az-prod-item-notice").find(".az-prod-item-counted").text($(this).val().length);
 	});
 
@@ -198,6 +198,37 @@ $(function() {
         return false;
     });
 
+	$("#chooseGalleryImage2").on('click', function(e) {
+        e.preventDefault();
+        $("#az-galary2").find('.isNew').remove();
+        var timestamp = new Date().valueOf();
+        $("#az-galary2").append('<input type="file" accept="image/*" name="village_photos[]" class="isNew" data-stamp="'+timestamp+'">');
+        $("#az-galary2").find('.isNew:last').on('change', function(e) {
+            var fileList = e.target.files;
+            if (fileList.length) {
+                $("#az-galary2").prepend(
+                    '<div class="az-prod-photo">'+
+                        '<img src="'+URL.createObjectURL(e.target.files[0])+'" alt="Фотогалерея">'+
+                        '<a href="#" class="az-del-prod-photo delFileByStamp" data-stamp="'+timestamp+'">Удалить</a>'+
+                    '</div>'
+                );
+                $(this).removeClass('isNew');
+            }
+        });
+        $("#az-galary2").find('.isNew:last').click();
+    });
+
+	$('#az-galary').on('click', '.delFileByStamp', function() {
+        var timestamp = $(this).attr('data-stamp');
+        if (timestamp) {
+            $('input[data-stamp="'+timestamp+'"]').remove();
+            $(this).parents(".az-prod-photo").remove();
+        }
+        return false;
+    });
+
+
+
 	;(function($){
 		$.fn.datepicker.dates['ru'] = {
 			days: ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"],
@@ -218,6 +249,39 @@ $(function() {
 	    language: 'ru',
 	    leftArrow: '<span>asd</span>',
 	    rightArrow: '<span>dsa</span>'
+	});
+
+	$("#addNewService").on('click', function(e) {
+        e.preventDefault();
+        $("#addNewServiceWrap").append(''+
+		        						'<div class="az-new-service">'+
+											'<div class="az-product-item">'+
+												'<input type="text" placeholder="Название услуги*" maxlength="80" class="az-prod-item-count" name="newServiceName[]">'+
+												'<span class="az-prod-item-notice">Ввели <span class="az-prod-item-counted">0</span> из 80 символов</span>'+
+											'</div>'+
+											'<div class="az-service-item">'+
+												'<input type="text" value="50" name="newServiceValue[]">'+
+												'<span>TJS</span>'+
+												'<div class="az-order-select">'+
+													'<select class="ah-catselect" name="newServicetime[]">'+
+													  '<option>В час</option>'+
+													  '<option>В день</option>'+
+													  '<option>В неделю</option>'+
+													'</select>'+
+												'</div>'+
+											'</div>'+
+											'<a href="#" class="az-new-service-del az-bascet-del">Удалить услугу</a>'+
+										'</div>'
+							        );
+
+        $('.ah-catselect').selectpicker({
+		  size: 4
+		});
+    });
+
+	$('#addNewServiceWrap').on('click', '.az-new-service-del', function(e) {
+        e.preventDefault();
+		$(this).parents(".az-new-service").remove();
 	});
 
 });

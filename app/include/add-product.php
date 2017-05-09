@@ -270,7 +270,197 @@
 							</div>
 						</div>
 						<div id="tabs-2">
-						2
+							<div class="az-service-tab">
+								<span class="az-product-tab-head">Для добавления одного товара заполни поля:</span>
+								<form action="/">
+									<span class="az-product-notice">* — обязательные поля для заполнения</span>
+									<div class="az-product-item style2">
+										<input type="text" placeholder="Фамилия">
+									</div>
+									<div class="az-product-item style2">
+										<input type="text" placeholder="Профессия">
+									</div>
+									<div class="az-product-item style2">
+										<div class="az-order-select">
+											<select class="ah-catselect">
+											  <option>Страна</option>
+											  <option>Страна1</option>
+											  <option>Страна2</option>
+											</select>
+										</div>
+									</div>
+									<div class="az-product-item style2">
+										<div class="az-order-select">
+											<select class="ah-catselect">
+											  <option>Область</option>
+											  <option>Область1</option>
+											  <option>Область2</option>
+											</select>
+										</div>
+									</div>
+									<div class="az-product-item style2">
+										<div class="az-order-select">
+											<select class="ah-catselect">
+											  <option>Город</option>
+											  <option>Город1</option>
+											  <option>Город2</option>
+											</select>
+										</div>
+									</div>
+									<div class="az-product-item">
+										<div class="az-product-item style3">
+											<div class="az-order-select">
+												<select class="ah-catselect">
+												  <option>Услуги</option>
+												  <option>Услуги1</option>
+												  <option>Услуги2</option>
+												</select>
+											</div>
+										</div>
+										<div class="az-product-item style3">
+											<div class="az-order-select">
+												<select class="ah-catselect">
+												  <option>Подкатегория*</option>
+												  <option>Подкатегория*1</option>
+												  <option>Подкатегория*2</option>
+												</select>
+											</div>
+										</div>
+									</div>
+									<div class="az-product-item">
+										<input type="text" placeholder="Название услуги*" maxlength="80" class="az-prod-item-count">
+										<span class="az-prod-item-notice">Ввели <span class="az-prod-item-counted">0</span> из 80 символов</span>
+									</div>
+									<div class="az-product-item">
+										<textarea name="" id="" cols="30" rows="10" placeholder="Описание услуги"></textarea>
+									</div>
+									<h4>Опыт (годы)</h4>
+									<div class="az-product-item style2">
+										<div class="az-range">
+											<input type="text" id="minCost" value="0">
+											<input type="text" id="startCost" value="2">
+											<input type="text" id="maxCost" value="10">
+											<input type="text" id="endCost" value="5">
+										</div>
+										<div class="az-range-slider">
+											<div id="az-slider"></div>
+										</div>
+									</div>
+									<h4>Реальные фото моих работ</h4>
+									<div class="az-product-item" id="az-galary2">
+										<a href="#" class="az-add-prod-photo" id="chooseGalleryImage2">Добавить фотографию работы</a>
+									</div>
+									<h4>Услуга предоставляется</h4>
+									<div class="az-product-item">
+										<input type="radio" name="radio12" id="radio901">
+										<label for="radio901">Худжанд, Таджикистан</label>
+										<div class="az-product-item-inner">
+											<div class="az-pin-item style2">
+												<input type="text" value="ул. М.Танбури 20">
+											</div>
+										</div>
+									</div>
+									<div class="az-product-item">
+										<input type="radio" name="radio12" id="radio902">
+										<label for="radio902">Худжанд, Таджикистан</label>
+										<div class="az-product-item-inner">
+											<div class="az-product-item style2">
+												<div class="az-order-select">
+													<select class="ah-catselect">
+													  <option>Страна</option>
+													  <option>Страна1</option>
+													  <option>Страна2</option>
+													</select>
+												</div>
+											</div>
+											<div class="az-product-item style2">
+												<div class="az-order-select">
+													<select class="ah-catselect">
+													  <option>Область</option>
+													  <option>Область1</option>
+													  <option>Область2</option>
+													</select>
+												</div>
+											</div>
+											<div class="az-product-item style2">
+												<div class="az-order-select">
+													<select class="ah-catselect">
+													  <option>Город</option>
+													  <option>Город1</option>
+													  <option>Город2</option>
+													</select>
+												</div>
+											</div>
+											<div class="az-product-item style2">
+												<input type="text" placeholder="Полный адрес">
+											</div>
+											<div class="az-pin-item style2">
+												<label class="az-fz">или отметить на карте</label>
+												<div id="map2" class="map"></div>
+											</div>
+										</div>
+									</div>
+									<h4>Стоимость работы</h4>
+									<div class="az-service-item">
+										<input type="text" value="50">
+										<span>TJS</span>
+										<div class="az-order-select">
+											<select class="ah-catselect">
+											  <option>В час</option>
+											  <option>В день</option>
+											  <option>В неделю</option>
+											</select>
+										</div>
+									</div>
+									<div class="az-product-item checkbox">
+										<input type="checkbox" name="checkbox" id="check113">
+										<label for="check113">Возможность заказчиков торговаться</label>
+									</div>
+									<div class="az-product-item checkbox">
+										<input type="checkbox" name="checkbox" id="check114">
+										<label for="check114">За бонусы</label>
+										<div class="az-product-item-inner style3">
+											<div class="az-product-item">
+												<input type="radio" name="radio3" id="radio901">
+												<label for="radio901">2,5%</label>
+											</div>
+											<div class="az-product-item">
+												<input type="radio" name="radio3" id="radio902">
+												<label for="radio902">5%</label>
+											</div>
+											<div class="az-product-item">
+												<input type="radio" name="radio3" id="radio903">
+												<label for="radio903">7,5%</label>
+											</div>
+										</div>
+									</div>
+									<h4>Дополнительные услуги</h4>
+									<div id="addNewServiceWrap">
+										<div class="az-new-service">
+											<div class="az-product-item">
+												<input type="text" placeholder="Название услуги*" maxlength="80" class="az-prod-item-count" name="newServiceName[]">
+												<span class="az-prod-item-notice">Ввели <span class="az-prod-item-counted">0</span> из 80 символов</span>
+											</div>
+											<div class="az-service-item">
+												<input type="text" value="50" name="newServiceValue[]">
+												<span>TJS</span>
+												<div class="az-order-select">
+													<select class="ah-catselect" name="newServicetime[]">
+													  <option>В час</option>
+													  <option>В день</option>
+													  <option>В неделю</option>
+													</select>
+												</div>
+											</div>
+											<a href="#" class="az-new-service-del az-bascet-del">Удалить услугу</a>
+										</div>
+									</div>
+									<a href="#" id="addNewService" class="az-add-new-service-link az-basket-continue">Добавить еще дополнительную услугу</a>
+									<div class="az-product-item style2">
+										<input type="submit" value="Создать объявление">
+									</div>
+								</form>
+							</div>
 						</div>
 						<div id="tabs-3">
 						3
@@ -305,4 +495,29 @@
 		zMap.geoObjects.add(zPlacemark);
 	}
 
+</script>
+
+<script>
+	ymaps.ready(init);
+
+	var zMap2,
+		zPlacemark2;
+
+	function init(){
+		zMap2 = new ymaps.Map("map2", {
+			center: [55.769432, 37.646961],
+			zoom: 16
+		});
+
+		zMap2.behaviors.disable('scrollZoom'); 
+
+		zPlacemark2 = new ymaps.Placemark([55.769432, 37.646961], {}, {
+			iconLayout: 'default#image',
+			iconImageHref: '/img/balun.png',
+			iconImageSize: [32, 53],
+			iconImageOffset: [-20, -52]
+		});
+		zMap2.geoObjects.add(zPlacemark2);
+		// zMap2.controls.add('mapTools');
+	}
 </script>

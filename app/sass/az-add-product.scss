@@ -6,6 +6,7 @@ $blue: #006eaf;
 
 .az-add-product{
 	font-size: 0;
+	padding-bottom: 100px;
 	h3{
 		font-size: 22px;
 		line-height: 36px;
@@ -402,6 +403,7 @@ $blue: #006eaf;
 		max-width: 614px;
 		margin: 10px 0;
 		&.style2{
+			// max-width: 270px;
 			input[type="text"], input[type="password"], input[type="email"], input[type="tel"]{
 				max-width: 270px;
 			}
@@ -412,6 +414,11 @@ $blue: #006eaf;
 			line-height: 30px;
 			display: block;
 			margin: 0;
+			&.az-fz{
+				font-size: 18px;
+				line-height: 18px;
+				margin: 15px 0;
+			}
 		}
 		input[type="text"], input[type="password"], input[type="email"], input[type="tel"]{
 			max-width: 197px;
@@ -575,4 +582,102 @@ $blue: #006eaf;
 			background: #f0f9ff url(../img/ah-chek1.png) no-repeat center;
 		}
 	}
+}
+
+.az-service-item{
+	font-size: 0;
+	margin: 20px 0;
+	@include desktop(480){
+		max-width: 320px;
+	}
+	input[type="text"], input[type="password"], input[type="email"], input[type="tel"]{
+		display: inline-block;
+		vertical-align: top;
+		font-size: 18px;
+		width: 100%;
+		max-width: 180px;
+		height: 45px;
+		background: #f0f9ff;
+		border-radius: 5px;
+		font-family: "PT_SansWebRegular";
+		line-height: 45px;
+		color: #006eaf;
+		outline: none;
+		border: none;
+		padding: 0px 10px 0px 22px;
+		@include desktop(480){
+			display: block;
+			margin-bottom: 10px;
+			max-width: 100%;
+		}
+	}
+	>span{
+		display: inline-block;
+		vertical-align: top;
+		font-size: 18px;
+		line-height: 45px;
+		margin: 0 12px;
+	}
+	.az-order-select{
+		display: inline-block;
+		vertical-align: top;
+		font-size: 18px;
+		max-width: 160px;
+		width: 100%;
+	}
+}
+
+.az-new-service{
+	font-size: 0;
+	position: relative;
+	.az-product-item{
+		display: inline-block;
+		vertical-align: top;
+		font-size: 18px;
+		width: 100%;
+		@include desktop(1200){
+			margin-bottom: 10px;
+		}
+
+	}
+	.az-product-item{
+		display: inline-block;
+		vertical-align: top;
+		font-size: 18px;
+		width: 100%;
+		margin-right: 20px;
+		margin-top: 0;
+	}
+	.az-service-item{
+		display: inline-block;
+		vertical-align: top;
+		// font-size: 18px;
+		width: 100%;
+		max-width: 400px;
+		margin-top: 0;
+		margin-bottom: 40px;
+		@include desktop(480){
+			max-width: 240px;
+		}
+	}
+}
+
+a.az-add-new-service-link{
+	&::after{
+		bottom: 6px;
+	}
+	@include desktop(768){
+		font-size: 18px;
+		&:hover, &:active, &:focus{
+			font-size: 18px;
+		}
+	}
+}
+
+.az-new-service-del{
+	font-size: 0;
+	position: relative;
+	top: 7px;
+	margin-right: 0;
+
 }

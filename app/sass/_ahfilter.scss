@@ -169,6 +169,7 @@
 	border-right: 4px;
 	border: 0 !important;
 	background: #cce2ef;
+	border-radius: 5px;
 	span:first-of-type, span:last-of-type{
 		&::before{
 			content: attr(data-price);
@@ -184,8 +185,11 @@
 
 	.ui-slider-range{
 		background: #7fb6d7;
+		height: 100%;
+		position: absolute;
 	}
 	.ui-slider-handle{
+		position: absolute;
 		height: 31px;
 		width: 31px;
 		border: 0;
