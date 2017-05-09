@@ -250,6 +250,22 @@
 										<input type="checkbox" name="checkbox" id="check112">
 										<label for="check112">Карты</label>
 									</div>
+									<div class="az-product-item style5">
+										<textarea name="" id="" cols="30" rows="10" placeholder="Условия возврата и обмена"></textarea>
+									</div>
+									<div class="az-product-item style6">
+										<label for="select1">Я</label>
+										<div class="az-order-select">
+											<select class="ah-catselect">
+											  <option>частное лицо</option>
+											  <option>частное лицо1</option>
+											  <option>частное лицо2</option>
+											</select>
+										</div>
+									</div>
+									<div class="az-product-item style2">
+										<input type="submit" value="Создать объявление">
+									</div>
 								</form>
 							</div>
 						</div>

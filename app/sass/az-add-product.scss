@@ -34,6 +34,9 @@ $blue: #006eaf;
 		display: inline-block;
 		vertical-align: top;
 		font-size: 18px;
+		@include desktop(768){
+			display: block;
+		}
 	}
 }
 
@@ -146,10 +149,22 @@ $blue: #006eaf;
 
 .az-add-tab1{
 	width: 58.33%;
+	@include desktop(1200){
+		width: 50%;
+	}
+	@include desktop(992){
+		width: 100%;
+	}
 }
 
 .az-add-tab2{
 	width: 41.66%;
+	@include desktop(1200){
+		width: 50%;
+	}
+	@include desktop(992){
+		width: 100%;
+	}
 }
 
 .az-product-tab-head{
@@ -189,10 +204,34 @@ $blue: #006eaf;
 		&:nth-child(2n){
 			margin: 0;
 		}
+		@include desktop(768){
+			display: block;
+			max-width: 270px;
+			min-width: 0;
+			margin-bottom: 20px;
+		}
 	}
 	&.style4{
 		max-width: 200px;
 		margin: 40px 0px 60px;
+	}
+	&.style5{
+		margin: 55px 0px 40px;
+	}
+	&.style6{
+		label{
+			font-size: 18px;
+			font-weight: normal;
+			display: inline-block;
+			vertical-align: top;
+			line-height: 45px;
+		}
+		.az-order-select{
+			display: inline-block;
+			min-width: 270px;
+			margin-left: 15px;
+			vertical-align: top;
+		}
 	}
 	input[type="text"], input[type="password"], input[type="email"], input[type="tel"]{
 		width: 100%;
