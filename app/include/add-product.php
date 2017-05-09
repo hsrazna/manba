@@ -153,6 +153,103 @@
 											</div>
 										</div>
 									</div>
+									<h4>Дополнительные варианты продажи:</h4>
+									<div class="az-product-item checkbox">
+										<input type="checkbox" name="checkbox" id="check101">
+										<label for="check101">Возможность покупателей торговаться</label>
+									</div>
+									<div class="az-product-item checkbox">
+										<input type="checkbox" name="checkbox" id="check102">
+										<label for="check102">В кредит</label>
+									</div>
+									<div class="az-product-item-inner style2">
+										<div class="az-product-item checkbox">
+											<textarea name="" id="" cols="30" rows="10" placeholder="Условия кредитирования"></textarea>
+										</div>
+									</div>
+									<div class="az-product-item checkbox">
+										<input type="checkbox" name="checkbox" id="check103">
+										<label for="check103">В рассрочку</label>
+									</div>
+									<div class="az-product-item checkbox">
+										<input type="checkbox" name="checkbox" id="check104">
+										<label for="check104">За бонусы</label>
+									</div>
+									<div class="az-product-item-inner style3">
+										<div class="az-product-item">
+											<input type="radio" name="radio3" id="radio901">
+											<label for="radio901">2,5%</label>
+										</div>
+										<div class="az-product-item">
+											<input type="radio" name="radio3" id="radio902">
+											<label for="radio902">5%</label>
+										</div>
+										<div class="az-product-item">
+											<input type="radio" name="radio3" id="radio903">
+											<label for="radio903">7,5%</label>
+										</div>
+									</div>
+									<div class="az-product-item style4">
+										<input type="submit" value="Далее">
+									</div>
+								</form>
+								<form action="/">
+									<h3>3 шаг из 4.  Условия доставки</h3>
+									<div class="az-product-item">
+										<input type="checkbox" name="checkbox" id="check105">
+										<label for="check105">Самовывоз</label>
+										<div class="az-product-item-inner">
+											<div class="az-pin-item style2">
+												<label for="input-text1">Адрес</label>
+												<input type="text" id="input-text1" value="ул. М.Танбури 20, Худжанд ">
+											</div>
+											<div class="az-pin-item style2">
+												<label for="input-text1">или отметить на карте</label>
+												<div id="map1" class="map"></div>
+											</div>
+										</div>
+									</div>
+									<div class="az-product-item checkbox">
+										<input type="checkbox" name="checkbox" id="check106">
+										<label for="check106">Доставка, организованная продавцом</label>
+									</div>
+									<div class="az-product-item-inner style2">
+										<div class="az-product-item checkbox">
+											<textarea name="" id="" cols="30" rows="10" placeholder="Условия доставки и тарифы"></textarea>
+										</div>
+									</div>
+									<div class="az-product-item checkbox">
+										<input type="checkbox" name="checkbox" id="check107">
+										<label for="check107">Перевозчики Манба</label>
+									</div>
+									<div class="az-product-item-inner style2">
+										<div class="az-product-item checkbox">
+											<input type="checkbox" name="checkbox" id="check108">
+											<label for="check108">физлица</label>
+										</div>
+										<div class="az-product-item checkbox">
+											<input type="checkbox" name="checkbox" id="check109">
+											<label for="check109">бизнес</label>
+										</div>
+									</div>
+									<div class="az-product-item style4">
+										<input type="submit" value="Далее">
+									</div>
+								</form>
+								<form action="/">
+									<h3>4 шаг из 4.  Способа оплаты</h3>
+									<div class="az-product-item checkbox">
+										<input type="checkbox" name="checkbox" id="check110">
+										<label for="check110">Наличный</label>
+									</div>
+									<div class="az-product-item checkbox">
+										<input type="checkbox" name="checkbox" id="check111">
+										<label for="check111">Безналичный</label>
+									</div>
+									<div class="az-product-item checkbox">
+										<input type="checkbox" name="checkbox" id="check112">
+										<label for="check112">Карты</label>
+									</div>
 								</form>
 							</div>
 						</div>
@@ -168,3 +265,28 @@
 		</div>
 	</div>
 </div>
+
+<script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+<script type="text/javascript">
+	ymaps.ready(init);
+	var zMap,
+		zPlacemark;
+
+	function init(){
+		zMap = new ymaps.Map("map1", {
+			center: [55.769432, 37.646961],
+			zoom: 16
+		});
+
+		zMap.behaviors.disable('scrollZoom'); 
+
+		zPlacemark = new ymaps.Placemark([55.769432, 37.646961], {}, {
+			iconLayout: 'default#image',
+			iconImageHref: '/img/balun.png',
+			iconImageSize: [32, 53],
+			iconImageOffset: [-20, -52]
+		});
+		zMap.geoObjects.add(zPlacemark);
+	}
+
+</script>

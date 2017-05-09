@@ -14,7 +14,7 @@ $blue: #006eaf;
 	h4{
 		font-size: 18px;
 		line-height: 36px;
-		margin: 10px 0;
+		margin: 30px 0 10px;
 	}
 }
 
@@ -316,6 +316,7 @@ $blue: #006eaf;
 	position: relative;
 	overflow: hidden;
 	margin-right: 20px;
+	margin-bottom: 20px;
 	img{
 		max-width: 100%;
 		width: auto;
@@ -345,9 +346,26 @@ $blue: #006eaf;
 
 .az-product-item-inner{
 	padding-left: 38px;
+	&.style2{
+		margin-bottom: 20px;
+	}
+	&.style3{
+		font-size: 0;
+		.az-product-item{
+			margin: 3px 0;
+			label{
+				margin: 0;
+			}
+		}
+	}
 	.az-pin-item{
 		max-width: 614px;
 		margin: 10px 0;
+		&.style2{
+			input[type="text"], input[type="password"], input[type="email"], input[type="tel"]{
+				max-width: 270px;
+			}
+		}
 		label{
 			font-weight: normal;
 			font-size: 14px;
@@ -357,10 +375,19 @@ $blue: #006eaf;
 		}
 		input[type="text"], input[type="password"], input[type="email"], input[type="tel"]{
 			max-width: 197px;
+			width: 100%;
+			font-size: 18px;
+
 		}
 		span{
 			font-size: 18px;
 			padding-left: 15px;
+		}
+		.map{
+			max-width: 400px;
+			height: 275px;
+			border-radius: 5px;
+			overflow: hidden;
 		}
 	}
 }
@@ -445,9 +472,7 @@ $blue: #006eaf;
 					
 				}
 				td.old, td.new{
-					// font-size: 0;
 					color: lighten(#006fb0, 40%);
-					// opacity: 
 				}
 			}
 		}
@@ -473,6 +498,41 @@ $blue: #006eaf;
 				color: #006fb0;
 				background: #e2fee5;
 			}
+		}
+	}
+}
+
+.az-product-item{
+	&.checkbox{
+		margin: 3px 0;
+	}
+	input[type="checkbox"]{
+		display: none;
+	}
+	input[type="checkbox"] + label{
+		font-family: "PT_SansWebRegular";
+		font-size: 18px;
+		line-height: 24px;
+		color: #006eaf;
+		position: relative;
+		padding-left: 40px;
+		font-weight: normal;
+		padding-top: 3px;
+		cursor: pointer;
+		&::before{
+			content: "";
+			position: absolute;
+			border-radius: 4px;
+			top: 0;
+			left: 0;
+			width: 32px;
+			height: 32px;
+			background: #f0f9ff url(../img/ah-chek0.png) no-repeat center;
+		}
+	}
+	input[type="checkbox"]:checked + label{
+		&::before{
+			background: #f0f9ff url(../img/ah-chek1.png) no-repeat center;
 		}
 	}
 }
