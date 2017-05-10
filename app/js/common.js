@@ -48,4 +48,22 @@ $(function() {
 	if($("#progressbar").length>0){
 		$( "#progressbar" ).progressbar({value: 85});
 	}
+
+	if($(".ah-cardprod-slider").length>0){
+
+		$('.ah-cardprod-slider').owlCarousel({
+	        items:1,
+	        loop:false,
+	        center:true,
+	        margin:0,
+	        nav: true,
+	        navText:['<span class="arrow-left1"></span>','<span class="arrow-right1"></span>'],
+	        URLhashListener:true,
+	        autoplayHoverPause:true,
+	        startPosition: 'URLHash'
+	    });
+
+	}
+
+
 });

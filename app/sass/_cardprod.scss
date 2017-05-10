@@ -1,0 +1,78 @@
+@import "vars";
+
+
+// .btn{
+// 	font-family: "PT_SansWebRegular";
+// 	color: #006eaf;
+// 	font-size: 18px;
+//     padding: 8px 30px;
+// 	@include mobile(768){
+// 		padding: 8px 7px;
+// 	}
+// 	@include mobile(992){
+// 		padding: 8px 30px;
+// 	}
+// }
+
+.ah-cardprod-list{
+	display: block;
+	width: 100%;
+	max-width: 235px;
+	li{
+		display: block;
+		span{
+			display: block;
+			font-family: "PT_SansWebRegular";
+			color: #006fb0;
+			font-size: 18px;
+			line-height: 24px;
+			span{
+				float: right;
+				display: inline-block;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+.ah-cardprod-starsrow{
+	display: inline-block;
+	font-family: "PT_SansWebRegular";
+	color: #006fb0;
+	font-size: 14px;
+	line-height: 24px;
+}
+.ah-cardprod-dotwrapp{
+	width: 100%;
+	font-size: 0;
+	text-align: center;
+}
+.ah-cardslider-dot{
+	display: inline-block;
+	width: 71px;
+	height: 72px;
+	margin: 0px 10px;
+
+outline: 1px solid red;
+
+	img{
+		width: 71px;
+		height: 72px;
+		margin: 0 auto;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
