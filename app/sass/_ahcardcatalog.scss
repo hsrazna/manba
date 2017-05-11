@@ -1,0 +1,53 @@
+@import "vars";
+
+.ah-cardcatalog-linkbox{
+	margin-top: 50px !important;
+}
+.ah-cardcatalog-link{
+	opacity: 5 !important;
+	z-index: 9999 !important;
+}
+.ah-cardcatalog-span{
+	display: block;
+	font-family: "PT_SansWebRegular";
+	color: #006fb0;
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: 13px;
+	span{
+		float: right;
+	}
+}
+.ah-cardcatalog-hoverbox{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #f0f9ff;
+	padding: 15px 15px;
+	opacity: 0;
+}
+.ah-cardcatalog-item:hover{
+	.ah-cardcatalog-hoverbox{
+		opacity: 1;
+		z-index: 9999999;
+	}
+}
+.ah-cardcatalog-span1{
+	margin-top: 0px !important;
+}
+.ah-cardcatalog-text{
+	display: block;
+	font-family: "PT_SansWebRegular";
+	color: #006fb0;
+	font-size: 14px;
+	line-height: 20px;
+	width: 220px;
+	height: 220px;
+	overflow: hidden;
+}
+.ah-cardcatalog-span11{
+	font-size: 22px !important;
+	line-height: 24px !important;
+}
