@@ -38,6 +38,7 @@
 .ah-cardprod-arrsbox{
 	vertical-align: middle !important;
 	margin-bottom: 0px !important;
+	font-size: 0;
 }
 .ah-cardprod-title{
 	display: block;
@@ -251,8 +252,9 @@
 	font-family: "PT_SansWebRegular";
 	color: #006fb0;
 	font-size: 14px;
-	line-height: 24px;
+	line-height: 20px;
 	margin-left: 20px;
+	vertical-align: top;
 }
 .ah-cardprod-dotwrapp{
 	width: 100%;
