@@ -1,0 +1,105 @@
+@import "vars";
+
+.az-personal-product{
+	h2{
+		font-size: 22px;
+		line-height: 30px;
+	}
+}
+
+.az-pp-top-left{
+	float: left;
+}
+
+.az-pp-top-right{
+	float: right;
+	font-size: 0;
+	line-height: 30px;
+}
+
+.az-moderation{
+	display: inline-block;
+	vertical-align: top;
+	width: 150px;
+	height: 30px;
+	font-size: 14px;
+	line-height: 30px;
+	padding: 0 14px;
+	text-decoration: none;
+	background: #fff5f0;
+	border-radius: 5px;
+	transition: background 0.6s ease;
+	color: #006eaf;
+	&:active, &:focus{
+		color: #006eaf;
+		text-decoration: none;
+	}
+	&:hover{
+		background: darken(#fff5f0, 10%);
+		color: #006eaf;
+		text-decoration: none;
+	}
+}
+
+.az-pp-link{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 18px;
+}
+
+.az-pp-pay{
+	@extend .az-moderation;
+	text-align: center;
+	background: #cce2ef;
+	vertical-align: middle;
+	margin-right: 13px;
+	&:hover{
+		background: #e2fee5;
+	}
+}
+
+.az-pp-correct{
+	@extend .az-pp-link;
+	width: 30px;
+	height: 30px;
+	background: transparent url('../img/az-pencil.png') center no-repeat;
+	opacity: .7;
+	transition: opacity 0.6s ease;
+	font-size: 0;
+	margin-right: 12px;
+	&:hover{
+		opacity: 1;
+	}
+}
+
+.az-pp-slide-link{
+	@extend .az-pp-link;
+	font-size: 0;
+	margin-right: 4px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	&::before{
+		content: "";
+		display: inline-block;
+		vertical-align: middle;
+		width: 0;
+		height: 0;
+		border-bottom: 7px solid #7fb6d7;
+		border-left: 7px solid transparent;
+		border-right: 7px solid transparent;
+		opacity: .7;
+		transition: opacity 0.6s ease;
+	}
+	&:hover{
+		&::before{
+			opacity: 1;
+		}
+	}
+	&.on{
+		&::before{
+			border-top: 7px solid #7fb6d7;
+			border-bottom: 0;
+		}
+	}
+}
