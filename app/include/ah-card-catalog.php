@@ -212,6 +212,7 @@
 					</div>
 				</div>
 			</div>
+			<div class="clearfix"></div>
 			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 no-padd">
 				<div class="ah-catalog-item">
 					<div class="ah-catitem-imgbox">
@@ -420,6 +421,7 @@
 					</div>
 				</div>
 			</div>
+			<div class="clearfix"></div>
 			<div class="col-md-12">
 				<div class="ah-cardtab-leftlinkbox ah-cardcatalog-linkbox">
 					<a href="#" class="ah-cardtab-leftlink ah-cardcatalog-link">Показать еще</a>
@@ -642,6 +644,7 @@
 					</div>
 				</div>
 			</div>
+			<div class="clearfix"></div>
 			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 no-padd">
 				<div class="ah-catalog-item">
 					<div class="ah-catitem-imgbox">
@@ -850,6 +853,7 @@
 					</div>
 				</div>
 			</div>
+			<div class="clearfix"></div>
 			<div class="col-md-12">
 				<div class="ah-cardtab-leftlinkbox ah-cardcatalog-linkbox">
 					<a href="#" class="ah-cardtab-leftlink ah-cardcatalog-link">Показать еще</a>
