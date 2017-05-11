@@ -46,6 +46,8 @@
 	<?php require_once "include/breadcrumbs.php"; ?>
 
 	<?php require_once "include/cardprod.php"; ?>
+	<?php require_once "include/ah-card-tab.php"; ?>
+
 
 	<?php require_once "include/ah-textbox.php"; ?>
 	<?php require_once "include/footer.php"; ?>

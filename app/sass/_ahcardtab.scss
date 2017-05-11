@@ -1,0 +1,214 @@
+@import "vars";
+
+
+
+
+.ah-cardtab2-item{
+	margin: 20px 0px;
+}
+.ah-cardtab2-link{
+	text-align: left !important;
+}
+.ah-cardtab2-text{
+	display: block;
+	font-family: "PT_SansWebRegular";
+	color: #006fb0;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 12px 0px;
+}
+.ah-cardtab2-span{
+	display: block;
+	font-family: "PT_SansWebRegular";
+	color: #006fb0;
+	font-size: 16px;
+	line-height: 24px;
+}
+.ah-cardtab2-title, .ah-cardtab2-title1 {
+	position: relative;
+	display: block;
+	font-family: "PT_SansWebRegular";
+	color: #006fb0;
+	font-size: 18px;
+	line-height: 24px;
+	padding-left: 30px;
+	margin-bottom: 10px;
+}
+.ah-cardtab2-title{
+	&::before{
+		position: absolute;
+		content: "";
+		background: url(../img/ah-arrtop.png);
+		width: 15px;
+		height: 15px;
+		left: 0px;
+		bottom: 6px;
+	}
+}
+.ah-cardtab2-title1{
+	&::before{
+		position: absolute;
+		content: "";
+		background: url(../img/ah-arrbot.png);
+		width: 14px;
+		height: 14px;
+		left: 0px;
+		bottom: 6px;
+	}
+}
+.ah-cardtab1-text{
+	display: block;
+	font-family: "PT_SansWebRegular";
+	color: #006fb0;
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 30px
+}
+.ah-cardtab1-table{
+	width: 100%;
+	font-size: 0;
+	margin: 5px 0px;
+}
+.ah-ctab1-cell-left{
+	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+	span{
+		display: inline-block;
+		font-family: "PT_SansWebRegular";
+		color: #006fb0;
+		font-size: 18px;
+		line-height: 24px;
+	}
+}
+.ah-ctab1-cell-right{
+	display: inline-block;
+	width: 55%;
+	vertical-align: top;
+	span{
+		display: inline-block;
+		font-family: "PT_SansWebRegular";
+		color: #006fb0;
+		font-size: 18px;
+		line-height: 24px;
+	}
+}
+.ah-cardtab-leftlinkbox{
+	text-align: center;
+}
+.ah-cardtab-leftlink{
+	position: relative;
+	display: inline-block;
+	font-family: "PT_SansWebRegular";
+	color: #006eaf;
+	font-size: 18px;
+	line-height: 36px;
+	&::before{
+		position: absolute;
+		content: "";
+		background: url(../img/ah-tjsborder.png);
+		width: 100%;
+		height: 1px;
+		left: 0px;
+		bottom: 0px;
+	}
+	&:hover, &:active, &:focus{
+		color: #006eaf;
+		text-decoration: none;
+	}
+}
+.ah-cardtab-tjslinks{
+	margin-left: 0px;
+	width: 100%;
+	@include mobile(992){
+		margin-left: 10px;
+		width: unset;
+	}
+	@include mobile(1200){
+		margin-left: 20px;
+	}
+}
+.ah-cardtab-span2{
+	display: block;
+	font-family: "PT_SansWebRegular";
+	color: #006fb0;
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 22px;
+}
+
+.az-tabs{
+	.ui-tabs-active{
+		a{
+			font-size: 22px;
+			@include mobile(992){
+				font-size: 16px;
+			}
+			@include mobile(1200){
+				font-size: 21px;
+			}
+			@include mobile(1250){
+				font-size: 22px;
+			}
+		}
+	}	
+}
+
+.ah-tabs{
+	li{
+		display: inline-block;
+		width: 100% !important;
+		a{
+			text-align: center;
+			@include mobile(992){
+				text-align: left;
+			}
+		}
+		@include mobile(768){
+			display: block !important;
+		}
+		@include mobile(992){
+			display: inline-block !important;
+			width: 20% !important;
+		}
+	}
+}
+.ah-cardtab-left, .ah-cardtab-right{
+	font-size: 0;
+	width: 100%;
+	margin: 15px 0px;
+}
+.ah-cardtab-imgbox{
+	display: inline-block;
+	width: 34%;
+}
+.ah-cardtab-content{
+	display: inline-block;
+	width: 66%;
+	vertical-align: top;
+	padding: 0px 0px 0px 10px;
+	@include mobile(768){
+		padding: 13px 0px 13px 10px;
+	}
+	@include mobile(1200){
+		padding: 13px 0px 13px 0px;
+	}
+}
+.ah-cardtab-span{
+	display: block;
+	font-family: "PT_SansWebRegular";
+	color: #006fb0;
+	font-size: 14px;
+	line-height: 24px;
+	span{
+		float: right;
+	}
+}
+.ah-cardtab-span1{
+	display: block;
+	font-family: "PT_SansWebRegular";
+	color: #006fb0;
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 10px;
+}
