@@ -101,21 +101,23 @@ $(function() {
 		return false;
 	});
 
-	$('.popup-with-move-anim').magnificPopup({
-		type: 'inline',
+	if($('.popup-with-move-anim').length>0){
+		$('.popup-with-move-anim').magnificPopup({
+			type: 'inline',
 
-		fixedContentPos: false,
-		fixedBgPos: true,
+			fixedContentPos: false,
+			fixedBgPos: true,
 
-		overflowY: 'auto',
+			overflowY: 'auto',
 
-		closeBtnInside: true,
-		preloader: false,
-		
-		midClick: true,
-		removalDelay: 300,
-		mainClass: 'my-mfp-slide-bottom'
-	});
+			closeBtnInside: true,
+			preloader: false,
+			
+			midClick: true,
+			removalDelay: 300,
+			mainClass: 'my-mfp-slide-bottom'
+		});
+	}
 
 	$("body").on("mousedown", ".az-order-input-wrap.password span", function(){
 		if($(this).siblings("input[type=password]").length>0){
@@ -302,4 +304,10 @@ $(function() {
 		$(this).parents(".az-new-service").remove();
 	});
 
+	// alert(1);
+	$('.az-pp-slider').owlCarousel({
+		items: 3,
+		dots: false,
+		margin: 10
+	});
 });

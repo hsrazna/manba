@@ -103,3 +103,163 @@
 		}
 	}
 }
+
+.az-pp-middle{
+	padding-top: 15px;
+	font-size: 0;
+}
+
+.az-pp-slider-wrap{
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+	max-width: 200px;
+}
+
+.az-pp-slider-item{
+	img{
+		width: 100%;
+		height: auto;
+	}
+}
+
+.az-pp-title{
+	font-size: 18px;
+	margin: 0 0 10px 0;
+}
+
+.az-pp-name{
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+	max-width: calc(100% - 495px);
+	margin: 0 70px 0 55px;
+}
+
+.az-pp-price{
+	font-family: "PT_SansWebBold";
+	font-size: 18px;
+	line-height: 24px;
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+	max-width: 170px;
+	p{
+		margin: 0 0 5px;
+	}
+}
+
+.az-pp-list{
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	li{
+		display: block;
+		font-size: 0;
+		span{
+			font-size: 18px;
+			line-height: 24px;
+			display: inline-block;
+			vertical-align: top;
+			&:first-child{
+				width: 150px;
+			}
+			&:last-child{
+				width: 230px;
+			}
+		}
+	}
+}
+
+.ah-catitem-starsrow.az-style2{
+	.ah-catitem-starsbox, .ah-catitem-arrsbox, .ah-cardprod-starsrow{
+		vertical-align: top !important;
+	}
+	.ah-catitem-arrsbox{
+		margin-left: 20px;
+		margin-right: 15px;
+	}
+	.ah-cardprod-starsrow{
+		line-height: 18px;
+	}
+}
+
+.az-pp-bottom{
+	font-size: 0;
+}
+
+.az-pp-else{
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	h4{
+		font-size: 18px;
+		margin: 0 0 10px 0;
+	}
+	ul{
+		li{
+			padding-left: 40px;
+			font-size: 18px;
+			line-height: 30px;
+			position: relative;
+			&::before{
+				content: "";
+				top: 50%;
+				margin-top: -3px;
+				position: absolute;
+				width: 6px;
+				height: 6px;
+				border-radius: 50%;
+				background: #78b4d7;
+				left: 17px;
+			}
+		}
+	}
+}
+
+.az-pp-tabs{
+	padding-top: 20px;
+	.ui-tabs-active a{
+		padding-left: 0;
+		padding-right: 0;
+		text-align: center;
+	}
+	.az-tabs li a{
+		padding-left: 0;
+		padding-right: 0;
+		text-align: center;
+	}
+	.az-tabs-content-inner{
+		padding-top: 50px;
+	}
+}
+
+.az-pp-tabs-content{
+	p{
+		font-size: 18px;
+		line-height: 24px;
+		margin-bottom: 20px;
+		max-width: 555px;
+	}
+}
+
+.az-pp-feature{
+	line-height: 24px;
+	font-size: 0;
+	li{
+		margin-bottom: 10px;
+	}
+	span{
+		font-size: 18px;
+		display: inline-block;
+		vertical-align: top;
+	}
+	span:first-child{
+		width: 50%;
+		max-width: 230px;
+	}
+	span:last-child{
+		width: 50%;
+		max-width: 270px;
+	}
+}
