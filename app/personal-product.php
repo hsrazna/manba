@@ -21,11 +21,12 @@
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="libs/bootstrap-select/bootstrap-select.css">
 	<!-- bootstrap-select -->
+	<link rel="stylesheet" href="libs/magnific-popup/dist/magnific-popup.css">
 
 	<link rel="stylesheet" href="libs/bootstrap-grid/bootstrap-grid.css">
 	<link rel="stylesheet" href="libs/font-awesome.min.css">
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css">
-	<link rel="stylesheet" href="libs/jquery-ui-1.12.1/jquery-ui.min.css">
+	<!-- <link rel="stylesheet" href="libs/jquery-ui-1.12.1/jquery-ui.min.css"> -->
 	<link rel="stylesheet" href="css/main.css">
 
 
@@ -70,6 +71,8 @@
 	<script src="libs/bootstrap/bootstrap.min.js"></script>
 	<script src="libs/bootstrap-select/bootstrap-select.js"></script>
 	<!-- bootstrap-select -->
+	<script src="libs/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+	<script src="libs/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
 
 	<script src="libs/owl.carousel/owl.carousel.min.js"></script>
 	<script src="js/scripts.js"></script>
