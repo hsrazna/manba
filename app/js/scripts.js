@@ -85,6 +85,7 @@ $(function() {
 	$( "#tabs" ).tabs({ active: 0 });
 	$( "#tabs2" ).tabs({ active: 0 });
 	$( "#az-add-tabs" ).tabs({ active: 0 });
+	$( ".az-tabs-product" ).tabs({ active: 0 });
 
 	$(window).click(function(){
 		$(".az-cat>li").removeClass("active");
@@ -309,5 +310,13 @@ $(function() {
 		items: 3,
 		dots: false,
 		margin: 10
+	});
+
+	$(".az-pp-slide-link").click(function(){
+		// if(!$(this).hasClass("bottom")){
+		// 	$(this).toggleClass("on");
+		// }
+		$(this).parents(".az-pp-item").toggleClass("on").find(".az-pp-slide").slideToggle(300);
+		return false;
 	});
 });
