@@ -3,13 +3,13 @@
 	<ul class="az-pproducts">
 		<li class="az-pp-item on">
 			<div class="az-pp-top clearfix">
-				<div class="az-pp-top-left">
-					<a href="#" class="az-moderation">Модерация</a>
-				</div>
 				<div class="az-pp-top-right">
 					<a href="#" class="az-pp-pay">Cделать платным</a>
 					<a href="#" class="az-pp-correct">редактировать</a>
 					<a href="#" class="az-pp-slide-link">развернуть</a>
+				</div>
+				<div class="az-pp-top-left">
+					<a href="#" class="az-moderation">Модерация</a>
 				</div>
 			</div>
 			<div class="az-pp-middle">
@@ -114,6 +114,11 @@
 		</li>
 		<li class="az-pp-item">
 			<div class="az-pp-top clearfix">
+				<div class="az-pp-top-right">
+					<a href="#" class="az-pp-pay">Cделать платным</a>
+					<a href="#" class="az-pp-correct">редактировать</a>
+					<a href="#" class="az-pp-slide-link">развернуть</a>
+				</div>
 				<div class="az-pp-top-left">
 					<div class="az-order-select">
 						<select class="ah-catselect">
@@ -121,11 +126,6 @@
 						  <option>Архивное</option>
 						</select>
 					</div>
-				</div>
-				<div class="az-pp-top-right">
-					<a href="#" class="az-pp-pay">Cделать платным</a>
-					<a href="#" class="az-pp-correct">редактировать</a>
-					<a href="#" class="az-pp-slide-link">развернуть</a>
 				</div>
 			</div>
 			<div class="az-pp-middle">
@@ -230,6 +230,11 @@
 		</li>
 		<li class="az-pp-item disabled">
 			<div class="az-pp-top clearfix">
+				<div class="az-pp-top-right">
+					<a href="#" class="az-pp-pay">Cделать платным</a>
+					<a href="#" class="az-pp-correct">редактировать</a>
+					<a href="#" class="az-pp-slide-link">развернуть</a>
+				</div>
 				<div class="az-pp-top-left">
 					<div class="az-order-select">
 						<select class="ah-catselect">
@@ -237,11 +242,6 @@
 						  <option>Активное</option>
 						</select>
 					</div>
-				</div>
-				<div class="az-pp-top-right">
-					<a href="#" class="az-pp-pay">Cделать платным</a>
-					<a href="#" class="az-pp-correct">редактировать</a>
-					<a href="#" class="az-pp-slide-link">развернуть</a>
 				</div>
 			</div>
 			<div class="az-pp-middle">
@@ -346,6 +346,11 @@
 		</li>
 		<li class="az-pp-item disabled">
 			<div class="az-pp-top clearfix">
+				<div class="az-pp-top-right">
+					<a href="#" class="az-pp-pay">Cделать платным</a>
+					<a href="#" class="az-pp-correct">редактировать</a>
+					<a href="#" class="az-pp-slide-link">развернуть</a>
+				</div>
 				<div class="az-pp-top-left">
 					<div class="az-order-select">
 						<select class="ah-catselect">
@@ -353,11 +358,6 @@
 						  <option>Активное</option>
 						</select>
 					</div>
-				</div>
-				<div class="az-pp-top-right">
-					<a href="#" class="az-pp-pay">Cделать платным</a>
-					<a href="#" class="az-pp-correct">редактировать</a>
-					<a href="#" class="az-pp-slide-link">развернуть</a>
 				</div>
 			</div>
 			<div class="az-pp-middle">
@@ -462,6 +462,11 @@
 		</li>
 		<li class="az-pp-item disabled">
 			<div class="az-pp-top clearfix">
+				<div class="az-pp-top-right">
+					<a href="#" class="az-pp-pay">Cделать платным</a>
+					<a href="#" class="az-pp-correct">редактировать</a>
+					<a href="#" class="az-pp-slide-link">развернуть</a>
+				</div>
 				<div class="az-pp-top-left">
 					<div class="az-order-select">
 						<select class="ah-catselect">
@@ -469,11 +474,6 @@
 						  <option>Активное</option>
 						</select>
 					</div>
-				</div>
-				<div class="az-pp-top-right">
-					<a href="#" class="az-pp-pay">Cделать платным</a>
-					<a href="#" class="az-pp-correct">редактировать</a>
-					<a href="#" class="az-pp-slide-link">развернуть</a>
 				</div>
 			</div>
 			<div class="az-pp-middle">

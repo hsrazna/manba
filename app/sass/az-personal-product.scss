@@ -7,6 +7,10 @@
 	padding-right: 20px;
 	border-bottom: 1px solid #78b4d7;
 	position: relative;
+	@include desktop(480){
+		padding-left: 10px;
+		padding-left: 10px;
+	}
 	&:first-child{
 		padding-top: 0;
 	}
@@ -40,6 +44,10 @@
 	right: 19px;
 	z-index: 3;
 	display: none;
+	@include desktop(480){
+		right: 0;
+		bottom: 0px;
+	}
 }
 
 .az-personal-product{
@@ -47,6 +55,9 @@
 		font-size: 22px;
 		line-height: 30px;
 		padding-left: 20px;
+		@include desktop(480){
+			padding-left: 10px;
+		}
 	}
 }
 
@@ -58,6 +69,11 @@
 	float: right;
 	font-size: 0;
 	line-height: 30px;
+	@include desktop(480){
+		float: left;
+		padding-bottom: 10px;
+		width: 100%;
+	}
 }
 
 .az-moderation{
@@ -139,12 +155,6 @@
 			opacity: 1;
 		}
 	}
-	// &.on{
-	// 	&::before{
-	// 		border-bottom: 7px solid #7fb6d7;
-	// 		border-top: 0;
-	// 	}
-	// }
 }
 
 .az-pp-middle{
@@ -157,6 +167,9 @@
 	width: 100%;
 	vertical-align: top;
 	max-width: 200px;
+	@include desktop(992){
+		display: block;
+	}
 }
 
 .az-pp-slider-item{
@@ -177,6 +190,18 @@
 	vertical-align: top;
 	max-width: calc(100% - 495px);
 	margin: 0 70px 0 55px;
+	@include desktop(1200){
+		max-width: calc(100% - 440px);
+		margin: 0 30px 0 30px;
+	}
+	@include desktop(992){
+		max-width: 100%;
+		display: block;
+		margin: 10px 0 0;
+		.ah-cardprod-starsrow1{
+			margin-bottom: 0;
+		}
+	}
 }
 
 .az-pp-price{
@@ -187,6 +212,10 @@
 	width: 100%;
 	vertical-align: top;
 	max-width: 170px;
+	@include desktop(992){
+		display: block;
+		max-width: 100%;
+	}
 	p{
 		margin: 0 0 5px;
 	}
@@ -196,9 +225,21 @@
 	display: inline-block;
 	vertical-align: top;
 	width: 50%;
+	@include desktop(1200){
+		width: 55%;
+	}
+	@include desktop(992){
+		width: 100%;
+		display: block;
+		margin: 10px 0 15px;
+	}
 	li{
 		display: block;
 		font-size: 0;
+		@include desktop(480){
+			display: table;
+			width: 100%;
+		}
 		span{
 			font-size: 18px;
 			line-height: 24px;
@@ -209,6 +250,17 @@
 			}
 			&:last-child{
 				width: 230px;
+			}
+			@include desktop(480){
+				display: table-cell;
+				&:first-child{
+					width: auto;
+				}
+				&:last-child{
+					width: auto;
+					padding-left: 30px;
+					text-align: right;
+				}
 			}
 		}
 	}
@@ -239,6 +291,13 @@
 	display: inline-block;
 	vertical-align: top;
 	width: 50%;
+	@include desktop(1200){
+		width: 45%;
+	}
+	@include desktop(992){
+		width: 100%;
+		display: block;
+	}
 	h4{
 		font-size: 18px;
 		margin: 0 0 10px 0;
@@ -284,6 +343,9 @@
 .az-pp-tabs-content{
 	.az-tabs-content-inner{
 		padding-right: 40px;
+		@include desktop(480){
+			padding-right: 5px;
+		}
 	}
 	p{
 		font-size: 18px;
@@ -298,19 +360,33 @@
 	font-size: 0;
 	li{
 		margin-bottom: 10px;
+		@include desktop(480){
+			display: table;
+			width: 100%;
+		}
 	}
 	span{
 		font-size: 18px;
 		display: inline-block;
 		vertical-align: top;
+		@include desktop(480){
+			display: table-cell;
+		}
 	}
 	span:first-child{
 		width: 50%;
 		max-width: 230px;
+		@include desktop(480){
+			width: auto;
+		}
 	}
 	span:last-child{
 		width: 50%;
 		max-width: 270px;
+		@include desktop(480){
+			width: auto;
+			text-align: right;
+		}
 	}
 }
 
