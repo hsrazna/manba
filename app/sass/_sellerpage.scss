@@ -11,6 +11,18 @@
 		line-height: 24px;
 	}
 }
+.ah-selpage-userinf{
+	padding-left: 0px;
+	@include mobile(480){
+		padding-left: 15px;
+	}
+	@include mobile(768){
+		padding-left: 0px;
+	}
+	@include mobile(992){
+		padding-left: 30px;
+	}
+}
 .ah-selpage-span{
 	display: block;
 	font-family: "PT_SansWebRegular";

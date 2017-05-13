@@ -1,0 +1,27 @@
+@import "vars";
+
+
+
+.ah-buyerpage-span{
+	display: block;
+	font-family: "PT_SansWebRegular";
+	color: #006fb0;
+	font-size: 22px;
+	line-height: 24px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	text-align: center;
+	@include mobile(768){
+		margin-top: 0px;
+		text-align: left;
+	}
+}
+
+
+
+
+
+
+
+
+

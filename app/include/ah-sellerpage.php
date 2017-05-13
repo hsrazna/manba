@@ -6,7 +6,7 @@
 					<div class="ah-person-imgbox ah-sellerperson-imgbox">
 						<img src="img/ah-person-men.png" alt="person men">
 					</div>
-					<div class="ah-sellerperson-userinf">
+					<div class="ah-sellerperson-userinf ah-selpage-userinf">
 						<span class="ah-selpers-span">Продавец</span>
 						<span class="ah-selpers-span1 ah-selpage-span1">Оптовый интернет-магазин женской одежды «EL-MIRA»</span>
 						<div class="ah-catitem-starsrow">

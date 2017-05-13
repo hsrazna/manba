@@ -73,8 +73,14 @@
 }
 .ah-sellerperson-userinf{
 	display: inline-block;
-	padding-left: 30px;
+	padding-left: 0px;
 	vertical-align: top;
+	@include mobile(480){
+		padding-left: 15px;
+	}
+	@include mobile(768){
+		padding-left: 30px;
+	}
 }
 .ah-selpers-span{
 	display: block;
