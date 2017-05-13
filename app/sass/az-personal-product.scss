@@ -9,7 +9,7 @@
 	position: relative;
 	@include desktop(480){
 		padding-left: 10px;
-		padding-left: 10px;
+		padding-right: 10px;
 	}
 	&:first-child{
 		padding-top: 0;
@@ -167,12 +167,14 @@
 	width: 100%;
 	vertical-align: top;
 	max-width: 200px;
+	overflow: hidden;
 	@include desktop(992){
 		display: block;
 	}
 }
 
 .az-pp-slider-item{
+	width: 70px;
 	img{
 		width: 100%;
 		height: auto;
@@ -310,7 +312,7 @@
 			position: relative;
 			&::before{
 				content: "";
-				top: 50%;
+				top: 15px;
 				margin-top: -3px;
 				position: absolute;
 				width: 6px;

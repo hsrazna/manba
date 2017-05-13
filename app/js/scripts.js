@@ -307,9 +307,10 @@ $(function() {
 
 	// alert(1);
 	$('.az-pp-slider').owlCarousel({
-		items: 3,
+		items: 2,
 		dots: false,
-		margin: 10
+		margin: 10,
+		autoWidth:true
 	});
 
 	$(".az-pp-slide-link").click(function(){

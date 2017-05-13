@@ -1,0 +1,98 @@
+@import "vars";
+
+.az-ps-cont-left{
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	@include desktop(1200){
+		width: 55%;
+	}
+	@include desktop(992){
+		width: 100%;
+		display: block;
+		margin: 10px 0 15px;
+	}
+}
+
+.az-ps-list{
+	// display: inline-block;
+	// vertical-align: top;
+	width: 100%;
+	li{
+		display: block;
+		font-size: 0;
+		@include desktop(480){
+			display: table;
+			width: 100%;
+		}
+		span{
+			font-size: 18px;
+			line-height: 24px;
+			display: inline-block;
+			vertical-align: top;
+			padding: 3px 0;
+			&:first-child{
+				width: 150px;
+			}
+			&:last-child{
+				width: 230px;
+			}
+			@include desktop(480){
+				display: table-cell;
+				&:first-child{
+					width: auto;
+				}
+				&:last-child{
+					width: auto;
+					padding-left: 30px;
+					text-align: right;
+				}
+			}
+		}
+	}
+}
+
+.az-ps-cont-left{
+	h4{
+		font-size: 18px;
+		margin: 20px 0 10px;
+	}
+	p{
+		font-size: 18px;
+		max-width: 400px;
+	}
+}
+
+ul.az-ps-list2{
+	@extend .az-ps-list;
+	li{
+		@include desktop(480){
+			padding-left: 20px;
+			&::before{
+				left: 7px;
+			}
+		}
+		span{
+			&:first-child{
+				width: 235px;
+			}
+			&:last-child{
+				width: 130px;
+				text-align: right;
+			}
+			@include desktop(480){
+				display: table-cell;
+				padding: 3px 0;
+				&:first-child{
+					width: auto;
+				}
+				&:last-child{
+					// width: 130px;
+					min-width: 130px;
+					padding-left: 10px;
+					text-align: right;
+				}
+			}
+		}
+	}
+}
