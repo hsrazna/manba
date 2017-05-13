@@ -43,7 +43,7 @@
 
 	<?php require_once "include/header.php"; ?>
 	<?php require_once "include/breadcrumbs.php"; ?>
-	<?php require_once "include/ah-sellerperson.php"; ?>
+	<?php require_once "include/ah-sellerpage.php"; ?>
 	<?php require_once "include/az-search.php"; ?>
 	<section class="maincat">
 	    <div class="container">

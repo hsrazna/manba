@@ -43,16 +43,13 @@
 
 	<?php require_once "include/header.php"; ?>
 	<?php require_once "include/breadcrumbs.php"; ?>
-	<?php require_once "include/ah-sellerperson.php"; ?>
-	<?php require_once "include/az-search.php"; ?>
+	<?php require_once "include/ah-sellerpage.php"; ?>
+	<!-- <?php require_once "include/az-search.php"; ?> -->
 	<section class="maincat">
 	    <div class="container">
 	    	<div class="row">
-				<div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
-					<?php require_once "include/ah-filter2.php"; ?>
-				</div>
-				<div class="col-lg-9 col-md-8 col-sm-12 col-xs-12">
-					<?php require_once "include/ah-catalog2.php"; ?>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<?php require_once "include/ah-catalog3.php"; ?>
 				</div>
 				<div class="clearfix"></div>
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
