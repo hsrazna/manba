@@ -1,0 +1,171 @@
+@import "vars";
+
+$blue: #006eaf;
+
+.az-approvement{
+	margin: 50px auto;
+	max-width: 930px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+	padding: 70px 47px 47px 380px;
+	border-radius: 5px;
+	min-height: 490px;
+	background: #fff url('../img/az-approvement.png') left 60px top 30px no-repeat;
+	@include desktop(992){
+		background: #fff url('../img/az-approvement.png') left 30px top 30px no-repeat;
+		padding: 70px 47px 47px 330px;
+	}
+	@include desktop(768){
+		padding: 30px 10px 30px 10px;
+		background: #fff;
+		min-height: 0px;
+	}
+	@include desktop(480){
+		padding: 10px;
+	}
+	h2{
+		font-size: 30px;
+		line-height: 36px;
+		color: $blue;
+		margin: 0 0 20px 0;
+	}
+	p{
+		font-size: 18px;
+		line-height: 24px;
+		margin: 10px 0 10px 0;
+	}
+	.ah-catselect .btn{
+		padding-left: 15px;
+	}
+	input[type="text"]{
+		width: 100%;
+		height: 45px;
+		background: #f0f9ff;
+		border-radius: 5px;
+		font-family: "PT_SansWebRegular";
+		font-size: 18px;
+		line-height: 45px;
+		color: #006eaf;
+		outline: none;
+		border: none;
+		padding: 0px 10px 0px 22px;
+	}
+	input[type="submit"]{
+		display: inline-block;
+		height: 45px;
+		background: #006eaf;
+		border-radius: 5px;
+		color: #fff;
+		font-family: "PT_SansWebBold";
+		font-size: 18px;
+		line-height: 45px;
+		text-align: center;
+		text-decoration: none;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		min-width: 200px;
+		padding: 0 24px;
+		transition: background 0.6s ease;
+		&:active, &:focus{
+			color: #fff;
+			text-decoration: none;
+		}
+		&:hover{
+			color: #fff;
+			text-decoration: none;
+			background: #049f54;
+		}
+	}
+	a{
+		position: relative;
+		display: inline-block;
+		font-size: 18px;
+		text-decoration: none;
+		line-height: 45px;
+		color: $blue;
+		white-space: nowrap;
+		&::after{
+			content: "";
+			position: absolute;
+			bottom: 10px;
+			left: 0;
+			width: 100%;
+			height: 1px;
+			background: repeating-linear-gradient(to right, $blue 0px, $blue 2px, transparent 2px, transparent 4px);
+		}
+		&:focus, &.active{
+			text-decoration: none;
+			color: $blue;
+			font-size: 18px;
+			line-height: 45px;
+		}
+		&:hover{
+			font-size: 18px;
+			line-height: 45px;
+			&::after{
+				display: none;
+			}
+		}
+		@include desktop(768){
+			font-size: 14px;
+			&:hover, &:focus, &.active{
+				font-size: 14px;
+			}
+		}
+	}
+	strong{
+		font-weight: normal;
+		font-family: "PT_SansWebBold";
+	}
+	&.style2{
+		a{
+			margin-top: -15px;
+			margin-bottom: -15px;
+		}
+	}
+	&.style3{
+		padding-top: 167px;
+		@include desktop(768){
+			padding: 50px 10px 50px 10px;
+			background: #fff;
+			min-height: 0px;
+		}
+	}
+}
+
+.az-approvement-wrap{
+	max-width: 370px;
+	@include desktop(768){
+		margin: 0 auto;
+	}
+}
+
+.az-approve-phone{
+	font-size: 0;
+}
+
+.az-approve-phone-left{
+	display: inline-block;
+	vertical-align: top;
+	width: 105px;
+}
+
+.az-approve-phone-right{
+	display: inline-block;
+	vertical-align: top;
+	width: calc(100% - 105px);
+	padding-left: 20px;
+	font-size: 18px;
+	padding-right: 60px;
+	@include desktop(768){
+		padding-right: 0;
+	}
+}
+
+.az-approve-cod{
+	max-width: 110px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	input[type="text"]{
+		letter-spacing: 8px;
+	}
+}
