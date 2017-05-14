@@ -1,0 +1,142 @@
+.az-personal-messages{
+	font-size: 0;
+}
+
+.az-pm-users{
+	padding: 0 8px 0 10px;
+	display: inline-block;
+	vertical-align: top;
+	width: 45%;
+	min-width: 435px;
+	font-size: 18px;
+}
+
+.az-user-message{
+	display: inline-block;
+	vertical-align: top;
+	width: 55%;
+	max-width: calc(100% - 435px);
+	font-size: 18px;
+}
+
+.az-pm-user-search{
+	font-size: 0;
+	margin-bottom: 20px;
+	padding-right: 15px;
+	input[type="text"]{
+		width: 61.25%;
+		height: 45px;
+		background: #f0f9ff;
+		border-radius: 5px 0 0 5px;
+		font-family: "PT_SansWebRegular";
+		font-size: 18px;
+		line-height: 45px;
+		color: #006eaf;
+		outline: none;
+		border: none;
+		padding: 0px 10px 0px 22px;
+		display: inline-block;
+		vertical-align: top;
+	}
+	input[type="submit"]{
+		display: inline-block;
+		vertical-align: top;
+		font-size: 18px;
+		border-radius: 0 5px 5px 0;
+		width: 36.25%;
+		margin-left: 2.5%;
+		margin-bottom: 0;
+	}
+}
+
+.az-user-scroll{
+	height: 450px;
+	overflow: auto;
+	.jspVerticalBar{
+		width: 3px;
+	}
+	.jspTrack, .jspVerticalBar{
+		background: transparent;
+	}
+}
+
+.az-pm-user-list{
+	padding-right: 7px;
+}
+
+.az-pm-user-item{
+	padding: 20px 20px 20px 13px;
+	font-size: 0;
+	border-radius: 5px;
+	cursor: pointer;
+	h3{
+		font-size: 18px;
+		color: #006eaf;
+		line-height: 24px;
+		margin: 0;
+	}
+	p{
+		font-size: 18px;
+		color: #006eaf;
+		line-height: 24px;
+		margin: 0;
+		strong{
+			opacity: .6;
+			font-weight: normal;
+		}
+	}
+	time{
+		font-size: 18px;
+		color: #006eaf;
+		line-height: 24px;
+		margin: 0;
+		opacity: .6;
+		padding-left: 20px;
+		vertical-align: top;
+	}
+	&.written{
+		background: #e5ffe5;
+	}
+	&:hover{
+		background: lighten(#e5ffe5, 2%);
+	}
+	&.active{
+		background: #b2d3e7;
+	}
+}
+
+.az-pm-user-img{
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	overflow: hidden;
+	border: 1px solid #b2d3e7;
+	line-height: 48px;
+	display: inline-block;
+	vertical-align: top;
+	background: #fff;
+	img{
+		width: 100%;
+		height: auto;
+	}
+}
+
+.az-pm-user-cont{
+	display: inline-block;
+	vertical-align: top;
+	width: calc(100% - 50px);
+	padding-left: 15px;
+}
+
+.az-pm-user-cont-left{
+	float: left;
+}
+
+.az-pm-user-cont-right{
+	float: right;
+}
+
+.az-user-message{
+	height: 515px;
+	border-left: 1px solid #b2d3e7;
+}

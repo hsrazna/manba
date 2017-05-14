@@ -235,7 +235,6 @@ $(function() {
 		$(this).parents(".az-new-service").remove();
 	});
 
-	// alert(1);
 	$('.az-pp-slider').owlCarousel({
 		items: 2,
 		dots: false,
@@ -244,10 +243,10 @@ $(function() {
 	});
 
 	$(".az-pp-slide-link").click(function(){
-		// if(!$(this).hasClass("bottom")){
-		// 	$(this).toggleClass("on");
-		// }
 		$(this).parents(".az-pp-item").toggleClass("on").find(".az-pp-slide").slideToggle(300);
 		return false;
 	});
+
+	$('.scroll-pane').jScrollPane();
+
 });
