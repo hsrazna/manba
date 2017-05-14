@@ -16,7 +16,7 @@
 		</nav>
 		<div class="az-header-right">
 			<ul class="az-header-feature">
-				<li><a href="#" class="az-favorite">Избранное</a></li>
+				<li><a href="#manba-hello" class="az-favorite popup-with-move-anim">Избранное</a></li>
 				<li><a href="#small-dialog" class="az-basket popup-with-move-anim">Корзина</a></li>
 				<li><a href="#log-reg" class="az-enter popup-with-move-anim">Вход</a></li>
 			</ul>

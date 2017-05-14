@@ -16,11 +16,32 @@
 		text-align: left;
 	}
 }
-
-
-
-
-
+.ah-hello-span{
+	display: block;
+	font-family: "PT_SansWebRegular";
+	color: #006eaf;
+	font-size: 18px;
+	line-height: 24px;
+}
+.ah-hello-span1{
+	color: #049f54;
+}
+.ah-hello-wrapp{
+	margin: 55px 0px;
+	width: 100%;
+	max-width: 770px;
+}
+.ah-hello-wrapp1{
+	margin: 80px 0px 50px 0px;
+	width: 100%;
+	max-width: 295px;
+}
+.ah-hello-box{
+	height: 100%;
+	@include mobile(768){
+		height: 800px;
+	}
+}
 
 
 

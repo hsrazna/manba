@@ -290,6 +290,23 @@
 				</div>
 			</div>
 		</div>
+
+		<div id="manba-hello" class="zoom-anim-dialog mfp-hide az-basket-popup ah-hello-box clearfix">
+			<div class="ah-hello-imgbox">
+				<img src="img/ah-regpage.png" class="img-responsive" alt="logo">
+			</div>
+			<div class="ah-hello-wrapp">
+				<span class="ah-hello-span">Привет!</span>
+				<span class="ah-hello-span">Чтобы подтвердить свой e-mail,  кликни на ссылку</span>
+				<span class="ah-hello-span ah-hello-span1">https://www.manba.com/signup/verify-email/token/d36c753540b89f7fdfghjklg36hni8531jmk4</span>
+			</div>
+			<div class="ah-hello-wrapp">
+				<span class="ah-hello-span">Усли у тебя возникли проблемы, пожалуйста, скопируй и вставь ссылку в адресную строку своего браузера.</span>
+			</div>
+			<div class="ah-hello-wrapp1">
+				<span class="ah-hello-span">Хорошего времени суток,техническая поддержка Manba </span>
+			</div>
+		</div>
 	<!-- </div> -->
 
 	<script src="libs/jquery/dist/jquery.min.js"></script>
