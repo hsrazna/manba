@@ -1,5 +1,14 @@
+@import "vars";
+
 .az-personal-messages{
 	font-size: 0;
+	@include desktop(992){
+		overflow: hidden;
+		position: relative;
+	}
+	@include desktop(768){
+		position: static;
+	}
 }
 
 .az-pm-users{
@@ -9,6 +18,16 @@
 	width: 45%;
 	min-width: 435px;
 	font-size: 18px;
+	@include desktop(1200){
+		min-width: 410px;
+	}
+	@include desktop(992){
+		min-width: 0;
+		width: 100%;
+	}
+	@include desktop(480){
+		padding: 0;
+	}
 }
 
 .az-user-message{
@@ -17,6 +36,45 @@
 	width: 55%;
 	max-width: calc(100% - 435px);
 	font-size: 18px;
+	position: relative;
+	height: 550px;
+	border-left: 1px solid #b2d3e7;
+	address{
+		font-size: 18px;
+		line-height: 24px;
+		margin: 15px 0 10px;
+	}
+	h3{
+		font-size: 22px;
+		line-height: 30px;
+		margin: 10px 0;
+		max-width: 320px;
+	}
+	@include desktop(1200){
+		max-width: calc(100% - 410px);
+	}
+	@include desktop(992){
+		max-width: 100%;
+		width: 100%;
+		position: absolute;
+		left: 100%;
+		top: 0;
+		transition: left .6s ease;
+		background: #fff;
+		padding-top: 0px;
+		&.on{
+			left: 0;
+		}
+		address{
+			padding-left: 30px;
+		}
+	}
+	@include desktop(768){
+		position: fixed;
+		height: 100%;
+		z-index: 99;
+		top: 0;
+	}
 }
 
 .az-pm-user-search{
@@ -46,12 +104,14 @@
 		width: 36.25%;
 		margin-left: 2.5%;
 		margin-bottom: 0;
+
 	}
 }
 
 .az-user-scroll{
 	height: 450px;
 	overflow: auto;
+	outline: 0;
 	.jspVerticalBar{
 		width: 3px;
 	}
@@ -69,6 +129,10 @@
 	font-size: 0;
 	border-radius: 5px;
 	cursor: pointer;
+	@include desktop(480){
+		padding: 20px 10px 20px 10px;
+
+	}
 	h3{
 		font-size: 18px;
 		color: #006eaf;
@@ -91,7 +155,7 @@
 		line-height: 24px;
 		margin: 0;
 		opacity: .6;
-		padding-left: 20px;
+		padding-left: 10px;
 		vertical-align: top;
 	}
 	&.written{
@@ -102,6 +166,9 @@
 	}
 	&.active{
 		background: #b2d3e7;
+		@include desktop(992){
+			background: lighten(#e5ffe5, 2%);
+		}
 	}
 }
 
@@ -126,17 +193,160 @@
 	vertical-align: top;
 	width: calc(100% - 50px);
 	padding-left: 15px;
+	@include desktop(480){
+		padding-left: 5px;
+	}
 }
 
 .az-pm-user-cont-left{
 	float: left;
+	@include desktop(480){
+		max-width: 120px;
+		
+	}
 }
 
 .az-pm-user-cont-right{
 	float: right;
+
 }
 
-.az-user-message{
-	height: 515px;
-	border-left: 1px solid #b2d3e7;
+
+
+.az-message-item{
+	margin-bottom: 10px;
+	max-width: 400px;
+	padding-right: 30px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-size: 0;
+	line-height: 0;
+	&.self{
+		padding-right: 0;
+		padding-left: 30px;
+		margin-left: auto;
+	}
+	p{
+		display: inline;
+		font-size: 18px;
+		line-height: 24px;
+		margin: 0;
+	}
+	time{
+		position: relative;
+		bottom: -10px;
+		font-size: 18px;
+		padding-left: 10px;
+	}
+}
+
+.az-message-scroll{
+	height: 325px;
+	overflow: auto;
+	outline: 0;
+	padding: 0 10px 0 20px;
+	@include desktop(992){
+		height: 305px;
+	}
+	@include desktop(768){
+		height: auto;
+		position: absolute;
+		top: 140px;
+		bottom: 70px;
+	}
+	@include desktop(768){
+		bottom: 120px;
+	}
+	.jspVerticalBar{
+		width: 3px;
+	}
+	.jspTrack, .jspVerticalBar{
+		background: transparent;
+	}
+}
+
+.az-message-list{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.az-send-message{
+	position: absolute;
+	bottom: 35px;
+	width: 100%;
+	left: 0;
+	max-height: 115px;
+	white-space: nowrap;
+	font-size: 0;
+	padding: 0 12px 0 10px;
+	@include desktop(768){
+		bottom: 10px;
+	}
+	@include desktop(480){
+		white-space: normal;
+	}
+	textarea{
+		padding: 10px;
+		height: 5px;
+		max-height: 115px;
+		min-height: 45px;
+		overflow: hidden;
+		width: calc(100% - 170px);
+		display: inline-block;
+		font-size: 18px;
+		resize: none;
+		vertical-align: bottom;
+		background: #f0f9ff;
+		border-radius: 5px 0 0 5px;
+		@include desktop(480){
+			width: calc(100% - 70px);
+		}
+	}
+	input[type="file"]{
+		display: none;
+	}
+	input[type="file"] + label{
+		display: inline-block;
+		vertical-align: bottom;
+		width: 40px;
+		height: 40px;
+		font-size: 0;
+		margin: 0;
+		margin: 0 10px;
+		background: transparent url('../img/az-file.png') center no-repeat;
+	}
+	input[type="submit"]{
+		display: inline-block;
+		vertical-align: bottom;
+		font-size: 18px;
+		border-radius: 0 5px 5px 0;
+		// width: 21.35%;
+		width: 110px;
+		margin-bottom: 0;
+		@include desktop(480){
+			width: 100%;
+			margin-left: 0;
+			margin-top: 10px;
+		}
+	}
+}
+
+.az-user-message-wrap{
+	padding: 0 0 0 20px;
+}
+
+
+.az-user-message-go-back{
+	display: none;
+	position: absolute;
+	font-size: 0;
+	left: 20px;
+	top: 3px;
+	width: 19px;
+	height: 33px;
+	background: transparent url('../img/az-arrow-left.png') center no-repeat;
+	@include desktop(992){
+		display: block;
+	}
 }

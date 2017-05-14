@@ -156,6 +156,46 @@
 		</div>
 	</div>
 	<div class="az-user-message">
-			asdadasda
+		<a href="#" class="az-user-message-go-back">Назад</a>
+		<div class="az-user-message-wrap">
+			<address>Мухамед И.</address>
+			<h3>Весенняя шерстяная жилетка дизайнерский крой</h3>
+			<div class="az-message-scroll scroll-pane">
+				<ul class="az-message-list">
+					<li class="az-message-item">
+						<p>Есть ли  у вас размер L красного цвета с доставкой?</p>
+						<time>15:45</time>
+					</li>
+					<li class="az-message-item self">
+						<p>Да, есть, товар находится в Худжанде, стоимость доставки по городу составит 30 TJS. Доставка в другой город согласна тарифов перевозчика или курьерской службы</p>
+						<time>15:45</time>
+					</li>
+					<li class="az-message-item">
+						<p>Какие у Вас сроки доставки?</p>
+						<time>15:45</time>
+					</li>
+					<li class="az-message-item">
+						<p>Есть ли  у вас размер L красного цвета с доставкой?</p>
+						<time>15:45</time>
+					</li>
+					<li class="az-message-item self">
+						<p>Да, есть, товар находится в Худжанде, стоимость доставки по городу составит 30 TJS. Доставка в другой город согласна тарифов перевозчика или курьерской службы</p>
+						<time>15:45</time>
+					</li>
+					<li class="az-message-item">
+						<p>Какие у Вас сроки доставки?</p>
+						<time>15:45</time>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="az-send-message">
+			<form action="/">
+				<textarea name="" id="" cols="30" rows="10">Сроки доставки зависят от Вашего адреса доставки</textarea>
+				<input type="file" name="" id="file">
+				<label for="file">прикрепить</label>
+				<input type="submit" value="Отправить" class="ah-person-itemlink">
+			</form>
+		</div>
 	</div>
 </div>

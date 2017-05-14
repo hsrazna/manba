@@ -317,6 +317,58 @@ $(function() {
 		return false;
 	});
 
-	$('.scroll-pane').jScrollPane();
+	$(".az-pm-user-item").click(function(){
+		if(window.matchMedia( "(min-width: 991px)" ).matches){
+			$(".az-pm-user-item").removeClass("active");
+			$(this).addClass("active");
+		} else {
+			$(".az-user-message").addClass("on");
+		}
+		return false;
+	});
+
+	$(".az-user-message-go-back").click(function(){
+		$(".az-user-message").removeClass("on");
+		return false;
+	})
+
+	$(".az-send-message textarea").keyup(function(e){
+		$(this).height(5);
+		$(this).height($(this).prop("scrollHeight") - parseInt($(this).css("padding-top")) - parseInt($(this).css("padding-bottom")));
+	});
+	
+	var az_textarea = $(".az-send-message textarea");
+
+	az_textarea.height(az_textarea.prop("scrollHeight") - parseInt(az_textarea.css("padding-top")) - parseInt(az_textarea.css("padding-bottom")));
+
+	$('.az-user-scroll').jScrollPane({
+		autoReinitialise: true
+	});
+
+	var mess_scroll = $('.az-message-scroll');
+
+	mess_scroll.jScrollPane({
+		autoReinitialise: true,
+		animateScroll: true
+	});
+
+	var jsp = mess_scroll.data('jsp');
+
+	$('.scroll-pane').bind('jsp-initialised', function(event, isScrollable){
+					jsp.scrollToY($(".az-message-list").height())
+				}
+			);
+
+	$(".az-send-message form").submit(function(){
+		var az_time = new Date();
+		$(".az-message-list").append('<li class="az-message-item self">' +
+					'<p>' + $(this).find("textarea").val() + '</p>' +
+					'<time>' + az_time.getHours() + ':' + ((az_time.getMinutes()<10)?'0'+az_time.getMinutes():az_time.getMinutes()) + '</time>' +
+				'</li>');
+		az_textarea.val("").trigger("keyup");
+		return false;
+	});
+
+
 
 });
