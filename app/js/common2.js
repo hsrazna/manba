@@ -179,28 +179,30 @@ $(function() {
     });
 
 
+	if($('.datepicker').length>0){
+		(function($){
+			$.fn.datepicker.dates['ru'] = {
+				days: ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"],
+				daysShort: ["Вск", "Пнд", "Втр", "Срд", "Чтв", "Птн", "Суб"],
+				daysMin: ["Вс", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб"],
+				months: ["январь", "февраль", "март", "апрель", "май", "июнь", "июль", "август", "сентябрь", "октябрь", "ноябрь", "декабрь"],
+				monthsShort: ["Янв", "Фев", "Мар", "Апр", "Май", "Июн", "Июл", "Авг", "Сен", "Окт", "Ноя", "Дек"],
+				today: "Сегодня",
+				clear: "Очистить",
+				format: "dd.mm.yyyy",
+				weekStart: 1,
+		    monthsTitle: 'Месяцы'
+			};
+		}(jQuery));
 
-	;(function($){
-		$.fn.datepicker.dates['ru'] = {
-			days: ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"],
-			daysShort: ["Вск", "Пнд", "Втр", "Срд", "Чтв", "Птн", "Суб"],
-			daysMin: ["Вс", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб"],
-			months: ["январь", "февраль", "март", "апрель", "май", "июнь", "июль", "август", "сентябрь", "октябрь", "ноябрь", "декабрь"],
-			monthsShort: ["Янв", "Фев", "Мар", "Апр", "Май", "Июн", "Июл", "Авг", "Сен", "Окт", "Ноя", "Дек"],
-			today: "Сегодня",
-			clear: "Очистить",
-			format: "dd.mm.yyyy",
-			weekStart: 1,
-	    monthsTitle: 'Месяцы'
-		};
-	}(jQuery));
-
-	$('.datepicker').datepicker({
-	    // startDate: '-3d',
-	    language: 'ru',
-	    leftArrow: '<span>asd</span>',
-	    rightArrow: '<span>dsa</span>'
-	});
+	
+		$('.datepicker').datepicker({
+		    // startDate: '-3d',
+		    language: 'ru',
+		    leftArrow: '<span>asd</span>',
+		    rightArrow: '<span>dsa</span>'
+		});
+	}
 
 	$("#addNewService").on('click', function(e) {
         e.preventDefault();
@@ -271,23 +273,29 @@ $(function() {
 
 	az_textarea.height(az_textarea.prop("scrollHeight") - parseInt(az_textarea.css("padding-top")) - parseInt(az_textarea.css("padding-bottom")));
 
-	$('.az-user-scroll').jScrollPane({
-		autoReinitialise: true
-	});
+	if($('.az-user-scroll').length>0){
+		$('.az-user-scroll').jScrollPane({
+			autoReinitialise: true
+		});
+	}
 
-	var mess_scroll = $('.az-message-scroll');
+	if($('.az-message-scroll').length>0){
 
-	mess_scroll.jScrollPane({
-		autoReinitialise: true,
-		animateScroll: true
-	});
+		var mess_scroll = $('.az-message-scroll');
 
-	var jsp = mess_scroll.data('jsp');
+		mess_scroll.jScrollPane({
+			autoReinitialise: true,
+			animateScroll: true
+		});
 
-	$('.scroll-pane').bind('jsp-initialised', function(event, isScrollable){
-					jsp.scrollToY($(".az-message-list").height())
-				}
-			);
+		var jsp = mess_scroll.data('jsp');
+
+		$('.scroll-pane').bind('jsp-initialised', function(event, isScrollable){
+						jsp.scrollToY($(".az-message-list").height())
+					}
+				);
+	}
+
 
 	$(".az-send-message form").submit(function(){
 		var az_time = new Date();
