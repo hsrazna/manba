@@ -21,6 +21,7 @@
 	<link rel="stylesheet" href="libs/bootstrap-grid/bootstrap-grid.css">
 	<link rel="stylesheet" href="libs/font-awesome.min.css">
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css">
+	<link rel="stylesheet" href="libs/magnific-popup/dist/magnific-popup.css">
   
   <!-- bootstrap-select -->
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
@@ -46,7 +47,15 @@
 	<?php require_once "include/header-bottom.php"; ?>
 	
 
-	<div class="az-approvement clearfix">
+	<div class="az-approvement">
+		<a href="#approvement1" class="popup-with-move-anim">Подтверждение1</a><br>
+		<a href="#approvement2" class="popup-with-move-anim">Подтверждение2</a><br>
+		<a href="#approvement3" class="popup-with-move-anim">Подтверждение3</a><br>
+		<a href="#approvement4" class="popup-with-move-anim">Подтверждение4</a><br>
+	</div>
+
+
+	<div id="approvement1" class="zoom-anim-dialog mfp-hide az-approvement clearfix">
 		<div class="az-approvement-wrap">
 			<h2>Подтверждение аккаунта</h2>
 			<p>Для подтверждения аккаунта тебе будет отправлена смс с кодом.</p>
@@ -69,7 +78,7 @@
 		</div>
 	</div>
 
-	<div class="az-approvement clearfix">
+	<div id="approvement2" class="zoom-anim-dialog mfp-hide az-approvement clearfix">
 		<div class="az-approvement-wrap">
 			<h2>Ты уверен, что хочешь прервать подтверждение аккаунта?</h2>
 			<p>Ты не сможешь создавать и редактировать свои объявления :(</p>
@@ -79,7 +88,7 @@
 		</div>
 	</div>
 
-	<div class="az-approvement style2 clearfix">
+	<div id="approvement3" class="zoom-anim-dialog mfp-hide az-approvement style2 clearfix">
 		<div class="az-approvement-wrap">
 			<h2>Подтверждение аккаунта</h2>
 			<p>Введите код из смс, отправленой на номер<br> <strong>+992 9999 9 99 99:</strong></p>
@@ -92,7 +101,7 @@
 		</div>
 	</div>
 
-	<div class="az-approvement style3 clearfix">
+	<div id="approvement4" class="zoom-anim-dialog mfp-hide az-approvement style3 clearfix">
 		<div class="az-approvement-wrap">
 			<h2>Ваш аккаунт подтвержден!</h2>
 			<p>Спасибо, что доверяете нам!</p>
@@ -101,7 +110,8 @@
 
 
 	<script src="libs/jquery/dist/jquery.min.js"></script>
-	<script src="libs/jquery-ui/jquery-ui.js"></script>
+	<script src="libs/jquery-ui-1.12.1/jquery-ui.js"></script>
+	<script src="libs/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
 	
 	<!-- bootstrap-select -->
 	<script src="libs/bootstrap/bootstrap.min.js"></script>
